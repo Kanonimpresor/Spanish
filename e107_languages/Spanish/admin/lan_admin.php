@@ -1,12 +1,14 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Spanish Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2015/11/13 22:26:58
+|       e107 content management system.
+|       Spanish language file)
 |
-|        $Author: Administrador $
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 define("ADLAN_0", "Noticias");
