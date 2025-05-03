@@ -1,12 +1,14 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Spanish Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/16 01:51:39
+|       e107 content management system.
+|       Spanish language file)
 |
-|        $Author: Norwayman $
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 define("BANLAN_2", "No hay prohibiciones en lista.");
