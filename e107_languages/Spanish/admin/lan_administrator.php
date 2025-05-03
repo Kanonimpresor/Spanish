@@ -1,14 +1,5 @@
 <?php
-/*
-+---------------------------------------------------------------+
-|        e107 website content management system Spanish Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2016/02/24 18:01:53
-|
-|        $Author: Administrador $
-+---------------------------------------------------------------+
-*/
+
 define("ADMSLAN_6", "es el administrador del sitio principal y no se puede eliminar.");
 define("ADMSLAN_13", "Administradores existentes");
 define("ADMSLAN_16", "Nombre del administrador");
