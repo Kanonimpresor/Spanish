@@ -1,66 +1,75 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Spanish Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2016/02/24 17:41:19
+|       e107 content management system.
+|       Spanish language file)
 |
-|        $Author: Administrador $
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 if(!defined('PAGE_NAME')) // FIXME.
 {
-	define("PAGE_NAME", "Errores");
+    define("PAGE_NAME", "Error");
 }
+define("LAN_ERROR_TITLE", "¡Ups!");
 
-define("LAN_ERROR_TITLE", "¡Vaya!");
-define("LAN_ERROR_1", "Error 401 - autenticación fallado");
-define("LAN_ERROR_2", "La URL que has solicitado requiere un nombre de usuario correcto y una contraseña. Has introducido una contraseña incorrecta o tu navegador no soporta esta característica.");
-define("LAN_ERROR_3", "Por favor informe al administrador de la página de referencia si crees que esta página de error se ha mostrado por error.");
-define("LAN_ERROR_4", "Error 403 - acceso prohibido");
-define("LAN_ERROR_5", "No podrá recuperar la dirección URL o el link que solicitaste.");
-define("LAN_ERROR_6", "Por favor informe al administrador de la página de referencia si crees que esta página de error se ha mostrado por equivocación.");
-define("LAN_ERROR_7", "Error 404 - documento no encontrado");
-define("LAN_ERROR_9", "Por favor informe al administrador de la página de referencia si crees que este mensaje de error se ha mostrado por equivocación.");
-define("LAN_ERROR_10", "Error 500 - encabezado incorrecto");
-define("LAN_ERROR_11", "El servidor encontró un error interno o mala configuración y no pudo completar su solicitud");
-define("LAN_ERROR_12", "Por favor informe al administrador de la página de referencia si crees que esta página de error se ha mostrado por equivocación.");
-define("LAN_ERROR_13", "Error - desconocido");
+define("LAN_ERROR_1", "Error 401 - Autenticación fallida");
+define("LAN_ERROR_2", "La URL solicitada requiere usuario y contraseña. Has introducido datos incorrectos o tu navegador no soporta esta función.");
+define("LAN_ERROR_3", "Informa al administrador si crees que este error se muestra por error.");
+
+define("LAN_ERROR_4", "Error 403 - Acceso prohibido");
+define("LAN_ERROR_5", "No tienes permiso para acceder al recurso solicitado.");
+define("LAN_ERROR_6", "Informa al administrador si crees que este error se muestra por error.");
+
+define("LAN_ERROR_7", "Error 404 - Recurso no encontrado");
+define("LAN_ERROR_9", "Informa al administrador si crees que este error se muestra por error.");
+define("LAN_ERROR_10", "Error 500 - Error interno del servidor");
+define("LAN_ERROR_11", "El servidor encontró un error interno de configuración y no pudo completar tu solicitud");
+define("LAN_ERROR_12", "Informa al administrador si crees que este error se muestra por error.");
+define("LAN_ERROR_13", "Error - Desconocido");
 define("LAN_ERROR_14", "El servidor encontró un error");
-define("LAN_ERROR_15", "Por favor informe al administrador de la página de referencia si crees que esta página de error se ha mostrado por equivocación.");
+define("LAN_ERROR_15", "Informa al administrador si crees que este error se muestra por error.");
 define("LAN_ERROR_16", "Tu intento fallido de acceder a");
-define("LAN_ERROR_17", "se ha registrado.");
-define("LAN_ERROR_18", "Al parecer, fueron mencionados aquí por");
-define("LAN_ERROR_19", "Por desgracia, hay un enlace obsoleto en esa dirección.");
-define("LAN_ERROR_20", "Haga clic aquí para ir a la página de inicio de este sitio");
-define("LAN_ERROR_21", "El URL solicitado no se encontró en este servidor. El enlace que has seguido es probablemente obsoleto.");
-define("LAN_ERROR_22", "Haga clic aquí para ir a la página de búsqueda de este sitio");
-define("LAN_ERROR_23", "Tu intento de acceder a");
-define("LAN_ERROR_24", "no tuvo éxito.");
-define("LAN_ERROR_25", "[1]: no se puede leer la configuración de base de datos central - configuración de núcleo existe pero no puede ser deserializado. Intentar restaurar copia de seguridad de base...");
-define("LAN_ERROR_26", "[2]: no se puede leer la configuración de base de datos central - inexistente base de ajustes.");
-define("LAN_ERROR_27", "[3]: núcleo ajustes guardados - copia de seguridad activa.");
-define("LAN_ERROR_28", "[4]: no copia de seguridad base encontrado. Compruebe que la base de datos tiene contenido válido.");
-define("LAN_ERROR_29", "[5]: campos se han quedado en blanco. Por favor vuelva a enviar el formulario y rellene los campos requeridos.");
-define("LAN_ERROR_30", "[6]: no se puede formar una conexión válida a mySQL. Por favor compruebe que su e107_config.php contiene la información correcta.");
-define("LAN_ERROR_31", "[7]: mySQL está corriendo pero la base de datos [x] no podía conectarse.<br>Compruebe que existe y que tu archivo de configuración contiene la información correcta.");
-define("LAN_ERROR_32", "Para completar la actualización, copie el texto siguiente en el archivo e107_config.php:");
-define("LAN_ERROR_33", "Error de procesamiento. Normalmente, redirige a la página de inicio.");
-define("LAN_ERROR_34", "Error desconocido! Por favor informe al administrador del sitio que se vio esto:");
-define("LAN_ERROR_35", "Error 400 - petición mal");
-define("LAN_ERROR_36", "Hay un error de formato en la página web que está intentando acceder.");
+define("LAN_ERROR_17", "ha sido registrado.");
+define("LAN_ERROR_18", "Aparentemente fuiste redirigido desde");
+define("LAN_ERROR_19", "Este enlace parece estar obsoleto.");
+define("LAN_ERROR_20", "Haz clic aquí para ir a la página de inicio");
+define("LAN_ERROR_21", "La URL solicitada no existe en este servidor. El enlace seguido probablemente esté obsoleto.");
+define("LAN_ERROR_22", "Haz clic aquí para ir al buscador del sitio");
+define("LAN_ERROR_23", "Tu intento de acceder a ");
+define("LAN_ERROR_24", " ha fallado.");
+
+// 0.7.6
+define("LAN_ERROR_25", "[1]: No se pueden leer configuraciones del núcleo - Existen pero no se pueden deserializar. Intentando restaurar copia...");
+define("LAN_ERROR_26", "[2]: No se encuentran configuraciones del núcleo en la base de datos.");
+define("LAN_ERROR_27", "[3]: Configuraciones guardadas - copia de seguridad activada.");
+define("LAN_ERROR_28", "[4]: Sin copia de seguridad. Verifica que tu base de datos tenga contenido válido.");
+define("LAN_ERROR_29", "[5]: Campos obligatorios vacíos. Completa el formulario.");
+define("LAN_ERROR_30", "[6]: Error de conexión con mySQL. Verifica tu archivo e107_config.php.");
+define("LAN_ERROR_31", "[7]: mySQL funciona pero no se pudo conectar a [x].<br />Verifica que exista y que la configuración sea correcta.");
+define("LAN_ERROR_32", "Para completar la actualización, copia este texto en tu e107_config.php:");
+
+define("LAN_ERROR_33", "¡Error de procesamiento! Normalmente redirigiría a la página principal.");
+define("LAN_ERROR_34", "¡Error desconocido! Informa al administrador este código:");
+
+define("LAN_ERROR_35", "Error 400 - Solicitud incorrecta");
+define("LAN_ERROR_36", "Error de formato en la URL solicitada.");
 define("LAN_ERROR_37", "Icono de error");
-define("LAN_ERROR_38", "Lo sentimos, pero el sitio no está disponible debido a una falla temporal");
-define("LAN_ERROR_39", "Por favor, intente nuevamente en unos minutos");
-define("LAN_ERROR_40", "Si el problema persiste, póngate en contacto con el administrador del sitio");
-define("LAN_ERROR_41", "El error reportado es:");
-define("LAN_ERROR_42", "Información de error adicional:");
-define("LAN_ERROR_43", "Sitio de carácter temporal");
+define("LAN_ERROR_38", "El sitio no está disponible por un fallo temporal");
+define("LAN_ERROR_39", "Inténtalo de nuevo en unos minutos");
+define("LAN_ERROR_40", "Si persiste el error, contacta al administrador");
+define("LAN_ERROR_41", "Error reportado:");
+define("LAN_ERROR_42", "Información adicional del error: ");
+define("LAN_ERROR_43", "Sitio no disponible temporalmente");
 define("LAN_ERROR_44", "Logo del sitio");
+
 define("LAN_ERROR_45", "¿Qué puedes hacer ahora?");
-define("LAN_ERROR_46", "Consulte el registro para obtener más detalles.");
-define("LAN_ERROR_47", "Error de validación: ¡El título de la noticia no puede estar vacío!");
-define("LAN_ERROR_48", "Error de validación: ¡El valor de la URL de SEF de las noticias es un campo obligatorio y no puede estar vacío!");
-define("LAN_ERROR_49", "Error de validación: La URL del SEF de las noticias es un campo único - ¡el valor actual ya está en uso! Por favor, elija otro valor SEF URL.");
-define("LAN_ERROR_50", "Error de validación: ¡La categoría de noticias no puede estar vacía!");
+define("LAN_ERROR_46", "Consulta el registro para detalles.");
+define("LAN_ERROR_47", "Error: ¡El título de la noticia no puede estar vacío!");
+define("LAN_ERROR_48", "Error: ¡La URL amigable (SEF) es obligatoria!");
+define("LAN_ERROR_49", "Error: ¡La URL amigable (SEF) ya existe! Usa otro valor.");
+define("LAN_ERROR_50", "Error: ¡Debes seleccionar una categoría!");

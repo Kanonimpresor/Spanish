@@ -1,22 +1,22 @@
 <?php
 /*
- * e107 website system
- *
- * Copyright (C) 2008-2009 e107 Inc (e107.org)
- * Released under the terms and conditions of the
- * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
- *
- *
- *
- * $Source: /cvs_backup/e107_0.8/e107_languages/English/admin/help/download.php,v $
- * $Revision$
- * $Date$
- * $Author$
- */
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$text = "Please upload your files into the ".e_FILE."downloads folder, your images into the ".e_FILE."downloadimages folder and thumbnail images into the ".e_FILE."downloadthumbs folder.
+$caption = "Ayuda:<br />
+			# Descargas de Archivos";
+$text = "# Por favor, copie sus archivos en la carpeta ".e_FILE."downloads.<br /><br /># Sus imágenes en la carpeta ".e_FILE."downloadimages.<br /><br /># Sus imágenes (Vista Previa) en la carpeta ".e_FILE."downloadthumbs.
 <br /><br />
-To submit a download, first create a parent, then create a category under that parent, you will then be able to make the download available.";
-$ns -> tablerender("Download Help", $text);
+Enviar un archivo a la zona de descarga:<br /><br />1)Crear una categoría principal,<br /><br />2)Crear las subcategorías dentro de la categoria principal correspondiente.<br /><br />3)Activar las descargas dentro de cada categoría.";
+$ns -> tablerender($caption, $text);

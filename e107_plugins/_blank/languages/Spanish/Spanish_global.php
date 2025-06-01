@@ -1,9 +1,20 @@
 <?php
+/*
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+// Mantener siempre el formato LAN_PLUGIN_{CARPETA}_{TIPO} para evitar conflictos. En este caso "_BLANK" es la carpeta.
+// Debe contener los LAN utilizados en el archivo plugin.xml
 
-define("LAN_PLUGIN__BLANK_NAME", "Plugin en blanco");
-define("LAN_PLUGIN__BLANK_DIZ", "Un Plugin en blanco para ayudarle a empezar en el desarrollo del plugin. Más detalles se pueden agregar aquí.");
-define("LAN_PLUGIN__BLANK_LINK", "Link en blanco");
+define("LAN_PLUGIN__BLANK_NAME", "Plugin en Blanco");
+define("LAN_PLUGIN__BLANK_DIZ",  "Un plugin básico para que te ayude a comenzar en el desarrollo de plugins. Puedes añadir más detalles aquí."); 
+define("LAN_PLUGIN__BLANK_LINK", "Enlace en Blanco");

@@ -1,21 +1,22 @@
 <?php
 /*
- * e107 website system
- *
- * Copyright (C) 2008-2009 e107 Inc (e107.org)
- * Released under the terms and conditions of the
- * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
- *
- *
- *
- * $Source: /cvs_backup/e107_0.8/e107_languages/English/admin/help/ugflag.php,v $
- * $Revision$
- * $Date$
- * $Author$
- */
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$text = "If you are upgrading e107 or just need your site to be offline for a while just tick the maintenance box and your visitors will be redirected to a page explaining the site is down for repair. After you've finished un-tick the box to return site to normal.";
+$caption = "Ayuda:<br />
+			# Mantenimiento del Sitio";
+$text = "Si está actualizando e107 o necesita que su sitio esté fuera de línea por algun momento, solo marque la casilla de mantenimiento.<br /><br />
+Sus visitantes serán redirigidos a una página explicandoles que el sitio está en reparación o mantenimiento. Cuando haya finalizado desmarque la casilla para retornar el sitio al estado normal.";
 
-$ns -> tablerender("Maintenance", $text);
+$ns -> tablerender($caption, $text);

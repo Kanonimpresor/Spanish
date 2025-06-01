@@ -1,0 +1,6 @@
+
+P> Me gustaría permitir que la gente suba archivos a mi sitio, pero me preocupa la seguridad...
+R> Hay un par de cosas que puedes hacer para mejorar la seguridad. Primero, usa el almacenamiento binario, así los archivos subidos se almacenarán en la base de datos MySQL y no serán accesibles por nadie, aparte de para ser descargados. Además, define la lista de tipos de archivo permitidos; si alguien intenta subir un tipo de archivo distinto a los que hayas definido, se eliminará de inmediato de tu servidor.
+
+P> He recibido algunos archivos subidos, ¿qué debo hacer ahora?
+R> Tienes la opción de copiar el archivo a tu Gestor de Descargas, para permitir que otros lo descarguen, y copiar la información de la subida a la sección de noticias, para hacer un anuncio de un artículo sobre él.

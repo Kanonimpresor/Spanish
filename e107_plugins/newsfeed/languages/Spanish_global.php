@@ -1,8 +1,16 @@
 <?php
+/*
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LAN_PLUGIN_NEWSFEEDS_NAME", "Suministros de noticias");
-define("LAN_PLUGIN_NEWSFEEDS_DESCRIPTION", "Este plugin recuperará los feeds rss de otros sitios web y mostrarlos según sus preferencias.");
+define("LAN_PLUGIN_NEWSFEEDS_NAME", "Feeds de Noticias");
+define("LAN_PLUGIN_NEWSFEEDS_DESCRIPTION", "Este plugin obtendrá feeds RSS de otros sitios web y los mostrará según tus preferencias.");

@@ -1,0 +1,7 @@
+
+P> ¿Qué es un descarga principal?
+R> Esto te permite agrupar tus descargas en diferentes categorías.
+
+P> Quiero añadir una descarga pero el archivo no aparece en la lista, ¿por qué?
+R> Solo los archivos que estén en la carpeta e107_files/downloads aparecerán en la lista desplegable. Copia el archivo a esa carpeta y entonces aparecerá. Lo mismo se aplica a las imágenes; deben estar en la carpeta e107_files/downloadimages.
+

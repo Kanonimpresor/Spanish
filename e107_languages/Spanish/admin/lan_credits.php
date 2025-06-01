@@ -1,9 +1,15 @@
 <?php
 /*
- * Copyright (C) 2008-2013 e107 Inc (e107.org), Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
- *
- * Admin Language File
- *
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
 */
 
 // Moc: NOT IN USE, REMOVE?
@@ -52,5 +58,3 @@
 //define("CRELAN_32", "");
 
 // end dev team
-
-

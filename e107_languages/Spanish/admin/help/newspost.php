@@ -1,57 +1,56 @@
 <?php
 /*
- * e107 website system
- *
- * Copyright (C) 2008-2009 e107 Inc (e107.org)
- * Released under the terms and conditions of the
- * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
- *
- *
- *
- * $Source: /cvs_backup/e107_0.8/e107_languages/English/admin/help/newspost.php,v $
- * $Revision$
- * $Date$
- * $Author$
- */
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$caption = "Newspost Help";
-if (e_QUERY) list($action,$junk) = explode('.',e_QUERY); else $action = 'list';
+
+$caption = "Ayuda:<br />
+			# Publicación de Noticias";
+$action = varset($_GET['action']);
 switch ($action)
 {
   case 'create' :
 	$text = "<b>General</b><br />
-Body will be displayed on the main page; extended will be readable by clicking a 'Read More' link.
+El cuerpo se mostrará en la página principal; el contenido extendido será visible haciendo clic en un enlace de 'Leer más'.
 <br />
 <br />
-<b>Show title only</b>
+<b>Mostrar solo el título</b>
 <br />
-Enable this to show the news title only on front page, with clickable link to full story.
+Activa esto para mostrar solo el título de la noticia en la página de inicio, con un enlace clicable a la historia completa.
 <br /><br />
-<b>Activation</b>
+<b>Activación</b>
 <br />
-If you set a start and/or end date your news item will only be displayed between these dates.
+Si estableces una fecha de inicio y/o fin, tu noticia solo se mostrará entre esas fechas.
 ";
 	break;
   case 'cat' :
-	$text = "You can separate your news items into different categories, and allow visitors to display only the news items in those categories. <br /><br />Upload your news icon images into either ".e_THEME."-yourtheme-/images/ or themes/shared/newsicons/.";
+	$text = "Puedes separar tus noticias en distintas categorías, y permitir que los visitantes vean solo las noticias de esas categorías. <br /><br />Sube tus imágenes de iconos de noticias a ".e_THEME."-yourtheme-/images/ o a themes/shared/newsicons/.";
     break;
   case 'pref' :
-    $text = 'Set various news-related options<br /><br />
-	<b>News Category Columns</b><br />
-	Requires theme support to be selectable<br /><br />
-	<b>News posts to display per page</b><br />
-	For the main news page; displays items in unextended format.<br /><br />
-	<b>News posts to display in archive</b><br />
-	Sets the number of news posts which are displayed as title only on each news page (included in the previous total).<br /><br />
-	<b>Enable WYSIWYG editor</b><br />
-	Requires that users who can submit news can also post HTML.
+    $text = 'Configura varias opciones relacionadas con las noticias<br /><br />
+	<b>Columnas de categorías de noticias</b><br />
+	Requiere que el tema lo soporte para poder seleccionarlo<br /><br />
+	<b>Noticias a mostrar por página</b><br />
+	Para la página principal de noticias; muestra los ítems en formato no extendido.<br /><br />
+	<b>Noticias a mostrar en el archivo</b><br />
+	Establece el número de publicaciones de noticias que se mostrarán solo como título en cada página de noticias (incluidas en el total anterior).<br /><br />
+	<b>Activar el editor WYSIWYG</b><br />
+	Requiere que los usuarios que puedan enviar noticias también puedan publicar en HTML.
 	';
 	break;
   case 'list' :
   default :
-	$text = 'List of all news items. To edit or delete, click on one of the icons in the \'options\' column. To view the item, click
-		on the title.';
+	$text = 'Lista de todas las publicaciones de noticias. Para editar o eliminar, haz clic en uno de los iconos en la columna de \'opciones\'. Para ver la noticia, haz clic en el ID.';
 }
 $ns -> tablerender($caption, $text);

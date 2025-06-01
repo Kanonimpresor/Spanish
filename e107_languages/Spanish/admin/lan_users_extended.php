@@ -1,105 +1,123 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Spanish Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/02/01 16:08:42
+|       e107 content management system.
+|       Spanish language file)
 |
-|        $Author: Norwayman $
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025)
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 define("EXTLAN_1", "Nombre");
 define("EXTLAN_2", "Vista previa");
 define("EXTLAN_3", "Valores");
-define("EXTLAN_4", "Requiere.");
+define("EXTLAN_4", "Requerido");
 define("EXTLAN_5", "Aplicable");
 define("EXTLAN_6", "Acceso de lectura");
 define("EXTLAN_7", "Acceso de escritura");
 define("EXTLAN_8", "Acción");
-define("EXTLAN_9", "Campos de usuario");
+define("EXTLAN_9", "Campos Extendidos de Usuario");
+
 define("EXTLAN_10", "Nombre del campo");
-define("EXTLAN_11", "Este es el nombre del campo como almacenado en la tabla, debe ser diferente de cualquier otro y no debe utilizarse en la tabla principal del usuario");
+define("EXTLAN_11", "Nombre único almacenado en la tabla, no debe existir en la tabla principal de usuarios");
 define("EXTLAN_12", "Texto del campo");
-define("EXTLAN_13", "Este es el nombre mostrado del campo en páginas renderizadas");
+define("EXTLAN_13", "Nombre visible del campo en las páginas");
 define("EXTLAN_14", "Tipo de campo");
-define("EXTLAN_15", "Incluir el campo de texto");
-define("EXTLAN_16", "Valor por defecto");
-define("EXTLAN_17", "Introducir cada valor posible en cada línea<br>Para ver tabla de DB.");
-define("EXTLAN_18", "Obligatorio");
-define("EXTLAN_19", "Los usuarios deberán introducir un valor en este campo durante la actualización de sus valores.");
-define("EXTLAN_20", "Determina que los usuarios de este campo se aplicará a.");
-define("EXTLAN_21", "Esto determinará que verá este campo en su usersettings.");
-define("EXTLAN_22", "Esto va a determinar quién puede ver el valor en la página de usuario<br>Nota: Si se establece como 'Sólo lectura' hará visible para el administrador y el miembro sólo.");
-define("EXTLAN_23", "Añadir campo extendido");
-define("EXTLAN_24", "Actualizar campo extendido");
-define("EXTLAN_25", "mover hacia abajo");
-define("EXTLAN_26", "mover hacia arriba");
-define("EXTLAN_27", "Confirmar borrar");
+define("EXTLAN_15", "Parámetros del campo");
+define("EXTLAN_16", "Valor predeterminado");
+define("EXTLAN_17", "Un valor por línea<br />Para tablas DB consulta la ayuda");
+define("EXTLAN_18", "Requerido");
+define("EXTLAN_19", "Los usuarios deben completar este campo al actualizar sus ajustes");
+define("EXTLAN_20", "Determina a qué usuarios aplica este campo");
+define("EXTLAN_21", "Controla quién verá este campo en sus ajustes");
+define("EXTLAN_22", "Controla quién verá el valor en el perfil<br />NOTA: 'Solo lectura' lo hace visible solo para Admin y el usuario");
+define("EXTLAN_23", "Añadir Campo Extendido");
+define("EXTLAN_24", "Actualizar Campo Extendido");
+define("EXTLAN_25", "mover abajo");
+define("EXTLAN_26", "mover arriba");
+define("EXTLAN_27", "Confirmar Eliminación");
 define("EXTLAN_28", "No hay campos extendidos definidos");
-define("EXTLAN_29", "Campos de usuario guardados.");
+define("EXTLAN_29", "Campos extendidos guardados");
 define("EXTLAN_30", "Campo extendido eliminado");
-define("EXTLAN_31", "Etiqueta de la categoría");
-define("EXTLAN_32", "Esta es la etiqueta del campo como se muestra en la página de configuración de usuario. Se permiten constantes del lenguaje.");
-define("EXTLAN_33", "Cancelar la edición");
-define("EXTLAN_34", "Campos extendidos");
+define("EXTLAN_31", "Etiqueta de categoría");
+define("EXTLAN_32", "Etiqueta mostrada en ajustes de usuario (se permiten constantes de idioma)");
+define("EXTLAN_33", "Cancelar Edición");
+define("EXTLAN_34", "Campos Extendidos");
 define("EXTLAN_35", "Categorías");
 define("EXTLAN_36", "Sin categoría asignada");
 define("EXTLAN_37", "No hay categorías definidas");
-define("EXTLAN_38", "Nombre de la categoría");
+define("EXTLAN_38", "Nombre de categoría");
 define("EXTLAN_39", "Añadir categoría");
 define("EXTLAN_40", "Categoría creada");
-define("EXTLAN_41", "Borrado de categoría");
-define("EXTLAN_42", "Categoría de actualización");
+define("EXTLAN_41", "Categoría eliminada");
+define("EXTLAN_42", "Actualizar Categoría");
 define("EXTLAN_43", "Categoría actualizada");
 define("EXTLAN_44", "Categoría");
-define("EXTLAN_45", "Agregar nuevo campo");
+define("EXTLAN_45", "Añadir Nuevo Campo");
 define("EXTLAN_46", "Ayuda");
-define("EXTLAN_47", "Agregar el nuevo parámetro");
-define("EXTLAN_48", "Agregar nuevo valor");
-define("EXTLAN_49", "Usuario ocultar");
-define("EXTLAN_50", "Si se establece en yes permitirá al usuario ocultar este valor de administradores no");
-define("EXTLAN_51", "Cualquier parámetro válido w3c puede entrar aquí<br>por ejemplo, <b> <i>clase = 'Box' size = '40' maxlength = '80'</i></b>");
-define("EXTLAN_52", "código de validación Regex");
-define("EXTLAN_53", "Introduzca el código regex que deben combinarse para que sea una entrada válida<br>** regex delimitadores se requieren **");
-define("EXTLAN_54", "texto de falla Regex");
-define("EXTLAN_55", "Introduzca el mensaje de error aparecerá si falla la validación regex.");
-define("EXTLAN_56", "Campos predefinidos");
-define("EXTLAN_57", "Activa");
-define("EXTLAN_58", "No activado");
+define("EXTLAN_47", "Añadir nuevo parámetro");
+define("EXTLAN_48", "Añadir nuevo valor");
+define("EXTLAN_49", "Permitir ocultar");
+define("EXTLAN_50", "Si está activo, el usuario puede ocultar este valor a no-admins");
+define("EXTLAN_51", "Parámetros w3c válidos<br />Ej: <b><i>class='tbox' size='40' maxlength='80'</i></b>");
+define("EXTLAN_52", "Código de validación regex");
+define("EXTLAN_53", "Regex con delimitadores requeridos<br />Ej: /^[a-z0-9]$/i");
+define("EXTLAN_54", "Texto de error regex");
+define("EXTLAN_55", "Mensaje mostrado si falla la validación");
+define("EXTLAN_56", "Campos Predefinidos");
+define("EXTLAN_57", "Activado");
+define("EXTLAN_58", "No Activado");
 define("EXTLAN_59", "Activar");
 define("EXTLAN_60", "Desactivar");
+
 define("EXTLAN_62", "Tabla");
-define("EXTLAN_63", "Campo Id");
-define("EXTLAN_64", "Mostrar el valor");
-define("EXTLAN_65", "No - no se mostrará en la página de registro");
-define("EXTLAN_66", "Sí, se mostrará en la página de registro");
-define("EXTLAN_67", "No - ver página de inscripción");
+define("EXTLAN_63", "ID del Campo");
+define("EXTLAN_64", "Valor Mostrado");
+
+define("EXTLAN_65", "No - No mostrar en registro");
+define("EXTLAN_66", "Sí - Mostrar en registro");
+define("EXTLAN_67", "No - Mostrar en registro");
+
 define("EXTLAN_68", "Campo:");
-define("EXTLAN_69", "se ha activado");
-define("EXTLAN_70", "ERROR!!!! Campo:");
-define("EXTLAN_71", "no se ha activado!");
-define("EXTLAN_72", "se ha desactivado");
-define("EXTLAN_73", "fue desactivada!");
-define("EXTLAN_74", "es un nombre de campo reservado y no puede utilizarse.");
-define("EXTLAN_75", "Agregar campo de error a la base de datos.");
-define("EXTLAN_76", "Caracteres no válidos en campo nombre - sólo A-z, a-z, 0-9, permitido.");
-define("EXTLAN_77", "Categoría no eliminan - en primer lugar debe eliminar campos de categoría:");
-define("EXTLAN_78", "No encuentro archivo [x] necesario para crear la tabla de datos");
+define("EXTLAN_69", "ha sido activado");
+define("EXTLAN_70", "¡ERROR! Campo:");
+define("EXTLAN_71", "no se activó");
+define("EXTLAN_72", "ha sido desactivado");
+define("EXTLAN_73", "no se desactivó");
+define("EXTLAN_74", "es un nombre reservado");
+define("EXTLAN_75", "Error al añadir campo a la BD");
+define("EXTLAN_76", "Solo caracteres A-Z, a-z, 0-9 permitidos");
+define("EXTLAN_77", "Elimina primero los campos en:");
+define("EXTLAN_78", "Archivo [x] no encontrado para crear tabla");
+
 define("EXTLAN_79", "Etiqueta");
-define("EXTLAN_80", "Error de validación - abortado.");
-define("EXTLAN_81", "Agregar campo personalizado");
-define("EXTLAN_82", "Valores");
-define("EXTLAN_83", "Marcador de posición");
-define("EXTLAN_84", "Sugerencia de ayuda");
-define("EXTLAN_86", "Columna extendida del usuario eliminada de la tabla");
+define("EXTLAN_80", "Error de validación - cancelado");
+define("EXTLAN_81", "Añadir Campo Personalizado");  
+define("EXTLAN_82", "Valores"); 
+define("EXTLAN_83", "Marcador de posición"); 
+define("EXTLAN_84", "Consejo de ayuda");
+ 
+define("EXTLAN_86", "Columna extendida eliminada"); 
 define("EXTLAN_87", "Ordenar valores");
-define("EXTLAN_HELP_1", "<b><i>Parámetros:</i></b><br>-tamaño del campo<br>MaxLength - longitud máxima del campo<br><br>clase - css del campo<br>estilo - css estilo cadena<br><br>regex - código de validación regex<br>regexfail - texto de error de validación");
-define("EXTLAN_HELP_2", "Introduzca el texto para las opciones en el cuadro de 'Valores' - una caja de opción. Añadir nuevos cuadros como sea necesario");
-define("EXTLAN_HELP_3", "Introduzca el texto para las opciones en el cuadro de 'Valores' - una caja de opción. Añadir nuevos cuadros como sea necesario");
-define("EXTLAN_HELP_4", "<b><i>Valores:</i></b><br>Debe haber tres valores dados siempre:<br><ol><li>DBTABLE</li><li>identificación que contiene campo</li><li>campo que contiene el valor</li></ol><br>");
-define("EXTLAN_HELP_5", "Definir un área de texto de formato libre. (Establecer el tamaño en el cuadro campo de incluir el texto como sea necesario)");
-define("EXTLAN_HELP_6", "Permitir que el usuario introduzca un valor numérico");
-define("EXTLAN_HELP_7", "Usuario a ingresar una fecha");
-define("EXTLAN_HELP_8", "Usuario seleccionar entre idiomas instalados");
-define("EXTLAN_HELP_9", "Especificar una lista predefinida. El campo valor selecciona el tipo de lista - en la actualidad sólo 'zonas horarias' es una entrada válida");
+
+//textbox
+define("EXTLAN_HELP_1", "<b><i>Parámetros:</i></b><br />size - tamaño del campo<br />maxlength - longitud máxima<br />class - clase CSS<br />style - estilo CSS<br />regex - código de validación<br />regexfail - texto de error");
+//radio buttons
+define("EXTLAN_HELP_2", "Introduce una opción por línea en 'Valores'. Añade nuevas según necesites");
+//dropdown
+define("EXTLAN_HELP_3", "Un valor por línea en 'Valores'. Usa '+' para añadir opciones");
+//db field
+define("EXTLAN_HELP_4", "<b><i>Valores requeridos:</i></b><br />1. Tabla BD<br />2. Campo ID<br />3. Campo valor");
+//textarea
+define("EXTLAN_HELP_5", "Área para texto libre (define tamaño en 'Parámetros')");
+//integer
+define("EXTLAN_HELP_6", "Permite introducir valores numéricos");
+//date
+define("EXTLAN_HELP_7", "Requiere introducir una fecha válida");
+// Language
+define("EXTLAN_HELP_8", "Permite seleccionar idiomas instalados");
+// Predefined list
+define("EXTLAN_HELP_9", "Lista predefinida (actualmente solo 'zonas horarias' válido)");

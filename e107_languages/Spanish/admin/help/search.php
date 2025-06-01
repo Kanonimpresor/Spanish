@@ -1,21 +1,22 @@
 <?php
 /*
- * Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
- * $Id$
- *
- * Search Admin Help
- * 
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
 */
 
 if (!defined('e107_INIT')) { exit; }
 
-$caption = "Search Help";
-$text = "
-	If your MySQL server version supports it you can switch 
-	to the MySQL sort method which is faster than the PHP sort method. See preferences.
+$caption = "Ayuda:<br />
+			# Gestión de Búsquedas";
+$text = "Si su versión de servidor MySQL lo soporta usted puede cambiar método corto de MySql que es más rápido que el método corto de PHP. Ver Preferencias.
 <br /><br />
-	If your site includes Ideographic languages such as Chinese and Japanese you must 
-	use the PHP sort method and switch whole word matching off.
-
-";
-$ns->tablerender($caption, $text);
+Si su sitio incluye idiomas ideográficos como el Chino o Japonés debe usar el método corto de PHP y desactivar la coincidencia total de la palabra.";
+$ns -> tablerender($caption, $text);

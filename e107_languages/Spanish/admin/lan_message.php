@@ -1,19 +1,31 @@
 <?php
+/*
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+// DEPRECATED FILE - UP FOR REMOVAL 
 
-define("MESSLAN_1", "Mensajes recibidos");
-define("MESSLAN_2", "Borrar mensaje");
-define("MESSLAN_3", "Mensaje eliminado.");
-define("MESSLAN_4", "Borrar todos los mensajes");
-define("MESSLAN_5", "Confirmar");
-define("MESSLAN_6", "Todos los mensajes eliminados.");
-define("MESSLAN_7", "No hay mensajes.");
-define("MESSLAN_8", "Tipo de mensaje");
-define("MESSLAN_9", "Registrados en el");
-define("MESSLAN_10", "Enviado por");
-define("MESSLAN_11", "se abre en nueva ventana");
-define("MESSLAN_12", "Mensaje");
-define("MESSLAN_13", "Enlace");
+/*
+define("MESSLAN_1", "Received messages");
+define("MESSLAN_2", "Delete Message");
+define("MESSLAN_3", "Message Deleted.");
+define("MESSLAN_4", "Delete All Messages");
+define("MESSLAN_5", "Confirm");
+define("MESSLAN_6", "All messages deleted.");
+define("MESSLAN_7", "No messages.");
+define("MESSLAN_8", "Message type");
+define("MESSLAN_9", "Reported on");
+
+define("MESSLAN_10", "Submitted by");
+define("MESSLAN_11", "opens in new window");
+define("MESSLAN_12", "Message");
+define("MESSLAN_13", "Link");

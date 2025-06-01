@@ -1,8 +1,16 @@
 <?php
+/*
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LAN_PLUGIN_GSITEMAP_NAME", "Google Sitemap");
-define("LAN_PLUGIN_GSITEMAP_DESCRIPTION", "Genera un Google Sitemap");
+define("LAN_PLUGIN_GSITEMAP_NAME", "Mapa del Sitio");
+define("LAN_PLUGIN_GSITEMAP_DESCRIPTION", "Genera un mapa del sitio para Google");

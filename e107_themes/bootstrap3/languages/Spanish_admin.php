@@ -1,25 +1,26 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Spanish Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2016/04/12 18:33:10
+|       e107 content management system.
+|       Spanish language file)
 |
-|        $Author: Norwayman $
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 
 define("LAN_THEMEPREF_00", "Marca:");
-define("LAN_THEMEPREF_01", "Barra de navegación Alineación:");
-define("LAN_THEMEPREF_02", "Colocación de Registro/Inicio de sesión:");
-define("LAN_THEMEPREF_03", "Estilos Bootswatch:");
-define("LAN_THEMEPREF_04", "Nombre del Sitio");
-define("LAN_THEMEPREF_05", "Logotipo");
-define("LAN_THEMEPREF_06", "Logotipo &amp; Nombre del Sitio");
-define("LAN_THEMEPREF_07", "Izquierda");
-define("LAN_THEMEPREF_08", "Derecha");
-define("LAN_THEMEPREF_09", "Superior");
-define("LAN_THEMEPREF_10", "Fondo");
-
+define("LAN_THEMEPREF_01", "Alineación de la barra de navegación:");
+define("LAN_THEMEPREF_02", "Ubicación del registro/inicio de sesión:");
+define("LAN_THEMEPREF_03", "Estilos de Bootswatch:");
+define("LAN_THEMEPREF_04", "Nombre del sitio");
+define("LAN_THEMEPREF_05", "Logo");
+define("LAN_THEMEPREF_06", "Logo y nombre del sitio");
+define("LAN_THEMEPREF_07", "izquierda");
+define("LAN_THEMEPREF_08", "derecha");
+define("LAN_THEMEPREF_09", "arriba");
+define("LAN_THEMEPREF_10", "abajo");
 

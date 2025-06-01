@@ -1,0 +1,19 @@
+
+P> He definido un nuevo banner desde el área de administración pero no se muestra, ¿por qué?
+R> El tema que estás usando necesita saber que debe mostrar un banner. Abre el archivo theme.php del tema y asegúrate de que tienes {BANNER} o {BANNER=elnombredetucampaña} en la sección $HEADER.
+
+P> Quiero mostrar un conjunto de banners en un área y otro conjunto distinto en otra, ¿cómo lo hago?
+R> Puedes agrupar tus banners por "campañas" y luego configurar tu tema para que muestre banners de campañas específicas. Por ejemplo, si tienes dos campañas llamadas cam_1 y cam_2, poniendo {BANNER=cam_1} en una parte del $HEADER de tu theme.php se mostrarán solo los banners de cam_1, y poniendo {BANNER=cam_2} en otra parte se mostrarán solo los de cam_2. Si pones {BANNER} (sin nombre de campaña), se mostrarán banners aleatorios de todas las campañas.
+
+P> ¿Para qué sirve el inicio de sesión y la contraseña del cliente?
+R> Puedes definir un nombre de usuario y una contraseña para tus clientes de banners, y así ellos podrán ver cómo están funcionando sus banners entrando en http://tusitio.com/banner.php y usando su nombre y contraseña.
+
+P> ¿Cómo puedo tener un banner tipo "torre" en un elemento de menú?
+R> Primero necesitas definir una campaña para los banners tipo torre (esto los mantendrá separados de los banners tipo barra)...
+
+	1. Ve al área de administración y haz clic en Banners.
+	2. Introduce tu(s) banner(s) tipo torre, asegurándote de usar un nombre de campaña nuevo, por ejemplo, torres.
+	3. Ahora ve al área de Menús y activa el Banner_menu en una de las zonas de menú.
+	4. Haz clic en el enlace "Configurar" del elemento de menú.
+	5. Escribe el título del encabezado (por defecto es "Publicidad") y el nombre de la campaña que definiste antes.
+	6. Sal del área de administración y verás tus banners tipo torre en la zona que les hayas asignado.

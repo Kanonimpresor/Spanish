@@ -1,0 +1,10 @@
+
+P> ¿Qué son esas clases de usuario que sigo viendo? ¿Para qué sirven?
+R> Las clases de usuario restringen el acceso a ciertas áreas o funciones de tu sitio. Si defines una clase y luego añades usuarios a ella, puedes hacer que ciertas cosas sean visibles solo para los usuarios de esa clase.
+Por ejemplo, hay una clase que se crea por defecto cuando instalas e107 llamada PRIVATEFORUM. Si añades usuarios a esa clase y luego creas un foro bajo esa clase, solo esos usuarios podrán acceder a ese foro. También puedes restringir otras áreas y funciones por clase, como noticias, enlaces, descargas, etc.
+
+P> ¿Para qué sirve el campo 'clase padre'?
+R> En la versión 2.x, puedes establecer una "jerarquía de clases", donde los usuarios de una clase también tienen los derechos de la clase padre. Si no quieres esto, simplemente configura la clase padre como "Todos".
+
+P> Quiero que los nuevos usuarios empiecen siendo miembros de ciertas clases.
+R> Ahora puedes definir la clase inicial de membresía desde el menú "Clases de usuario". También puedes decidir si esta membresía se aplica en cuanto se registran o si se añade cuando se verifica su cuenta.

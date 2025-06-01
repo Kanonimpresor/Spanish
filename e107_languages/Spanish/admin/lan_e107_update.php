@@ -1,49 +1,59 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Spanish Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2015/12/28 01:24:43
+|       e107 content management system.
+|       Spanish language file)
 |
-|        $Author: Administrador $
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
+
 define("LAN_UPDATE_2", "Acción");
-define("LAN_UPDATE_3", "No es necesario");
-define("LAN_UPDATE_4", "Actualización de [x] [y]");
-define("LAN_UPDATE_5", "Actualización de la estructura de base de datos central");
+define("LAN_UPDATE_3", "No necesario");
+define("LAN_UPDATE_4", "Actualizar de [x] a [y]");
+define("LAN_UPDATE_5", "Actualizar estructura de la base de datos principal");
 define("LAN_UPDATE_7", "Ejecutado [x]");
-define("LAN_UPDATE_12", "Una de las tablas contiene las entradas duplicadas.");
-define("LAN_UPDATE_13", "Añadir configuración de núcleo adicional/falta");
-define("LAN_UPDATE_14", "Iniciar versión:");
-define("LAN_UPDATE_20", "Actualización el CABELL0:");
-define("LAN_UPDATE_21", "Actualización de estructura de tabla:");
-define("LAN_UPDATE_22", "Conversión de preferencia(s) serializada(s):");
-define("LAN_UPDATE_23", "Actualización ruta de menú:");
-define("LAN_UPDATE_24", "Borrar campo de tabla obsoleta:");
-define("LAN_UPDATE_25", "Eliminar tabla obsoleta:");
-define("LAN_UPDATE_26", "Se extiende el campo de dirección IP:");
-define("LAN_UPDATE_27", "Agregar tabla:");
-define("LAN_UPDATE_28", "[x]  correos electrónicos guardado se trasladó");
-define("LAN_UPDATE_29", "Dependiendo de su configuración particular, puede que necesite ejecutar el proceso de actualización varias veces.");
-define("LAN_UPDATE_37", "Agregar Índice [x] tabla [y]");
-define("LAN_UPDATE_38", "Actualizar la configuración de página principal");
-define("LAN_UPDATE_40", "Actualizar tabla de noticias");
-define("LAN_UPDATE_41", "Campo de zona horaria del usuario procesado");
-define("LAN_UPDATE_42", "Error de transferencia de datos de zona horaria del usuario - abortados");
+define("LAN_UPDATE_12", "Una de tus tablas contiene entradas duplicadas.");
+define("LAN_UPDATE_13", "Añadir configuraciones principales nuevas o faltantes");
+define("LAN_UPDATE_14", "Versión inicial: ");
+
+// Mensajes del proceso de actualización 0.7 a 0.8
+define("LAN_UPDATE_20", "Actualizando preferencias: ");
+define("LAN_UPDATE_21", "Actualizando estructura de tabla: ");
+define("LAN_UPDATE_22", "Convirtiendo preferencias serializadas: ");
+define("LAN_UPDATE_23", "Actualizando ruta de menú: ");
+define("LAN_UPDATE_24", "Eliminando campo de tabla obsoleto: ");
+define("LAN_UPDATE_25", "Eliminando tabla obsoleta: ");
+define("LAN_UPDATE_26", "Ampliando campo de dirección IP: ");
+define("LAN_UPDATE_27", "Añadiendo tabla: ");
+define("LAN_UPDATE_28", "[x] emails guardados movidos");
+define("LAN_UPDATE_29", "Dependiendo de tu configuración, podrías necesitar ejecutar el proceso varias veces.");
+
+define("LAN_UPDATE_37", "Añadir índice [x] a la tabla [y]");
+define("LAN_UPDATE_38", "Actualizar ajustes de portada");
+define("LAN_UPDATE_40", "Actualizar tabla de feeds de noticias");
+define("LAN_UPDATE_41", "Campo de zona horaria de usuario procesado");
+define("LAN_UPDATE_42", "Error transfiriendo datos de zona horaria - abortado");
 define("LAN_UPDATE_43", "Renombrar tabla dblog");
-define("LAN_UPDATE_44", "Renombrar tabla log rolling");
-define("LAN_UPDATE_45", "Agregar nueva tabla a la base de datos:");
-define("LAN_UPDATE_46", "Error al leer la definición de tabla:");
-define("LAN_UPDATE_50", "Prefs obsoletos eliminados:");
-define("LAN_UPDATE_51", "Actualizar plugin tabla definición:");
+define("LAN_UPDATE_44", "Renombrar tabla de registro histórico");
+define("LAN_UPDATE_45", "Añadiendo nueva tabla a la base de datos: ");
+define("LAN_UPDATE_46", "Error leyendo definición de tabla: ");
+
+define("LAN_UPDATE_50", "Preferencias obsoletas eliminadas: ");
+define("LAN_UPDATE_51", "Actualizar definición de tabla de plugins: ");
 define("LAN_UPDATE_52", "Actualizar tabla de descargas");
-define("LAN_UPDATE_53", "Tabla de actualización descarga espejo");
-define("LAN_UPDATE_54", "Falta tabla [y]  -no puede agregar Índice [x]");
+define("LAN_UPDATE_53", "Actualizar tabla de mirrors de descargas");
+define("LAN_UPDATE_54", "Falta la tabla [y] - no se puede añadir índice [x]");
 define("LAN_UPDATE_55", "Descripción");
-define("LAN_UPDATE_56", "Actualización del sistema");
-define("LAN_UPDATE_57", "Antes de continuar, manualmente borrar las siguientes carpetas anticuadas de su sistema:");
-define("LAN_UPDATE_CAPTION_PLUGIN", "Actualizaciones del plugin");
-define("LAN_UPDATE_CAPTION_CORE", "Actualizaciones de la base");
-define("LAN_UPDATE_58", "Se recomienda encarecidamente que ejecute el [Inspector de Archivos] después de haber completado todas las actualizaciones, con el fin de detectar cualquier archivo obsoleto que deba ser eliminado.");
+define("LAN_UPDATE_56", "Actualización del Sistema");
+
+define("LAN_UPDATE_57", "Antes de continuar, elimina manualmente estos directorios obsoletos:");
+
+define("LAN_UPDATE_CAPTION_PLUGIN", "Actualizaciones de Plugins");
+define("LAN_UPDATE_CAPTION_CORE", "Actualizaciones Principales");
+
+define("LAN_UPDATE_58", "Se recomienda ejecutar [File Inspector] después de completar las actualizaciones para detectar archivos obsoletos.");

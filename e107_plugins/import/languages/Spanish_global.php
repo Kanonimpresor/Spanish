@@ -1,8 +1,15 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
+/*
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 define("LAN_PLUGIN_IMPORT_NAME", "Importar a e107");
-define("LAN_PLUGIN_IMPORT_DESCRIPTION", "Importar datos de Wordpress, Joomla, Drupal, post, RSS y otros formatos.");
+define("LAN_PLUGIN_IMPORT_DESCRIPTION", "Importar datos desde Wordpress, Joomla, Drupal, Blogpost, RSS y otros formatos.");

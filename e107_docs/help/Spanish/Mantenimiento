@@ -1,0 +1,6 @@
+
+P> ¿Para qué sirve esta sección?
+R> Esta pantalla te permite hacer que tu sitio sea inaccesible para los visitantes. Utilízala cuando estés actualizando tu sitio o necesites retirarlo por alguna razón. Solo el administrador principal del sitio puede acceder a él cuando está en modo de mantenimiento; sabrás que está en este modo porque aparecerá un mensaje en todas las páginas.
+
+P> ¡Ayuda! He activado la bandera de mantenimiento y, por accidente, me he desconectado. ¿Cómo puedo volver a acceder a la sección de administración para poner el sitio en línea de nuevo?
+R> Ve a http://tusitio.com/e107_admin/admin.php e inicia sesión desde allí.

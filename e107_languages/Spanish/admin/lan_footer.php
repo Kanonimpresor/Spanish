@@ -1,34 +1,34 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Spanish Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2016/02/24 18:13:42
+|       e107 content management system.
+|       Spanish language file)
 |
-|        $Author: Administrador $
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 
 define("FOOTLAN_1", "Sitio");
-define("FOOTLAN_2", "Jefe administración");
+define("FOOTLAN_2", "Admin. Principal");
 define("FOOTLAN_3", "Versión");
-define("FOOTLAN_4", "construir");
-define("FOOTLAN_5", "Tema de administración");
-define("FOOTLAN_6", "por");
-define("FOOTLAN_7", "Información");
-define("FOOTLAN_8", "Instalar fecha");
+define("FOOTLAN_4", "Revisión");
+define("FOOTLAN_5", "Tema de Admin");
+define("FOOTLAN_6", "Por");
+define("FOOTLAN_7", "Info.");
+define("FOOTLAN_8", "Fecha de Instalación");
 define("FOOTLAN_9", "Servidor");
-define("FOOTLAN_10", "anfitrión");
-define("FOOTLAN_11", "Versión de PHP");
-define("FOOTLAN_12", "MySQL");
-define("FOOTLAN_13", "Información del sitio");
-define("FOOTLAN_14", "Mostrar documentos");
+define("FOOTLAN_10", "Host");
+define("FOOTLAN_11", "Versión PHP");
+define("FOOTLAN_12", "mySQL");
+define("FOOTLAN_13", "Información");
+define("FOOTLAN_14", "Ver Documentos");
 define("FOOTLAN_15", "Documentación");
-define("FOOTLAN_16", "Base de datos");
-define("FOOTLAN_17", "Conjunto de caracteres");
-define("FOOTLAN_18", "Tema del sitio");
-define("FOOTLAN_19", "Hora del servidor");
+define("FOOTLAN_16", "Base de Datos");
+define("FOOTLAN_17", "Juego de Caracteres");
+define("FOOTLAN_18", "Tema del Sitio");
+define("FOOTLAN_19", "Hora de servidor");
 define("FOOTLAN_20", "Nivel de seguridad");
-
-

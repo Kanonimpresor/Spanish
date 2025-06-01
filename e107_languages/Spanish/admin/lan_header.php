@@ -1,12 +1,20 @@
 <?php
+/*
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LAN_HEADER_01", "Navegación de admin");
-define("LAN_HEADER_02", "El servidor no permite la carga de archivos HTTP por lo que no será posible para los usuarios subir avatares, archivos, etc.. Para rectificar este set file_uploads a en tu php.ini y reiniciar el servidor. Si no tienes acceso a tu php.ini contacto sus anfitriones.");
-define("LAN_HEADER_03", "El servidor se está ejecutando con una restricción de basedir en efecto. Esto no permite el uso de cualquier archivo fuera de su directorio y como tal podría afectar ciertos scripts como el filemanager.");
-define("LAN_HEADER_04", "Área de administración");
-define("LAN_HEADER_05", "idioma desplegado en el área de administración");
-define("LAN_HEADER_06", "Información de plugins");
+define("LAN_HEADER_01", "Menú Admin.");
+define("LAN_HEADER_02", "Su servidor no admite la transferencia de archivos via HTTP, los usuarios no podrán transferir sus avatares/archivos etc. Para corregir esto cambie file_uploads a On en su php.ini y reinicie el servidor. Si usted no tiene acceso al servidor póngase en contacto con su proovedor de hosting.");
+define("LAN_HEADER_03", "Su servidor está ejecutando una restricción en el directorio principal. Esto no permitirá el uso de algunos archivos fuera de su carpeta principal y afectará a determinados Scripts como el gestor de ficheros.");
+define("LAN_HEADER_04", "Area Admin.");
+define("LAN_HEADER_05", "Idioma mostrado en el área del Admin: ");
+define("LAN_HEADER_06", "Info de plugins");

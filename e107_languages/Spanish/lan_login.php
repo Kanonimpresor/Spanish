@@ -1,48 +1,51 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Spanish Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/03/22 13:38:30
+|       e107 content management system.
+|       Spanish language file)
 |
-|        $Author: Norwayman $
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
+
 define("LAN_LOGIN_1", "Nombre de usuario");
 define("LAN_LOGIN_2", "Contraseña de usuario");
 define("LAN_LOGIN_3", "Servidor protegido");
-define("LAN_LOGIN_4", "Por favor firme");
-define("LAN_LOGIN_5", "Haga clic aquí para registrarse");
-define("LAN_LOGIN_6", "No aceptar a nuevos miembros en este momento");
-define("LAN_LOGIN_7", "Ingrese código visible");
-define("LAN_LOGIN_8", "Acuérdate de mí");
-define("LAN_LOGIN_9", "Inicia sesión");
-define("LAN_LOGIN_10", "Haga clic en Inicio de sesión");
-define("LAN_LOGIN_11", "Registrarse como nuevo usuario");
-define("LAN_LOGIN_12", "¿Olvidó su contraseña");
-define("LAN_LOGIN_13", "Introduce texto en imagen");
-define("LAN_LOGIN_14", "Usuario intentó iniciar sesión con nombre de usuario desconocido");
-define("LAN_LOGIN_15", "Usuario intentó iniciar sesión con contraseña incorrecta");
-define("LAN_LOGIN_16", "Usuario intentó iniciar sesión con la combinación de usuario y la contraseña que ya estaba en uso");
-define("LAN_LOGIN_17", "Usuario contraseña (hash)");
-define("LAN_LOGIN_18", "Auto-ban: más que [x] los intentos de login fallidos");
-define("LAN_LOGIN_19", "> 10 los intentos de login fallidos");
-define("LAN_LOGIN_20", "Te fuiste campos obligatorios en blanco");
-define("LAN_LOGIN_21", "Inicio de sesión incorrecto. Los datos introducidos no coinciden a un usuario registrado. Comprobar si tienes la tecla de Bloq Mayús activada como inicios de sesión en este sitio son mayúsculas y minúsculas");
-define("LAN_LOGIN_22", "Que no ha activado su cuenta. Usted debe haber recibido un correo electrónico con instrucciones sobre cómo confirmar tu cuenta. Si no, por favor haga clic [aquí].");
-define("LAN_LOGIN_23", "Código incorrecto entrado.");
-define("LAN_LOGIN_24", "Esa combinación de nombre de usuario y contraseña ya está en uso.");
-define("LAN_LOGIN_25", "Prohibido el usuario intentado iniciar sesión");
-define("LAN_LOGIN_26", "Error de inicio de sesión - razón desconocida");
-define("LAN_LOGIN_27", "Usuario intentado conectarse antes de responder al correo electrónico de confirmación");
+define("LAN_LOGIN_4", "Inicia sesión"); // XXX Modified
+define("LAN_LOGIN_5", "Haz clic aquí para registrarte");
+define("LAN_LOGIN_6", "No se aceptan nuevos miembros actualmente");
+define("LAN_LOGIN_7", "Introduce el código visible");
+define("LAN_LOGIN_8", "Recordarme");
+define("LAN_LOGIN_9", "Iniciar sesión");
+define("LAN_LOGIN_10", "Haz clic para acceder");
+define("LAN_LOGIN_11", "Regístrate como nuevo usuario");
+define("LAN_LOGIN_12", "¿Olvidaste tu contraseña?");
+define("LAN_LOGIN_13", "Introduce el texto de la imagen");
+define("LAN_LOGIN_14", "Intento de acceso con nombre de usuario no reconocido");
+define("LAN_LOGIN_15", "Intento de acceso con contraseña incorrecta");
+define("LAN_LOGIN_16", "Combinación de usuario/contraseña ya en uso");
+define("LAN_LOGIN_17", "Contraseña de usuario (cifrada)");
+define("LAN_LOGIN_18", "Bloqueo automático: Más de [x] intentos fallidos");
+define("LAN_LOGIN_19", "> 10 intentos de acceso fallidos");
+define("LAN_LOGIN_20", "Campos obligatorios sin completar");
+define("LAN_LOGIN_21", "Tus datos de acceso no coinciden con ningún usuario. Verifica si tienes activado el Bloq Mayús, ya que las credenciales distinguen mayúsculas.");
+define("LAN_LOGIN_22", "No has activado tu cuenta. Deberías haber recibido un email con instrucciones. Si no es así, haz clic [aquí].");
+define("LAN_LOGIN_23", "Código incorrecto introducido.");
+define("LAN_LOGIN_24", "Este usuario ya tiene una sesión activa y no puede conectarse desde otro dispositivo."); // That username/password combination is already in use
+define("LAN_LOGIN_25", "Intento de acceso de usuario bloqueado");
+define("LAN_LOGIN_26", "Error de acceso - motivo desconocido");
+define("LAN_LOGIN_27", "Intento de acceso antes de confirmar el correo electrónico");
 define("LAN_LOGIN_28", "Correo electrónico");
-define("LAN_LOGIN_29", "Nombre de usuario o correo electrónico");
-define("LAN_LOGIN_30", "Error al agregar nuevo usuario alt_auth a DB");
-define("LAN_LOGIN_31", "No se pudieran agregar sus credenciales en el sistema");
-define("LAN_LOGIN_32", "Estás viendo este mensaje porque has iniciado sesión como administrador principal.");
-define("LAN_LOGIN_33", "[Vuelve a la página inicial]");
-define("LAN_LOGIN_34", "El registro de usuario y/o el inicio de sesión están actualmente deshabilitados.");
-define("LAN_LOGIN_35", "[Permitirle]");
-define("LAN_LOGIN_36", "Los correos electrónicos a la [x] están rebotando. Por favor [verifique que su dirección de correo electrónico sea correcta].");
-define("LAN_LOGIN_37", "Su cuenta aún no ha sido activada por un administrador del sitio.");
+define("LAN_LOGIN_29", "Usuario o correo electrónico");
+define("LAN_LOGIN_30", "Error al añadir nuevo alt_auth user a DB");
+define("LAN_LOGIN_31", "Tus credenciales no se pudieron añadir al sistema");
+define("LAN_LOGIN_32", "Ves este mensaje porque estás conectado como Administrador Principal.");
+define("LAN_LOGIN_33", "[Volver a la página principal]"); // the [ ] brackets are replaced with a button link
+define("LAN_LOGIN_34", "El registro de usuarios y/o el acceso están desactivados.");
+define("LAN_LOGIN_35", "[Activar]"); // the [ ] brackets are replaced with a button link
+define("LAN_LOGIN_36", "Los correos a [x] rebotan. Por favor [verifica que tu dirección es correcta].");// the [ ] brackets are replaced with a button link to usersettings.php
+define("LAN_LOGIN_37", "Tu cuenta no ha sido activada aún por un administrador del sitio."); // Similar to LAN_LOGIN_22 but used in case verification method is set to 'Admin Approval'

@@ -1,33 +1,39 @@
 <?php
 /*
- * Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
- *
- * Banner Menu Language File
- *
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
 */
 
 // DEPRECATED - ENTIRE LANGUAGE FILE MOVED INTO English_admin_banner.php 
 
 /*
-define("BANNER_MENU_L1", "Advertisement");
-define("BANNER_MENU_L2", "Banner menu configuration saved");
+define("BANNER_MENU_L1", "Publicidad");
+define("BANNER_MENU_L2", "Configuración del menú de banners guardada");
 
 //v.617
-define("BANNER_MENU_L3", "Caption");
-define("BANNER_MENU_L4", "Campaign");
-define("BANNER_MENU_L5", "Banner Menu Configuration");
-define("BANNER_MENU_L6", "choose campaigns to show in menu");
-define("BANNER_MENU_L7", "available campaigns");
-define("BANNER_MENU_L8", "selected campaigns");
-define("BANNER_MENU_L9", "remove selection");
-define("BANNER_MENU_L10", "how should the selected campaigns be shown ?");
-define("BANNER_MENU_L11", "choose render type ...");
-define("BANNER_MENU_L12", "one campaign in single menu");
-define("BANNER_MENU_L13", "all selected campaigns in single menu");
-define("BANNER_MENU_L14", "all selected campaigns in separate menus");
-define("BANNER_MENU_L15", "how many banners should be shown ?");
-define("BANNER_MENU_L16", "this setting will only be used with options 2 and 3.<br />if less banners are present the maximum available amount will be used.");
-define("BANNER_MENU_L17", "set amount ...");
-//define("BANNER_MENU_L18", "Update Menu Settings");
-//define('BANNER_MENU_L19', 'Nothing changed - not saved');
+define("BANNER_MENU_L3", "Título");
+define("BANNER_MENU_L4", "Campaña");
+define("BANNER_MENU_L5", "Configuración del menú de banners");
+define("BANNER_MENU_L6", "elige campañas para mostrar en el menú");
+define("BANNER_MENU_L7", "campañas disponibles");
+define("BANNER_MENU_L8", "campañas seleccionadas");
+define("BANNER_MENU_L9", "quitar selección");
+define("BANNER_MENU_L10", "¿cómo se deben mostrar las campañas seleccionadas?");
+define("BANNER_MENU_L11", "elige tipo de visualización...");
+define("BANNER_MENU_L12", "una campaña en un solo menú");
+define("BANNER_MENU_L13", "todas las campañas seleccionadas en un solo menú");
+define("BANNER_MENU_L14", "todas las campañas seleccionadas en menús separados");
+define("BANNER_MENU_L15", "¿cuántos banners se deben mostrar?");
+define("BANNER_MENU_L16", "esta opción solo se usa con las opciones 2 y 3.<br />si hay menos banners disponibles, se usará la cantidad máxima posible.");
+define("BANNER_MENU_L17", "establece la cantidad...");
+//define("BANNER_MENU_L18", "Actualizar configuración del menú");
+//define('BANNER_MENU_L19', "No hubo cambios - no se ha guardado");
 */

@@ -1,9 +1,15 @@
 <?php
 /*
-* Copyright (c) e107 Inc 2008-2013 - e107.org, 
-* Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
-*
-* 'FAQ plugin' admin-area language definitions
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
 */
  
 

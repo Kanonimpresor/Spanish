@@ -1,0 +1,10 @@
+
+P> ¿Para qué sirve esta sección?
+R> Activar el estado de caché hará que se guarden ciertas áreas de tu sitio en la base de datos. Esto reduce las consultas a MySQL y acelera mucho el rendimiento de tu web.
+
+P> He hecho algunos cambios en el tema que estoy usando pero no se han aplicado, ¿es por la caché?
+R> Lo más probable. Cuando cambias de tema, la caché se borra automáticamente, pero si solo modificas el código en tu archivo theme.php, la caché no se limpia. Desactiva el estado de caché hasta que termines tus modificaciones.
+
+P> ¿Puedo guardar la caché en archivos del disco duro?
+R> Sí. Solo asegúrate de que el directorio e107_files/cache tenga permisos de escritura (chmod 777). Luego, selecciona la opción correspondiente en la página de caché.
+

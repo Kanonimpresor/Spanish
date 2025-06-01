@@ -1,13 +1,22 @@
 <?php
+/*
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025)
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("UDALAN_1", "Error - por favor, vuelva a enviarlo.");
-define("UDALAN_2", "Administración configuración actualizada");
+define("UDALAN_1", "Error - por favor enviar nuevamente");
+define("UDALAN_2", "Configuración actualizada");
 define("UDALAN_3", "Configuración actualizada para");
 define("UDALAN_4", "Nombre");
-define("UDALAN_6", "Reingrese la contraseña");
-define("UDALAN_7", "Cambiar contraseña");
-define("UDALAN_8", "Contraseña actualizada para");
+//define("UDALAN_5", "Contraseña");
+define("UDALAN_6", "Re-escribir contraseña");
+define("UDALAN_7", "Cambiar Contraseña");
+define("UDALAN_8", "Actualizar contraseña de");

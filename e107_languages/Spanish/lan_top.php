@@ -1,28 +1,31 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Spanish Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2016/02/24 17:50:40
+|       e107 content management system.
+|       Spanish language file)
 |
-|        $Author: Administrador $
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 
-define("TOP_LAN_0", "Foro Top Posters");
-define("TOP_LAN_1", "Nombre de usuario");
+define("TOP_LAN_0", "Top foros");
+define("TOP_LAN_1", "Usuario");
 define("TOP_LAN_2", "Mensajes");
-define("TOP_LAN_3", "Comentario Top Posters");
-define("TOP_LAN_5", "Chatbox Top Posters");
-define("TOP_LAN_6", "Clasificación de sitio");
-define("LAN_1", "Hilo de rosca");
-define("LAN_2", "Cartel");
+define("TOP_LAN_3", "Top comentarios");
+//define("TOP_LAN_4", "Comentarios");
+define("TOP_LAN_5", "Top chatbox");
+define("TOP_LAN_6", "Puntuación del sitio");
+
+//v.616
+define("LAN_1", "Tema");
+define("LAN_2", "Autor");
 define("LAN_3", "Vistas");
 define("LAN_4", "Respuestas");
-define("LAN_5", "Ultima publicación");
-define("LAN_6", "Hilos de rosca");
-define("LAN_7", "Hilos más activos");
-define("LAN_8", "Los mejores publicadores");
-
-
+define("LAN_5", "Último");
+define("LAN_6", "Temas");
+define("LAN_7", "Temas más activos");
+define("LAN_8", "Top Autores");

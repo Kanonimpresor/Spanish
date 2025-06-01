@@ -1,19 +1,24 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Spanish Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2020/11/17 14:05:20
+|       e107 content management system.
+|       Spanish language file)
 |
-|        $Author: tgtje $
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
+define("LAN_PLUGIN_DOWNLOAD_NAME",  "Descargas");
+define("LAN_PLUGIN_DOWNLOAD_DIZ",  	"Este plugin es un sistema completo de descargas de archivos");
 
-define("LAN_PLUGIN_DOWNLOAD_NAME", "Descargas");
-define("LAN_PLUGIN_DOWNLOAD_DIZ", "Este plugin es un completo sistema de descarga de archivos");
-define("LAN_DL_NT_01", "Se ha informado de una descarga rota");
-define("LAN_DL_NT_02", "Se ha informado de que la siguiente descarga se ha roto:");
-define("LAN_DL_NT_03", "Fue reportado por [x] con los siguientes comentarios:");
-define("LAN_DL_NT_04", "Haga clic [aquí] para ver los informes de descargas rotas.");
-define("LAN_DL_LATEST_01", "Reportes de descargas rotas");
+// NOTIFICACIONES
+define("LAN_DL_NT_01", "Se ha reportado una descarga rota");
+define("LAN_DL_NT_02", "La siguiente descarga ha sido reportada como rota:");
+define("LAN_DL_NT_03", "Ha sido reportada por [x] con el siguiente comentario:");
+define("LAN_DL_NT_04", "Haz clic [aquí] para ver los informes de descargas rotas.");
+
+// Más recientes (e_dashboard)
+define("LAN_DL_LATEST_01", "Descargas rotas reportadas");

@@ -12,412 +12,592 @@
 +---------------------------------------------------------------+
 */
 define("ADLAN_0", "Noticias");
-define("ADLAN_1", "Administrar noticias");
-define("ADLAN_2", "Crear noticia");
-define("ADLAN_3", "Noticias lista");
+define("ADLAN_1", "Gestionar artículos de noticias");
+define("ADLAN_2", "Crear artículo de noticias");
+define("ADLAN_3", "Lista de artículos de noticias");
 define("ADLAN_3a", "Configuración de noticias");
-define("ADLAN_5", "Editar preferencias del sitio");
-define("ADLAN_6", "Administrador de menús");
-define("ADLAN_7", "Alterar el orden de los menús");
-define("ADLAN_8", "Administradores de");
-define("ADLAN_9", "Agregar o eliminar administradores");
-define("ADLAN_10", "Contraseña de administrador");
-define("ADLAN_11", "Cambiar la contraseña");
-define("ADLAN_12", "Documentos");
+// define("ADLAN_4", "Preferencias");
+define("ADLAN_5", "Editar preferencias");
+define("ADLAN_6", "Gestor de menús");
+define("ADLAN_7", "Cambiar el orden de tus menús");
+define("ADLAN_8", "Administradores");
+define("ADLAN_9", "Añadir / Remover administradores");
+define("ADLAN_10", "Contraseña de admin.");
+define("ADLAN_11", "Cambiar tu contraseña");
+define("ADLAN_12", "Documentación");
 define("ADLAN_13", "Documentación del sistema");
-define("ADLAN_25", "Gestionar descargas");
+//define("ADLAN_14", "Artículos");
+//define("ADLAN_15", "Añadir/editar/eliminar artículos");
+//define("ADLAN_16", "Contenido");
+//define("ADLAN_17", "Añadir/editar/eliminar páginas de contenido");
+//define("ADLAN_18", "Reseñas");
+//define("ADLAN_19", "Añadir/editar/eliminar reseñas");
+//define("ADLAN_22", "Categorías de enlaces");
+//define("ADLAN_23", "Añadir/editar/eliminar categorías de enlaces");
+// define("ADLAN_24", "Descargas");
+define("ADLAN_25", "Gestión de transferencias");
+//define("ADLAN_26", "Categorías de descargas");
+//define("ADLAN_27", "Añadir/editar/eliminar categorías de descargas");
 define("ADLAN_28", "Mensaje de bienvenida");
-define("ADLAN_29", "Mensaje de bienvenida static set");
-define("ADLAN_30", "Administrador de archivos");
-define("ADLAN_31", "Administrar/subir archivos");
-define("ADLAN_34", "Lista sobre los prohibidos");
-define("ADLAN_35", "Visitantes de la prohibición");
-define("ADLAN_36", "Usuarios de");
-define("ADLAN_37", "Miembros del sitio moderado");
+define("ADLAN_29", "Establecer mensaje de bienvenida estático");
+define("ADLAN_30", "Gestor de archivos");
+define("ADLAN_31", "Gestionar/subir archivos");
+//define("ADLAN_32", "Noticias enviadas");
+//define("ADLAN_33", "Revisar noticias enviadas por usuarios");
+define("ADLAN_34", "Lista de bloqueos");
+define("ADLAN_35", "Bloquear visitantes");
+define("ADLAN_36", "Gestión de usuarios");
+define("ADLAN_37", "Moderar miembros del sitio");
 define("ADLAN_38", "Clases de usuario");
-define("ADLAN_39", "Crear/modificar las clases de usuario");
+define("ADLAN_39", "Crear/editar clases de usuario");
 define("ADLAN_40", "Mantenimiento");
-define("ADLAN_41", "Tomar sitio abajo para el mantenimiento");
-define("ADLAN_42", "Páginas y menús");
+define("ADLAN_41", "Poner el sitio en mantenimiento");
+define("ADLAN_42", "Páginas / Menús");
 define("ADLAN_43", "Crear elementos de menú");
 define("ADLAN_44", "Base de datos");
-define("ADLAN_45", "Utilidades de base de datos");
-define("ADLAN_47", "Bienvenida");
-define("ADLAN_48", "Iniciar sesión");
-define("ADLAN_49", "Administrador del sitio principal");
-define("ADLAN_51", "Por favor conéctese para tener acceso al área de administración");
+define("ADLAN_45", "Utilidades de la base de datos");
+// define("ADLAN_46", "Cerrar sesión");
+define("ADLAN_47", "Bienvenido");
+define("ADLAN_48", "Conectado como");
+define("ADLAN_49", "administrador principal del sitio");
+//define("ADLAN_50", "permisos");
+define("ADLAN_51", "Inicia sesión para acceder al área de administración");
 define("ADLAN_52", "Página principal de administración");
-define("ADLAN_53", "Dejar Admin");
+define("ADLAN_53", "Salir de administración");
+// define("ADLAN_54", "Banners");
+// define("ADLAN_55", "Configurar banners");
+//define("ADLAN_56", "Chatbox");
+//define("ADLAN_57", "Configurar chatbox");
 define("ADLAN_58", "Emoticonos");
-define("ADLAN_59", "Configurar iconos gestuales");
-define("ADLAN_60", "Portada");
-define("ADLAN_61", "Configurar el contenido de la página delantera");
-define("ADLAN_66", "Etiquetas meta");
-define("ADLAN_67", "Añadir/editar etiquetas meta sitio");
+define("ADLAN_59", "Configurar emoticonos");
+define("ADLAN_60", "Página principal");
+define("ADLAN_61", "Configurar contenido de página principal");
+//define("ADLAN_62", "Fuentes de noticias");
+//define("ADLAN_63", "Configurar fuentes de noticias");
+//define("ADLAN_64", "Estadísticas de registro");
+//define("ADLAN_65", "Estadísticas de registro/contador etc");
+define("ADLAN_66", "Metaetiquetas");
+define("ADLAN_67", "Añadir / editar metaetiquetas");
 define("ADLAN_68", "Información de PHP");
 define("ADLAN_69", "Página de información de PHP");
-define("ADLAN_72", "Cargas públicas");
-define("ADLAN_73", "Configurar la carga de archivos públicos");
-define("ADLAN_74", "Memoria caché");
-define("ADLAN_75", "Estado de caché de sistema");
-define("ADLAN_78", "Campos de usuario");
-define("ADLAN_79", "Editar campos de usuario");
+//define("ADLAN_70", "Encuestas");
+//define("ADLAN_71", "Añadir/Editar Encuestas");
+define("ADLAN_72", "Transferencias públicas");
+define("ADLAN_73", "Configurar subidas públicas de archivos");
+define("ADLAN_74", "Caché");
+define("ADLAN_75", "Establecer estado de la caché");
+//define("ADLAN_77", "Tienes un artículo de noticias enviado - haz clic aquí para revisar.");
+define("ADLAN_78", "Campos extras de usuario");
+define("ADLAN_79", "Editar campos extras de usuario");
+
+
 define("ADLAN_86", "Prohibido");
-define("ADLAN_87", "Acceso denegado!");
-define("ADLAN_89", "Nombre del administrador");
-define("ADLAN_90", "Contraseña de administrador");
-define("ADLAN_91", "Inicia sesión");
-define("ADLAN_92", "Por favor conéctese para proceder al área de administración...");
-define("ADLAN_93", "Funciones de administración");
-define("ADLAN_95", "Administración de plugin");
-define("ADLAN_98", "Gestor de Plugins");
-define("ADLAN_99", "Haga clic aquí para instalar, mantener y configurar los plugins que proporcionan características adicionales en su sitio.");
-define("ADLAN_102", "Hace ya más de 30 días cambiaron la contraseña del administrador principal-");
-define("ADLAN_103", "Haga clic aquí para cambiar ahora");
+define("ADLAN_87", "¡Acceso denegado!");
+//define("ADLAN_88", "No se pudo iniciar sesión ");
+define("ADLAN_89", "Nombre de administrador ");
+define("ADLAN_90", "Contraseña de admin ");
+define("ADLAN_91", "Iniciar sesión");
+define("ADLAN_92", "Inicia sesión para acceder al área de administración...");
+define("ADLAN_93", "Mostrar funciones de administración");
+//define("ADLAN_94", "Mostrar plugins instalados");
+define("ADLAN_95", "Gestión de plugins");
+//define("ADLAN_96", "Ninguno");
+//define("ADLAN_97", "Haz clic aquí para ver las FAQ");
+define("ADLAN_98", "Gestión de plugins");
+define("ADLAN_99", "Haz clic aquí para instalar, mantener y configurar plugins que añaden funciones a tu sitio.");
+// define("ADLAN_100", "Diseño del tema"); // requerido
+//define("ADLAN_101", "Creador de plantillas");
+define("ADLAN_102", "Han pasado más de 30 días desde que cambiaste la contraseña principal - ");
+define("ADLAN_103", "Haz clic aquí para cambiarla ahora");
 define("ADLAN_104", "Seguridad");
+
 define("ADLAN_105", "Imágenes");
-define("ADLAN_106", "Ajustes de imagen");
+define("ADLAN_106", "Configuración de imágenes");
+
+//define("ADLAN_107", "Artículos de noticias sin revisar");
+//define("ADLAN_108", "Subidas de archivos sin revisar");
+//define("ADLAN_109", "Información");
 define("ADLAN_110", "Miembros registrados");
 define("ADLAN_111", "Miembros no verificados");
-define("ADLAN_112", "Usuarios prohibidos");
-define("ADLAN_116", "Registro de la admin...");
+define("ADLAN_112", "Usuarios bloqueados");
+// define("ADLAN_113", "Publicaciones en foros"); 
+// define("ADLAN_114", "Comentarios");
+// define("ADLAN_115", "Mensajes en el chat");
+define("ADLAN_116", "Registro de administración...");
 define("ADLAN_117", "Mostrar todas las entradas");
-define("ADLAN_118", "Borrar registro de");
-define("ADLAN_119", "Enlaces presentados");
-define("ADLAN_120", "Hay una actualización de la base de datos disponible, por favor haz clic en el botón instalar...");
+define("ADLAN_118", "Limpiar registro");
+
+define("ADLAN_119", "Enlaces enviados sin revisar");
+
+define("ADLAN_120", "Hay una actualización de la base de datos disponible, haz clic en el botón para instalar...");
 define("ADLAN_121", "Instalar");
-define("ADLAN_122", "¡Una nueva actualización está lista para ser instalada! Haga clic para descomprimir e instalar v [x]");
-define("ADLAN_132", "Idioma");
-define("ADLAN_133", "por defecto");
-define("ADLAN_135", "Registros de Admin");
-define("ADLAN_136", "Correo");
-define("ADLAN_137", "Configuración de correo electrónico y salgan");
-define("ADLAN_138", "Vínculos a sitios");
+define("ADLAN_122", "¡Hay una nueva actualización lista para instalar! Haz clic para descomprimir e instalar v [x]");
+
+//define("ADLAN_123", "Artículos enviados sin revisar");
+//define("ADLAN_124", "Reseñas enviadas sin revisar");
+
+//define("ADLAN_125", "Publicaciones en foros reportadas sin revisar");
+
+//define("ADLAN_126", "Opciones principales");
+//define("ADLAN_127", "Usuarios");
+//define("ADLAN_128", "Contenido");
+//define("ADLAN_129", "Comunicación");
+//define("ADLAN_130", "Gestión de archivos");
+//define("ADLAN_131", "Otras herramientas");
+
+define("ADLAN_132", "Idiomas");
+define("ADLAN_133", "predeterminado");
+
+define("ADLAN_135", "Registro de administración");
+
+define("ADLAN_136", "Envío de Correo");
+define("ADLAN_137", "Configuración de correo y envíos");
+
+define("ADLAN_138", "Enlaces del sitio");
 define("ADLAN_139", "Añadir/editar/eliminar enlaces");
-define("ADLAN_140", "Gestor de Temas");
-define("ADLAN_141", "Haga clic aquí para instalar y configurar themes, que controlan la apariencia de su sitio.");
+
+define("ADLAN_140", "Gestión de temas");
+define("ADLAN_141", "Haz clic aquí para instalar y configurar temas que controlan la apariencia de tu sitio.");
+
+// define("ADLAN_142", "Buscar");
 define("ADLAN_143", "Configuración de búsqueda");
-define("ADLAN_144", "Usted está en modo de vista simple, para cambiar a vista avanzada");
-define("ADLAN_145", "Haga clic aquí");
+define("ADLAN_144", "Estás en modo de vista simple, para cambiar a vista avanzada");
+define("ADLAN_145", "haz clic aquí");
+
 define("ADLAN_146", "Inicios de sesión fallidos");
-define("ADLAN_147", "Inspector de archivo");
+define("ADLAN_147", "Inspector de archivos");
 define("ADLAN_148", "Escanear archivos del sitio");
-define("ADLAN_149", "Notificar a");
-define("ADLAN_150", "Notificaciones por correo electrónico admin");
+
+define("ADLAN_149", "Notificar");
+define("ADLAN_150", "Notificaciones por correo del administrador");
+
 define("ADLAN_151", "Principal");
+// define("ADLAN_152", "Introducir código");
+
 define("ADLAN_153", "Área de administración");
-define("ADLAN_154", "Error contactar a Sourceforge para comprobar nueva versión");
+define("ADLAN_154", "Error al contactar con Sourceforge para verificar nueva versión");
+
 define("ADLAN_155", "Registros del sistema");
-define("ADLAN_156", "Registro de administración, auditoría de usuario, registro del balanceo");
-define("ADLAN_157", "Planificar tareas");
-define("ADLAN_158", "Trabajos de cron y mantenimiento automatizado");
-define("ADLAN_159", "Configuración de dirección URL");
+define("ADLAN_156", "Registro de administración, auditoría de usuarios, registro continuo");
+
+define("ADLAN_157", "Programar tareas");
+define("ADLAN_158", "Tareas cron y mantenimiento automatizado");
+
+define("ADLAN_159", "Gestión de URLs");
 define("ADLAN_160", "Configurar URLs del sitio");
 define("ADLAN_161", "¿Campos personalizados?");
-define("ADLAN_162", "Está disponible una nueva versión de su tema de sitio:");
-define("ADLAN_163", "Existe una versión más reciente de un plugin instalado:");
-define("ADLAN_164", "Se ha iniciado la sesión correctamente como [x].");
+define("ADLAN_162", "Hay una versión más nueva de tu tema del sitio disponible:");
+define("ADLAN_163", "Hay una versión más nueva de un plugin instalado disponible:");
+define("ADLAN_164", "Sesión iniciada correctamente como [x].");
 define("ADLAN_165", "Desarrollado por e107");
 define("ADLAN_166", "Volver al sitio web");
-define("ADLAN_167", "Tiros de correo pendientes");
+define("ADLAN_167", "Envíos de correo pendientes");
+
 define("ADLAN_168", "Visitantes");
-define("ADLAN_169", "Visitantes unicos");
-define("ADLAN_170", "Estas estadísticas son sólo para fines de demostración.");
-define("ADLAN_171", "Instalar el complemento Estadísticas del sitio");
+define("ADLAN_169", "Visitantes únicos");
+define("ADLAN_170", "Estas estadísticas son solo de demostración.");
+define("ADLAN_171", "Instalar plugin de estadísticas del sitio");
+
 define("ADLAN_185", "Alternar barra lateral");
-define("ADLAN_186", "Los siguientes archivos antiguos se pueden eliminar de forma segura de su sistema:");
-define("ADLAN_187", "No se puede crear [x]. Compruebe los permisos de su carpeta.");
-define("ADLAN_188", "La configuración de su zona horaria [x] no es válida. Se ha restablecido a UTC. Para modificar, vaya a Admin -> Preferencias -> Opciones de visualización de fecha.");
-define("ADLAN_189", "Los complementos siguientes no son compatibles con esta versión de e107 y deben desinstalarse:");
-define("ADLAN_190", "¿Necesitas ayuda?");
-define("ADLAN_191", "Conéctese con nuestra comunidad para [soporte gratuito] con cualquier problema de actualización que pueda encontrar.");
-define("ADLAN_192", "Conéctese con nuestra comunidad para [soporte gratuito] con cualquier problema de e107 que pueda encontrar.");
-define("ADLAN_193", "La carpeta [x] no se puede escribir. Por favor, corríjala antes de continuar.");
-define("ADLAN_194", "Se ha detectado la carpeta de avatares heredados. Por favor, asegúrate de que [x]avatares/ sea escribible. Por favor, corríjala antes de continuar.");
-define("ADLAN_195", "La vieja carpeta se movió al directorio de respaldo");
-define("ADLAN_CL_2", "Usuarios de");
+define("ADLAN_186", "Los siguientes archivos antiguos pueden eliminarse de tu sistema:");
+define("ADLAN_187", "No se pudo crear [x]. Verifica los permisos de la carpeta.");
+define("ADLAN_188", "Tu zona horaria [x] no es válida. Se restableció a UTC. Para modificar, ve a Administración -> Preferencias -> Opciones de fecha.");
+define("ADLAN_189", "Los siguientes plugins no son compatibles con esta versión de e107 y deben desinstalarse: ");
+define("ADLAN_190", "¿Necesitas de ayuda para configurar tu sitio?");
+define("ADLAN_191", "Conéctate con nuestra comunidad para [soporte gratuito] para resolver problemas de actualización.");
+define("ADLAN_192", "Conéctate con nuestra comunidad para [soporte gratuito] y para resolver cualquier problema de e107.");
+define("ADLAN_193", "La carpeta [x] no tiene permisos de escritura. Corrígelo antes de continuar.");
+define("ADLAN_194", "Se detectó carpeta antigua de avatares. Asegúrate que [x]avatars/ tenga permisos de escritura.");
+define("ADLAN_195", "Carpeta antigua movida al directorio de respaldo");
+
+// define("ADLAN_CL_1", "Ajustes");
+define("ADLAN_CL_2", "Gestión de usuarios");
 define("ADLAN_CL_3", "Contenido");
-define("ADLAN_CL_4", "COMS");
+define("ADLAN_CL_4", "Comunicación");
 define("ADLAN_CL_5", "Archivos");
 define("ADLAN_CL_6", "Herramientas");
-define("ADLAN_CL_7", "Complementos");
-define("ADLAN_CL_8", "Diverso");
-define("ADLAN_LAT_1", "Más reciente");
-define("ADLAN_LAT_2", "Noticias presentadas");
+define("ADLAN_CL_7", "Plugins");
+
+define("ADLAN_CL_8", "Varios");
+
+// define("ADLAN_CL_20", "Acerca de");
+
+define("ADLAN_LAT_1", "Recientes");
+
+define("ADLAN_LAT_2", "Artículos de noticias enviados");
+//define("ADLAN_LAT_3", "Artículos enviados");
+//define("ADLAN_LAT_4", "Reseñas enviadas");
 define("ADLAN_LAT_5", "Enlaces enviados");
-define("ADLAN_LAT_6", "Informados Foro posts");
-define("ADLAN_LAT_7", "Archivo de ficheros");
-define("ADLAN_LAT_8", "Mensajes de administrador no moderado");
+define("ADLAN_LAT_6", "Publicaciones en foros reportadas");
+define("ADLAN_LAT_7", "Subidas de archivos");
+define("ADLAN_LAT_8", "Hay mensajes de administrador sin moderar");
 define("ADLAN_LAT_9", "Comentarios pendientes");
-define("ADLAN_ERR_3", "Hay uno o más archivos en el directorio de carga pública que no está en la lista de tipos de archivo permitido subir. Estos pueden se han colocado aquí por un atacante y si es así debe ser eliminado [b] inmediatamente [/b]. Debe [b] no [/b] abrir estos archivos como este puede ejecutar cualquier código malicioso puede contener el archivo; por ejemplo, no abre con tu navegador.
 
-Si usted reconoce estos archivos como legítimos, es probable que el tipo de archivo ya no está en la lista tipos de archivo permitidos por algún motivo, y tendrá que volver a agregar (ver admin => uploads). No debe permitir la carga de .html, .txt, etc. como un atacante puede cargar un archivo de este tipo que incluye javascript malicioso. Usted debe también, por supuesto, no permite el upload de los archivos .php o cualquier otro tipo de script ejecutable.
+//LAN_WARNING define("ADLAN_ERR_1", "¡Advertencia!");
+//define("ADLAN_ERR_2", "Existen archivos en tu servidor que son potencialmente explotables. Deben eliminarse [b]inmediatamente[/b]. Estos archivos están relacionados con la antigua rama 0.6xx de e107. Por favor, elimina los siguientes directorios y todo su contenido:");
+define("ADLAN_ERR_3", "Existen uno o más archivos en tus directorios públicos de subida que no están en tu lista de tipos permitidos. Estos podrían haber sido colocados por un atacante y deben eliminarse [b]inmediatamente[/b]. [b]No abras[/b] estos archivos bajo ninguna circunstancia, ya que podrían ejecutar código malicioso (ej: no los abras con tu navegador).
 
-A continuación está la lista de archivos que podrían ser potencialmente malintencionado:");
-define("LAN_CREATE", "Crear");
-define("LAN_MANAGE", "Administrar");
-define("LAN_UPDATE", "Actualización");
+Si reconoces estos archivos como legítimos, probablemente el tipo de archivo ya no esté en la lista permitida. Deberás añadirlo nuevamente (ver admin => subidas). No permitas la subida de .html, .txt, etc., ya que podrían contener javascript malicioso. Tampoco permitas la subida de archivos .php ni ningún otro script ejecutable.
+
+Lista de archivos potencialmente maliciosos:");
+
+//define("ADLAN_ERR_4", "Se encontraron archivos de plugin obsoletos");
+//define("ADLAN_ERR_5", "Los siguientes archivos deben renombrarse a");
+//define("ADLAN_ERR_6", "Luego, haz clic aquí para re-escanear tus carpetas de plugins");
+
+
+// Términos comunes
+
+define("LAN_CREATE","Crear");
+define("LAN_MANAGE","Gestionar");
+define("LAN_UPDATE","Actualizar");
 define("LAN_UPDATES", "Actualizaciones");
-define("LAN_INSTALLED", "Instalado");
-define("LAN_LAST_UPDATED", "Última actualización");
-define("LAN_UPDATE_AVAILABLE", "Actualización disponible");
+define("LAN_INSTALLED","Instalado");
+define("LAN_LAST_UPDATED","Última actualización");
+define("LAN_UPDATE_AVAILABLE","Actualización disponible");
 define("LAN_ADD", "Añadir");
-define("LAN_REMOVE", "Retirar");
+define("LAN_REMOVE", "Eliminar");
 define("LAN_ADD_MORE", "Añadir más");
-define("LAN_MULTIPLE_CHOICE", "Opción multiple");
-define("LAN_SAVE", "Guardar");
-define("LAN_SAVED", "Guardado");
-define("LAN_SETSAVED", "Los ajustes se han salvado");
-define("LAN_NOCHANGE_NOTSAVED", "Nada cambia - no guarda");
-define("LAN_CONFIRMDEL", "Por favor confirme que desea eliminar");
+define("LAN_MULTIPLE_CHOICE", "Opción múltiple");
+
+define("LAN_SAVE","Guardar");
+define("LAN_SAVED","Guardado");
+define("LAN_SETSAVED","Los cambios se han guardado correctamente.");
+define("LAN_NOCHANGE_NOTSAVED", "Sin cambios - no se guardó");
+define("LAN_CONFIRMDEL","Confirma que deseas eliminar");
 define("LAN_ERRORS", "Errores");
 define("LAN_MESSAGES", "Mensajes");
-define("LAN_DATA", "Data");
+define("LAN_DATA", "Datos");
+
 define("LAN_OPTIONS", "Opciones");
-define("LAN_BASIC_OPTIONS", "Opciones Básicas");
-define("LAN_PREFS", "Preferencias");
-define("LAN_DELETED", "Eliminado correctamente");
-define("LAN_UPDATED", "Actualizado correctamente");
-define("LAN_CREATED", "Ha creado correctamente");
-define("LAN_CREATED_FAILED", "Creación sin éxito");
-define("LAN_DELETED_FAILED", "Supresión fracasada");
-define("LAN_UPDATED_FAILED", "Actualización fracasada");
-define("LAN_NO_CHANGE", "Nada actualizado ya no se realizan cambios.");
-define("LAN_TRY_AGAIN", "Por favor, inténtelo de nuevo.");
+define("LAN_BASIC_OPTIONS", "Opciones básicas");
+define("LAN_PREFS","Preferencias");
+define("LAN_DELETED","Eliminado correctamente");
+define("LAN_UPDATED","Actualizado correctamente");
+define("LAN_CREATED","Creado correctamente");
+define("LAN_CREATED_FAILED","Creación fallida");
+define("LAN_DELETED_FAILED","Eliminación fallida");
+define("LAN_UPDATED_FAILED","Actualización fallida");
+define("LAN_NO_CHANGE","Nada actualizado, no hubo cambios.");
+
+define("LAN_TRY_AGAIN","Por favor, inténtalo de nuevo.");
 define("LAN_NEVER", "Nunca");
-define("LAN_PRUNE", "Ciruela pasa");
-define("LAN_RESET", "RESET");
-define("LAN_CLEAR", "Claro");
+define("LAN_PRUNE", "Depurar");
+define("LAN_RESET","Reiniciar");
+define("LAN_CLEAR","Limpiar");
 define("LAN_ADD_ALL", "Añadir todo");
 define("LAN_CLEAR_ALL", "Limpiar todo");
-define("LAN_CLICK_HERE", "HAGA CLIC AQUÍ");
+define("LAN_CLICK_HERE", "HAZ CLIC AQUÍ");
 define("LAN_UNKNOWN", "Desconocido");
-define("LAN_ALL", "Todos");
-define("LAN_IMPORT", "Importación");
-define("LAN_NOTWRITABLE", "es no escribible, es necesario a CHMOD 777 el archivo o carpeta.");
-define("LAN_NOTREADABLE", "No se puede leer");
-define("LAN_MISSING", "Que falta");
+define("LAN_ALL","Todo");
+define("LAN_IMPORT","Importar");
+// define("LAN_OK","OK");
+
+// define("LAN_PRESET","Predefinido");
+// define("LAN_PRESET_SAVED","Predefinido guardado");
+// define("LAN_PRESET_DELETED","Predefinido eliminado");
+// define("LAN_PRESET_CONFIRMDEL","¿Seguro que quieres eliminar este predefinido?");
+define("LAN_NOTWRITABLE"," no tiene permisos de escritura, necesitas CHMOD 777.");
+define("LAN_NOTREADABLE", "No legible");
+define("LAN_MISSING", "Faltante");
 define("LAN_UNUSED", "No usado");
 define("LAN_SESSION", "Sesión");
-define("LAN_TOOLTIP", "Sugerencia de herramienta");
-define("LAN_TIME", "Tiempo");
-define("LAN_EMPTY", "Hay ninguna entrada en la base de datos todavía");
-define("LAN_EXISTING", "Entradas existentes");
-define("LAN_DEFAULT_TABLE_DATA", "Adición de datos de tabla predeterminados a la tabla:");
-define("LAN_CONFDELETE", "Confirmar borrar");
-define("LAN_PLUGIN", "Complemento");
-define("LAN_PLUGIN_FOLDER", "Carpeta de complementos");
-define("LAN_THEMES", "Temas");
-define("LAN_THEME", "Tema");
-define("LAN_CORE", "Nucleo");
-define("LAN_LATEST_e107_NEWS", "Últimas Noticias e107");
-define("LAN_WEBSITE_STATUS", "Estado de Sitio web");
-define("LAN_STATS", "Estadísticas");
-define("LAN_ONLINE", "En línea");
-define("LAN_ORDER", "Orden");
-define("LAN_ASC", "Orden ascendiente");
-define("LAN_DESC", "Orden descendiente");
-define("LAN_SELECT", "Seleccione...");
-define("LAN_ADMIN", "Administrador");
-define("LAN_ROOT", "Raíz");
-define("LAN_LINE", "Línea");
-define("LAN_SHORTCODES", "Códigos cortos");
+define("LAN_TOOLTIP", "Información emergente");
+
+define("LAN_TIME","Hora");
+// define("LAN_YES","Sí");
+// define("LAN_NO","No");
+define("LAN_EMPTY","No hay entradas en la base de datos aún");
+define("LAN_EXISTING","Entradas existentes");
+define("LAN_DEFAULT_TABLE_DATA","Añadiendo datos por defecto a la tabla:");
+
+define("LAN_CONFDELETE","Confirmar eliminación");
+define("LAN_PLUGIN","Plugin");
+define("LAN_PLUGIN_FOLDER","Carpeta de plugins");
+define("LAN_THEMES","Temas");
+define("LAN_THEME","Tema");
+define("LAN_CORE","Núcleo");
+define("LAN_LATEST_e107_NEWS","Últimas noticias de e107");
+define("LAN_WEBSITE_STATUS","Estado General");
+define("LAN_STATS","Estadísticas");
+define("LAN_ONLINE","En línea");
+define("LAN_ORDER","Orden");
+define("LAN_ASC","ASC");
+define("LAN_DESC","DESC");
+
+define("LAN_SELECT","Seleccionar");
+define("LAN_ADMIN","Administrador");
+define("LAN_ROOT","Raíz");
+define("LAN_LINE","Línea");
+define("LAN_SHORTCODES","Códigos cortos");
 define("LAN_DISPLAYOPT", "Editar opciones de visualización");
-define("LAN_TIMESTAMP", "Marca de tiempo");
-define("LAN_PAGE", "PÁGINA");
-define("LAN_AGENT", "AGENTE");
-define("LAN_LANG", "Idioma");
-define("LAN_APPROVE", "Aprobar");
+// define("LAN_GOPAGE", "Ir a página:");
+// define("LAN_DATESTAMP","Fecha");
+define("LAN_TIMESTAMP","Hora");
+
+define("LAN_PAGE","PÁGINA");
+define("LAN_AGENT","NAVEGADOR");
+define("LAN_LANG","Idioma");
+define("LAN_APPROVE","Aprobar");
 define("LAN_OPTIONAL", "opcional");
-define("LAN_INACTIVE", "Inactivo");
-define("LAN_ACTIVATE", "Activar");
-define("LAN_ACCEPT", "Aceptar");
-define("LAN_PASSWORD_WARNING", "Se recomienda ALTAMENTE que [cambie la codificación de su contraseña] a la configuración predeterminada de PHP. (Los hashes de contraseñas se actualizarán automáticamente durante el inicio de sesión del usuario.)");
-define("LAN_PENDING", "Pendiente");
-define("LAN_SUBMITTED", "Enviado");
-define("LAN_POSTED_BY_X", "Publicado por [x] [y]");
-define("LAN_VIEW_ALL", "Ver todo");
-define("LAN_BAN", "Prohibición de");
-define("LAN_PATH", "Camino");
+define("LAN_INACTIVE","Inactivo");
+define("LAN_ACTIVATE","Activar");
+define("LAN_ACCEPT","Aceptar");
+define("LAN_PASSWORD_WARNING", "Se recomienda encarecidamente [cambiar tu codificación de contraseña] a PHP por defecto.");
+define("LAN_PENDING","Pendiente");
+define("LAN_SUBMITTED","Enviado");
+define("LAN_POSTED_BY_X","Publicado por [x] [y]");
+define("LAN_VIEW_ALL","Ver todo");
+
+define("LAN_BAN","Bloquear");
+define("LAN_PATH", "Ruta");
+
 define("LAN_UPLOAD", "Subir");
-define("LAN_UPLOADS", "Carga de fotos");
-define("LAN_UPLOAD_IMAGES", "Subir imágenes");
-define("LAN_UPLOAD_FILES", "Cargar archivos");
-define("LAN_UPLOAD_ADDFILE", "Añadir otro archivo");
-define("LAN_UPLOAD_CONFIRM", "Se perderán los cambios no guardados para esta página. ¿Desea continuar?");
-define("LAN_UPLOAD_777", "Carpeta es falta o no puede escribir, tienes que CHMOD 777 la carpeta siguiente antes de cargar:");
-define("LAN_UPLOAD_SERVEROFF", "Esta opción está deshabilitada como subir archivo no está habilitada en el servidor");
-define("LAN_WIDTH", "Ancho");
-define("LAN_HEIGHT", "Altura");
-define("LAN_ON", "Encendido");
-define("LAN_OFF", "Apagado");
-define("LAN_DISABLE", "Apagar");
-define("LAN_DISABLED", "Con discapacidad");
+define("LAN_UPLOADS","Subidas");
+define("LAN_UPLOAD_IMAGES","Subir imágenes");
+define("LAN_UPLOAD_FILES","Subir archivos");
+define("LAN_UPLOAD_ADDFILE","Añadir otro archivo");
+define("LAN_UPLOAD_CONFIRM","¿Continuar sin guardar los cambios? Se perderán.");
+define("LAN_UPLOAD_777","La carpeta no existe o no tiene permisos. CHMOD 777 a:");
+define("LAN_UPLOAD_SERVEROFF", "Esta opción está desactivada. Subidas no habilitadas en el servidor");
+define("LAN_WIDTH","Ancho");
+define("LAN_HEIGHT","Alto");
+
+define("LAN_ON","ON");
+define("LAN_OFF", "OFF");
+define("LAN_DISABLE", "Desactivar");
+define("LAN_DISABLED","OFF");
 define("LAN_ENABLE", "Activar");
-define("LAN_ENABLED", "Habilitado");
+define("LAN_ENABLED", "ON");
 define("LAN_BOOL_REVERSE", "Invertir");
+
 define("LAN_DETAILS", "Detalles");
-define("LAN_NOT_AVAILABLE", "No disponible");
-define("LAN_AUTO_GENERATED", "Generado automáticamente");
-define("LAN_AUTOMATION", "Automatización");
-define("LAN_PRESET_CONFIRMSAVE", "¿Guardar valores del formulario actual como el valor predeterminado de esta página?");
+define("LAN_NOT_AVAILABLE","No disponible");
+define("LAN_AUTO_GENERATED","Generado automáticamente");
+define("LAN_AUTOMATION","Automatización");
+
+define("LAN_PRESET_CONFIRMSAVE","¿Guardar valores actuales como predefinidos?");
 define("LAN_CONFIGURE", "Configurar");
+
+// define("LAN_BACK", "Volver");
+
 define("LAN_NOPERMISSION", "sin permisos");
-define("LAN_NO_ADMIN_PERMISSION", "No tiene permisos de administrador para [x]");
-define("LAN_CREDITS", "Créditos");
-define("LAN_NEWVERSION", "E107 v[x] disponible");
-define("LAN_CHECKALL", "Marque todas las");
-define("LAN_UNCHECKALL", "Desmarcar todos");
-define("LAN_DELCHECKED", "Comprobada la cancelación");
+define("LAN_NO_ADMIN_PERMISSION", "No tienes permisos de administrador para [x]");
+
+define("LAN_CREDITS","Créditos");
+define("LAN_NEWVERSION","e107 v[x] está disponible para descargar.");
+
+define("LAN_CHECKALL", "Marcar todo");
+define("LAN_UNCHECKALL", "Desmarcar todo");
+define("LAN_DELCHECKED", "Eliminar marcados");
+
 define("LAN_USERCLASS", "Clase de usuario");
-define("LAN_MANAGER", "Administrar permisos");
+define("LAN_MANAGER", "Gestor");
+
 define("LAN_HELP", "Ayuda");
-define("LAN_CUSTOM", "Configuración personalizada");
-define("LAN_MENULAYOUT", "Diseño de menús");
-define("LAN_MEDIAMANAGER", "Gestor de Medios");
-define("LAN_MOREINFO", "Más información...");
-define("LAN_COMMENTMAN", "Administrador de comentarios");
-define("LAN_FILTER", "Filtro");
+define("LAN_CUSTOM", "Personalizado");
+define("LAN_MENULAYOUT", "Diseño del menú");
+define("LAN_MEDIAMANAGER", "Gestor multimedia");
+
+define("LAN_MOREINFO","Más información...");
+define("LAN_COMMENTMAN", "Gestor de comentarios");
+
+define("LAN_FILTER", "Filtrar");
+// define("LAN_NO_RECORDS", "No se encontraron registros");
 define("LAN_STATUS", "Estado");
 define("LAN_URL", "URL");
+
 define("LAN_OWNER", "Propietario");
-define("LAN_PURCHASE", "Compra");
+define("LAN_PURCHASE", "Comprar");
 define("LAN_DOWNLOADING", "Descargando");
+
 define("LAN_ID", "ID");
 define("LAN_TEST", "Prueba");
+
+
 define("LAN_VISIBILITY", "Visibilidad");
-define("LAN_VISIBLE_TO", "Visible a");
+define("LAN_VISIBLE_TO", "Visible para");
 define("LAN_PARENT", "Padre");
+
 define("LAN_ICON", "Icono");
 define("LAN_LOADING", "Cargando...");
-define("LAN_RUN", "Ejecutar");
-define("LAN_SEFURL", "URL SEF");
-define("LAN_COPY", "Copia");
-define("LAN_KEYWORDS", "Palabras clave");
-define("LAN_TEMPLATE", "Plantilla");
-define("LAN_TEMPLATES", "Plantillas");
-define("LAN_DEMO_FORBIDDEN", "Cambios en esta página no están posibles en modo demo.");
-define("LAN_COPYRIGHT", "Derechos de autor");
-define("LAN_MANAGEPERMS", "Administrar permisos");
+
+// define("LAN_GO","Ir");
+define("LAN_RUN","Ejecutar"); 
+define("LAN_SEFURL","URL amigable");
+define("LAN_COPY","Copiar");
+define("LAN_KEYWORDS","Palabras clave");
+
+define("LAN_TEMPLATE","Plantilla");
+define("LAN_TEMPLATES","Plantillas");
+
+// define("LAN_NONE", "Ninguno");
+// define("LAN_CATEGORIES", "Categorías");
+define("LAN_DEMO_FORBIDDEN", "No se pueden hacer cambios en modo demo.");
+define("LAN_COPYRIGHT", "Derechos de Autor");
+define("LAN_MANAGEPERMS", "Gestionar permisos");
 define("LAN_PING", "Ping");
-define("LAN_START", "A partir de");
-define("LAN_END", "Final");
+define("LAN_START", "Inicio");
+define("LAN_END", "Fin");
+
 define("LAN_PREVIEW", "Vista previa");
+
 define("LAN_CREATE_CATEGORY", "Crear categoría");
-define("LAN_CREATE_ITEM", "Crear artículo");
+define("LAN_CREATE_ITEM", "Crear elemento");
+
+
 define("LAN_SECURITYL_0", "Buscando problemas (ninguno)");
 define("LAN_SECURITYL_5", "Equilibrado");
-define("LAN_SECURITYL_7", "Alta");
+define("LAN_SECURITYL_7", "Alto");
 define("LAN_SECURITYL_9", "Paranoico");
-define("LAN_SECURITYL_10", "Loco");
-define("LAN_BATCH_LABEL_SELECTED", "Con seleccionado...");
+define("LAN_SECURITYL_10", "Insano");
+
+define("LAN_BATCH_LABEL_SELECTED", "Con los seleccionados...");
 define("LAN_BATCH_LABEL_PREFIX", "Modificar");
-define("LAN_LABEL_LABEL_SELECTED", "Filtro");
+define("LAN_LABEL_LABEL_SELECTED", "Filtrar");
 define("LAN_FILTER_LABEL_PREFIX", "Filtrar por");
-define("LAN_FILTER_LABEL_DISPLAYALL", "Mostrar todas las");
-define("LAN_FILTER_LABEL_CLEAR", "Borrar filtro");
-define("LAN_FILTER_LABEL_TYPED", "(escritos)");
-define("LAN_UI_NOPID_ERROR", "No hay ningún conjunto de [b]ID primaria[/ b]");
-define("LAN_UI_BATCHDEL_ERROR", "Cancelación de lotes no permitida!");
-define("LAN_UI_404_BODY_ERROR", "Página solicitada no fue encontrada!");
+define("LAN_FILTER_LABEL_DISPLAYALL", "Mostrar todo");
+define("LAN_FILTER_LABEL_CLEAR", "Limpiar filtro");
+define("LAN_FILTER_LABEL_TYPED", "(escrito)");
+
+define("LAN_UI_NOPID_ERROR", "No se estableció un [b]ID Principal[/b]");
+define("LAN_UI_BATCHDEL_ERROR", "¡Eliminación masiva no permitida!");
+define("LAN_UI_404_BODY_ERROR", "¡Página no encontrada!");
 define("LAN_UI_404_TITLE_ERROR", "Página no encontrada");
-define("LAN_UI_404_METHOD_ERROR", "Acción [x] no encontrado!");
-define("LAN_UI_403_BODY_ERROR", "Se deniega el acceso a la página solicitada.");
+define("LAN_UI_404_METHOD_ERROR", "¡Acción [x] no encontrada!");
+define("LAN_UI_403_BODY_ERROR", "Acceso denegado a la página solicitada.");
 define("LAN_UI_403_TITLE_ERROR", "Acceso denegado");
-define("LAN_UI_FORM_METHOD_ERROR", "FATAL ERROR: El nombre de campo [x] no está permitido. Por favor cambiar el nombre de la tecla [x] a otra cosa tu tabla campos de matriz y la base de datos (si es necesario).");
+define("LAN_UI_FORM_METHOD_ERROR", "ERROR: El nombre de campo [x] no está permitido.");
 define("LAN_UNKNOWN_ERROR", "Error desconocido");
 define("LAN_SQL_ERROR", "Error de SQL");
-define("LAN_UI_BATCH_UPDATE_SUCCESS", "[x] puesto para [y] registros.");
-define("LAN_UI_BATCH_REVERSED_SUCCESS", "[x] registros revirtió con éxito.");
-define("LAN_UI_BATCH_BOOL_SUCCESS", "[x] registros actualizados correctamente.");
-define("LAN_UI_BATCH_DEATTACH_SUCCESS", "[x] extraído de registros [y].");
-define("LAN_UI_EDIT_LABEL", "Actualizar registro #[x]");
+
+define("LAN_UI_BATCH_UPDATE_SUCCESS", "[x] establecido para [y] registros.");
+define("LAN_UI_BATCH_REVERSED_SUCCESS", "[x] registros invertidos.");
+define("LAN_UI_BATCH_BOOL_SUCCESS", "[x] registros actualizados.");
+define("LAN_UI_BATCH_DEATTACH_SUCCESS", "[x] eliminado de [y] registros.");
+
+define("LAN_UI_EDIT_LABEL", "Editar registro #[x]");
 define("LAN_UI_CREATE_LABEL", "Crear nuevo registro");
-define("LAN_UI_PREF_LABEL", "Configuración");
-define("LAN_UI_DELETE_LABEL", "Confirmar borrar");
-define("LAN_UI_DELETE_WARNING", "Sois unos registros delete [x]. Por favor confirmar para continuar.");
-define("LAN_UI_BATCH_CREATELINK", "Crear enlace");
-define("LAN_UI_DELETED", "[x] registros eliminados correctamente!");
-define("LAN_UI_DELETED_FAILED", "[x] registros no encontrados y no eliminados!");
-define("LAN_UI_FILE_DELETED", "[x] archivo eliminado correctamente!");
-define("LAN_UI_FILE_DELETED_FAILED", "No se puede eliminar [x]! Elimine el archivo manualmente.");
+define("LAN_UI_PREF_LABEL", "Ajustes");
+define("LAN_UI_DELETE_LABEL", "Confirmar eliminación");
+define("LAN_UI_DELETE_WARNING", "Vas a eliminar [x] registros. Confirma para continuar.");
+define("LAN_UI_BATCH_CREATELINK", "Crear enlace de navegación");
+define("LAN_UI_DELETED", "¡[x] registros eliminados!");
+define("LAN_UI_DELETED_FAILED", "¡[x] registros no encontrados!");
+define("LAN_UI_FILE_DELETED", "¡Archivo [x] eliminado!");
+define("LAN_UI_FILE_DELETED_FAILED", "¡No se pudo eliminar [x]! Elimínalo manualmente.");
 define("LAN_UI_BATCH_EXPORT", "Exportar");
-define("LAN_UI_USING_DATABASE_TABLE", "Tabla de base de datos usando la [x]");
-define("LAN_UI_TOTAL_RECORDS", "Total registros: [x]");
+
+define("LAN_UI_USING_DATABASE_TABLE", "Usando tabla [x]");
+define("LAN_UI_TOTAL_RECORDS", "Total de registros: [x]");
 define("LAN_UI_FILTER_PAST_HOUR", "Última hora");
-define("LAN_UI_FILTER_PAST_24_HOURS", "Últimas 24 horas");
-define("LAN_UI_FILTER_PAST_WEEK", "Semana pasada");
-define("LAN_UI_FILTER_PAST_MONTH", "El mes pasado");
-define("LAN_UI_FILTER_PAST_XMONTHS", "Los últimos [x] meses");
-define("LAN_UI_FILTER_PAST_YEAR", "Año pasado");
-define("LAN_USER_MANAGEALL", "Administrar la configuración de todos los usuario, Userclass y campo de usuario extendido");
+define("LAN_UI_FILTER_PAST_24_HOURS", "Últimas 24h");
+define("LAN_UI_FILTER_PAST_WEEK", "Última semana");
+define("LAN_UI_FILTER_PAST_MONTH", "Último mes");
+define("LAN_UI_FILTER_PAST_XMONTHS", "Últimos [x] meses");
+define("LAN_UI_FILTER_PAST_YEAR", "Último año");
+
+define("LAN_USER_MANAGEALL", "Gestionar todos los ajustes de usuario");
 define("LAN_USER_LIST", "Lista de usuarios");
-define("LAN_USER_QUICKADD", "Rápido agregar usuario");
-define("LAN_USER_NOT_FOUND", "Usuario no encontrado.");
-define("LAN_USER_PRUNE", "Usuarios de ciruela pasa");
+define("LAN_USER_QUICKADD","Añadir usuario rápido");
+define("LAN_USER_NOT_FOUND","Usuario no encontrado.");
+define("LAN_USER_PRUNE", "Depurar usuarios");
 define("LAN_USER_OPTIONS", "Opciones de usuario");
 define("LAN_USER_RANKS", "Rangos de usuario");
-define("LAN_CONTROL_PANEL", "Control Panel de [x]");
+define("LAN_CONTROL_PANEL", "Panel de Control - [x]");
 define("LAN_CUSTOM_URL", "URL personalizada");
-define("LAN_CUSTOM_URL_DISABLED", "Discapacitados o Entra URL personalizada");
+define("LAN_CUSTOM_URL_DISABLED", "Desactivado o introduce URL personalizada");
+
 define("LAN_GENERAL", "General");
-define("LAN_GEN_PW", "Generar una contraseña");
-define("LAN_DISPL_PW", "Mostrar la contraseña");
-define("LAN_WILL_OVERWRITE_SEF", "Esto sobrescribirá su URL SEF existente.");
-define("LAN_CAPTION", "Subtítulo");
-define("LAN_LIMIT", "Limite");
+define("LAN_GEN_PW", "Generar contraseña");
+define("LAN_DISPL_PW", "Mostrar contraseña");
+define("LAN_WILL_OVERWRITE_SEF", "Esto sobrescribirá tu URL amigable actual.");
+
+define("LAN_CAPTION", "Título");
+define("LAN_LIMIT", "Límite");
 define("LAN_BASIC", "Básico");
 define("LAN_EXTENDED", "Extendido");
 define("LAN_ADVANCED", "Avanzado");
 define("LAN_DISPLAY", "Mostrar");
 define("LAN_FOLDER", "Carpeta");
-define("LAN_PERSONALIZE_ICONS", "Personalizar iconos");
-define("LAN_PERSONALIZE_MENUS", "Personalizar menús");
+define("LAN_PERSONALIZE_ICONS", "Personalizar Iconos");
+define("LAN_PERSONALIZE_MENUS", "Personalizar Menús");
 define("LAN_LATEST_COMMENTS", "Últimos comentarios");
 define("LAN_COMMENTS_ALLOWED", "Comentarios permitidos");
 define("LAN_PERSONALIZE", "Personalizar");
-define("LAN_SETTINGS_NOT_SAVED_NO_CHANGES_MADE", "Los ajustes no se guardaron, ya que no se realizaron cambios.");
-define("LAN_DASHBOARD_LAYOUT", "Disposición del tablero de instrumentos");
-define("LAN_UNAVAILABLE", "Indisponible");
+
+define("LAN_SETTINGS_NOT_SAVED_NO_CHANGES_MADE", "Sin cambios efectuados.");
+define("LAN_DASHBOARD_LAYOUT", "Diseño de Panel de Control");
+define("LAN_UNAVAILABLE", "No disponible");
 define("LAN_UNINSTALL", "Desinstalar");
-define("LAN_NO_LABEL_PROVIDED", "No hay etiqueta proporcionada");
-define("LAN_NOT_FOUND", "Extraviado");
+define("LAN_NO_LABEL_PROVIDED", "Sin etiqueta");
+define("LAN_NOT_FOUND", "¡No encontrado!");
 define("LAN_FIELD", "Campo");
+
 define("LAN_MAINTENANCE", "Mantenimiento");
-define("LAN_RETURN_TO_FRONT_PANEL", "Volver al panel frontal");
+define("LAN_RETURN_TO_FRONT_PANEL", "Volver al panel principal");
 define("LAN_CHANGE_LANGUAGE", "Cambiar idioma");
-define("LAN_NEWER_VERSION_OF_X", "Una versión más reciente de [x] [y] está disponible para su descarga.");
-define("LAN_ITEM", "Artículo");
+
+define("LAN_NEWER_VERSION_OF_X", "Hay una versión más nueva de [x] [y] disponible.");
+
+define("LAN_ITEM", "Elemento");
 define("LAN_LOCK", "Bloquear");
 define("LAN_SYSTEM_USER", "Usuario del sistema");
 define("LAN_ENGINE", "Motor");
 define("LAN_SOURCE", "Fuente");
-define("LAN_UPGRADING", "¿Mejorando?");
-define("LAN_DONT_SHOW_AGAIN", "No vuelvas a aparecer.");
-define("LAN_ERROR_CONNECTION", "No se puede conectar para actualizaciones. Compruebe el firewall y / o la conexión a Internet.");
-define("LAN_UI_X_CANT_EQUAL_Y", "[X] no puede ser el mismo que [y]");
-define("LAN_UI_VIEW_GRID_LABEL", "Vista en modo de cuadrícula");
-define("LAN_UI_VIEW_LIST_LABEL", "Vista en modo de lista");
-define("LAN_CHECKING_FOR_UPDATES", "Comprobando actualizaciones");
+define("LAN_UPGRADING", "¿Actualizando?");
+define("LAN_DONT_SHOW_AGAIN", "No mostrar de nuevo");
+
+define("LAN_ERROR_CONNECTION","No se pudo conectar para actualizaciones. Verifica tu conexión.");
+
+define("LAN_UI_X_CANT_EQUAL_Y", "[x] no puede ser igual a [y]");
+define("LAN_UI_VIEW_GRID_LABEL", "Vista de cuadrícula");
+define("LAN_UI_VIEW_LIST_LABEL", "Vista de lista");
+define("LAN_CHECKING_FOR_UPDATES", "Buscando actualizaciones");
+
 define("LAN_UI_FILTER_NEXT_HOUR", "Próxima hora");
-define("LAN_UI_FILTER_NEXT_24_HOURS", "Las próximas 24 horas");
-define("LAN_UI_FILTER_NEXT_WEEK", "La próxima semana");
-define("LAN_UI_FILTER_NEXT_MONTH", "El próximo mes");
-define("LAN_UI_FILTER_NEXT_XMONTHS", "Los próximos [x] meses");
-define("LAN_UI_FILTER_NEXT_YEAR", "El año que viene");
+define("LAN_UI_FILTER_NEXT_24_HOURS", "Próximas 24h");
+define("LAN_UI_FILTER_NEXT_WEEK", "Próxima semana");
+define("LAN_UI_FILTER_NEXT_MONTH", "Próximo mes");
+define("LAN_UI_FILTER_NEXT_XMONTHS", "Próximos [x] meses");
+define("LAN_UI_FILTER_NEXT_YEAR", "Próximo año");
 define("LAN_UI_FILTER_IS_EMPTY", "Está vacío");
-define("LAN_RECALCULATE_COMMENT_COUNT", "Recalcular el recuento de comentarios");
-define("LAN_SUCC_RECALCULATE_COMMENT_COUNT", "¡El recuento de comentarios ha sido recalculado con éxito!");
-define("LAN_NO_RESULTS_FOUND", "No se han encontrado resultados.");
-define("LAN_UI_DROPZONE_DROP_FILES", "Deje caer los archivos aquí para subirlos");
-define("LAN_DOWNLOAD_COMPLETE", "Descarga completa!");
-define("LAN_UI_FILTER_SEARCH_IN_FIELD", "Buscar en el campo");
+define("LAN_RECALCULATE_COMMENT_COUNT", "Recalcular conteo de comentarios");
+define("LAN_SUCC_RECALCULATE_COMMENT_COUNT", "¡Conteo de comentarios recalculado!");
+define("LAN_NO_RESULTS_FOUND", "No se encontraron resultados.");
+
+define("LAN_UI_DROPZONE_DROP_FILES", "Suelta archivos aquí para subir");
+
+define("LAN_DOWNLOAD_COMPLETE", "¡Descarga completada!");
+
+define("LAN_UI_FILTER_SEARCH_IN_FIELD", "Buscar en campo");
+
 define("LAN_ROBOTS", "Robots");
-define("LAN_ROBOTS_NOINDEX", "Evitar que los motores de búsqueda indexen este artículo.");
-define("LAN_ROBOTS_NOFOLLOW", "Evitar que los motores de búsqueda sigan los enlaces de este artículo.");
-define("LAN_ROBOTS_NOARCHIVE", "Evitar que las copias en caché de este artículo aparezcan en los resultados de la búsqueda.");
-define("LAN_ROBOTS_NOIMAGE", "Evitar que los motores de búsqueda indexen las imágenes de este artículo.");
+define("LAN_ROBOTS_NOINDEX", "Evitar indexación por motores de búsqueda");
+define("LAN_ROBOTS_NOFOLLOW", "Evitar seguimiento de enlaces");
+define("LAN_ROBOTS_NOARCHIVE", "Evitar copias en caché");
+define("LAN_ROBOTS_NOIMAGE", "Evitar indexación de imágenes");
+
 define("LAN_NAVIGATION", "Navegación");
 define("LAN_NAVIGATION_LINKS", "Enlaces de navegación");
 define("LAN_PAGINATION", "Paginación");
 define("LAN_X_CHARS_REMAINING", "[x] caracteres restantes");
+define("LAN_UI_BATCH_NOW", "Fecha/hora actual");
+define("LAN_RELATIONSHIP", "Relación");
+define("LAN_RELATIONSHIP_HELP", "Atributo 'rel' opcional. Separado por comas.");
+
+define("LAN_NO_SCRIPT_ACCESS", "No tienes permiso para usar etiquetas [script].");
+define("LAN_NO_SCRIPT_ACCESS_ASK",  "Si es un error, pide al administrador acceso en [b]Preferencias > Filtros de contenido[/b]");
+
+define("LAN_UI_FILTER_TODAY", "Hoy");
+define("LAN_UI_FILTER_THIS_WEEK", "Esta semana");
+define("LAN_UI_FILTER_THIS_MONTH", "Este mes");
+define("LAN_UI_FILTER_THIS_YEAR", "Este año");
+
+define("LAN_SEARCH_ENGINES_X_LIMIT", "Leído por motores de búsqueda. Máximo [x] caracteres.");
+define("LAN_META_TITLE", "Meta título");
+define("LAN_META_DESCRIPTION", "Meta descripción");
+
+define("LAN_SYSTEM_NOTIFICATIONS_X", "[x] Notificación(es) del sistema");
+define("LAN_PHP_OUTDATED", "Tu sitio usa una [versión obsoleta de PHP]. Actualiza a [x].");
+define("LAN_DATABASE_UPDATE", "Actualización de base de datos disponible. [Ejecútala] pronto.");

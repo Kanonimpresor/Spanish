@@ -1,32 +1,37 @@
 <?php
 /*
- * Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
- * $Id$
- *
- * Frontpage Admin Help
- * 
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
 */
 
 if (!defined('e107_INIT')) { exit; }
 
-$caption = "Front Page Help";
-/* FIXME - English native speakers: what should stay and what should go? 
+$caption = "Ayuda:<br />
+			# Página Principal";
+/* FIXME - Hablantes nativos de inglés: ¿qué debería mantenerse y qué debería eliminarse?
 	<p>
-		The list of rules are scanned in turn, until the class of the current user matches. 
-		This then determines the user's front (home) page, and also the page he sees immediately after login.
+		La lista de reglas se escanea en orden, hasta que coincida con la clase del usuario actual.
+		Esto determina entonces la página principal (de inicio) del usuario, así como la página que ve inmediatamente después de iniciar sesión.
 	</p>
  */
 $text = "
 <p>
-	From this screen you can choose what to display as the front page of your site, the default is news. You can also determine whether
-	users are sent to a particular page after logging in.
+	Desde esta pantalla puedes elegir qué mostrar como página principal de tu sitio; la opción predeterminada es noticias. También puedes decidir si los usuarios deben ser redirigidos a una página específica tras iniciar sesión.
 </p>
 <p>
-	The rules are searched in order, to find the first where the current user belongs to the class specified in the rule. 
-	That rule then determines the front (home) page and any specific post-login page. If no rule matches, news.php is set as the home page.
+	Las reglas se revisan en orden, buscando la primera en la que el usuario actual pertenezca a la clase especificada en la regla.
+	Esa regla determina la página principal (de inicio) y cualquier página específica posterior al inicio de sesión. Si ninguna regla coincide, se establece news.php como la página de inicio.
 </p>
 <p>
-	The user is sent to the specified &quot;Post-login page&quot; (if specified) immediately following a login.
+	El usuario es redirigido a la &quot;Página posterior al inicio de sesión&quot; especificada (si se ha definido) inmediatamente después de iniciar sesión.
 </p>
 ";
 $ns->tablerender($caption, $text, 'admin_help');

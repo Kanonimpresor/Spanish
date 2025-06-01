@@ -1,0 +1,7 @@
+
+P> ¿Qué son los permisos de acceso?
+R> Te permiten asignar diferentes niveles de acceso a los administradores dentro del área de administración. Por ejemplo, puede que solo quieras permitir que un determinado administrador publique noticias; con los permisos puedes hacer esto. Algunas funciones de administración solo están disponibles para el administrador principal del sitio, por motivos de seguridad.
+
+P> Quiero convertir a un usuario registrado en administrador, ¿cómo lo hago?
+R> Haz clic en Usuarios dentro del área de administración y busca al usuario registrado, luego haz clic en Hacer administrador. Después deberías ir directamente a la sección de Administradores y asignarle sus permisos. También puedes retirar el estado de administrador de alguien desde ahí.
+

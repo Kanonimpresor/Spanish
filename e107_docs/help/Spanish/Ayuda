@@ -1,0 +1,9 @@
+
+P> Hice algunos cambios en mi sitio y ahora estoy recibiendo errores de MySQL y no aparece mi sitio.
+R> Podría ser que tu núcleo se haya corrompido. El núcleo son la configuración y las variables principales de e107. Para restablecer tu núcleo, ve a http://tusitio.com/e107_files/resetcore/resetcore.php. Siempre haz una copia de seguridad de tu núcleo (desde la pantalla de la base de datos) antes de aplicar cambios, luego podrás restaurar la copia de seguridad del núcleo si algo sale mal (de nuevo desde resetcore.php).
+
+P> Olvidé mi contraseña de administrador principal y ahora no puedo acceder al área de administración.
+R> Por razones de seguridad, es imposible restablecer tu contraseña a menos que estés conectado. Si no has anotado tu contraseña en un lugar seguro, hazlo ahora para que este escenario no vuelva a ocurrir. Si sucede, tendrás que restablecer tu contraseña manualmente usando phpMyAdmin o algún otro administrador MySQL similar. Ve a la tabla de usuarios, el administrador principal debe ser el usuario número 1. Haz clic en el botón de editar y cambia la contraseña a 4cb9c8a8048fd02294477fcb1a41191a, esto cambiará tu contraseña a changeme. Ahora inicia sesión y [b]actualiza tu contraseña inmediatamente[/b].
+
+P> Instalé un tema/plugin, etc. y ahora mi sitio es inaccesible, ¿qué puedo hacer?
+R> Usa resetcore.php (ver arriba).

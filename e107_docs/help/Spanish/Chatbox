@@ -1,0 +1,10 @@
+
+P> ¿Para qué sirve la sección Reemplazar enlaces?
+R> Puedes convertir cualquier enlace introducido en tu chatbox en otro texto o en una imagen. Esto evita que tu chatbox se llene con direcciones web largas. Para usar una imagen, marca la opción Reemplazar enlaces y, en la casilla inferior, introduce: <img src='path_to_your_image' alt='' />. A partir de ese momento, cualquier enlace introducido se convertirá en la imagen que hayas definido.
+
+P> ¿Para qué sirve la opción de ajuste de palabras (Wordwrap)?
+R> Si alguien introduce una palabra muy larga en el chatbox, podría alterar el diseño de tu sitio. Si introduces, por ejemplo, 40 en la casilla Wordwrap, cualquier palabra con más de 40 caracteres se ajustará a la línea para no ensanchar la columna. Puede que necesites ajustar este valor según el tema que estés usando y el ancho de la columna en la que se encuentra el chatbox.
+
+P> Mi sitio es para todas las edades, pero alguien sigue poniendo palabrotas en el chatbox. ¿Cómo puedo evitarlo?
+R> Ve a la pantalla de Preferencias en tu sección de administración y busca la opción Protección de menores. Allí puedes añadir una lista de palabras que serán reemplazadas por un texto o palabra que elijas, por ejemplo: ¡CENSURADO! Así, cada vez que aparezca esa palabra en tu sitio, será sustituida automáticamente por el texto que hayas definido.
+

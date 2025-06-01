@@ -1,21 +1,39 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Spanish Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/01/08 18:30:06
+|       e107 content management system.
+|       Spanish language file)
 |
-|        $Author: Norwayman $
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
+// define("WMGLAN_1", "Message for Guests");
+// define("WMGLAN_2", "Message for Members");
+// define("WMGLAN_3", "Message for Administrators");
+// define("WMGLAN_4", "Submit");
+// define("WMGLAN_5", "Set Welcome Message");
+// define("WMGLAN_6", "Activate?");
+// define("WMGLAN_7", "Welcome message settings updated.");
 
-define("WMLAN_00", "Mensajes de bienvenida");
-define("WMLAN_05", "Adjuntar");
-define("WMLAN_06", "Cuando está activado, se mostrará el mensaje dentro de una caja");
-define("WMLAN_07", "Reemplazar el sistema estándar para utilizar código de {WMESSAGE}:");
-define("WMLAN_11", "Incluido con carrusel");
-define("WMLAN_12", "Ayuda del mensaje de bienvenida");
-define("WMLAN_13", "Esta página le permite configurar un mensaje que aparecerá en la parte superior de su página principal todo el tiempo que esté activado. Puede configurar un mensaje diferente para los invitados, miembros registrados y registrados y administradores.");
+define("WMLAN_00","Mensajes de Bienvenida");
+// define("WMLAN_01","Create New Message");
+// define("WMLAN_02","Message");
+// define("WMLAN_03","Visibility");
+// define("WMLAN_04","Message Text");
 
+define("WMLAN_05","Enmarcado");
+define("WMLAN_06","Cuando está activado, el mensaje se mostrará dentro de un recuadro");
+define("WMLAN_07","Invalidar el sistema estándar para usar el shortcode {WMESSAGE}:");
+// define("WMLAN_08","Preferences");
+
+// define("WMLAN_09","No welcome messages set yet");
+// define("WMLAN_10","Message Caption");
+
+define("WMLAN_11","Incluido en Carrusel");
+define("WMLAN_12","Ayuda sobre Mensajes de Bienvenida");
+define("WMLAN_13","Esta página permite configurar mensajes que aparecerán en la parte superior de tu portada mientras estén activos. Puedes establecer mensajes diferentes para invitados, miembros registrados y administradores.");
 

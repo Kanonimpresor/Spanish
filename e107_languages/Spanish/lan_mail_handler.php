@@ -1,13 +1,21 @@
 <?php
+/*
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LANMAILH_1", "Sistema web de e107");
-define("LANMAILH_2", "Este es un mensaje de varias parte en formato MIME.");
-define("LANMAILH_3", "no está formateado correctamente");
-define("LANMAILH_4", "Dirección del servidor rechazado");
+define("LANMAILH_1", "Producido por e107 website system");
+define("LANMAILH_2", "Este es un mensaje multi-part en formato MIME.");
+define("LANMAILH_3", " no esta formateado apropiadamente");
+define("LANMAILH_4", "Mensaje rechazado por el servidor");
 define("LANMAILH_5", "No hay respuesta del servidor");
-define("LANMAILH_6", "No puede encontrar el servidor de correo electrónico.");
-define("LANMAILH_7", "parece ser válida.");
+define("LANMAILH_6", "No se puede encontrar servidor E-Mail.");
+define("LANMAILH_7", " parece ser válido.");

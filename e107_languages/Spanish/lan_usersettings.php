@@ -1,96 +1,80 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Spanish Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2016/02/24 17:56:54
+|       e107 content management system.
+|       Spanish language file)
 |
-|        $Author: Administrador $
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
+
 if(!defined('PAGE_NAME'))
 {
 	define("PAGE_NAME", "Configuración de usuario");
 }
 
-define("MAX_AVWIDTH", "Tamaño máximo del avatar (wxh) es");
-define("MAX_AVHEIGHT", "x");
+define("MAX_AVWIDTH", "El tamaño máximo del avatar (ancho x alto) es ");
+define("MAX_AVHEIGHT", " x ");
+// define("GIF_RESIZE", "Por favor, redimensiona la imagen GIF o conviértela a otro formato");
+//define("RESIZE_NOT_SUPPORTED", "Este servidor no admite el método de redimensionado. Por favor, redimensiona la imagen o elige otra. El archivo ha sido eliminado.");
+
+
+// v0.7
 define("LAN_USET_1", "Tu avatar es demasiado ancho");
-define("LAN_USET_2", "Anchura máxima admisible es de");
-define("LAN_USET_3", "Tu avatar es demasiado alta");
-define("LAN_USET_4", "Altura máxima permitida es de");
-define("LAN_USET_7", "Diverso");
+define("LAN_USET_2", "El ancho máximo permitido es");
+define("LAN_USET_3", "Tu avatar es demasiado alto");
+define("LAN_USET_4", "La altura máxima permitida es");
+//define("LAN_USET_5", "Suscrito a");					// Now LAN_USER_76
+//define("LAN_USET_6", "Suscríbete a nuestra(s) lista(s) de correo y/o secciones de este sitio.");		Now LAN_USER_73
+define("LAN_USET_7", "Varios");
 define("LAN_USET_8", "Firma del usuario");
-define("LAN_USET_9", "Algunos de los campos obligatorios (marcados con un *) faltan en la configuración.");
-define("LAN_USET_10", "Por favor actualice su configuración, para proceder.");
-define("LAN_USET_11", "Ese nombre de usuario no puede ser aceptado como válido, por favor, elija un nombre de usuario diferente");
-define("LAN_USET_12", "Ese nombre de pantalla es demasiado corto. Por favor, elige otro");
-define("LAN_USET_13", "Caracteres no válidos en nombre de usuario. Por favor, elige otro");
-define("LAN_USET_14", "Nombre demasiado largo. Por favor, elige otro");
-define("LAN_USET_15", "Nombre demasiado largo. Por favor, elige otro");
-define("LAN_USET_16", "Casilla para borrar la foto existente sin subir otro");
-define("LAN_USET_17", "Nombre ya utilizado. Por favor, elige otro");
-define("LAN_USET_18", "Datos de usuario modifican por admin: [x], el nombre de usuario: [y]");
-define("LAN_USET_20", "También debe cambiar la contraseña del usuario si va a cambiar su nombre o correo electrónico dirección de login");
-define("LAN_USET_21", "Por favor valide los cambios por reingresar su contraseña:");
-define("LAN_USET_23", "Deje en blanco para mantener la contraseña existente");
-define("LAN_USET_24", "Nueva contraseña:");
-define("LAN_USET_25", "Reingrese la nueva contraseña:");
-define("LAN_USET_26", "Subir tu avatar");
-define("LAN_USET_27", "Subir tu fotografía");
-define("LAN_USET_28", "Esto aparecerá en tu página de perfil");
-define("LAN_USET_30", "¿Qué es esto?");
-define("LAN_USET_31", "Información de registro");
-define("LAN_USET_32", "Nota: cualquier imagen subido a este servidor que se considera inadecuado por los administradores será borrado inmediatamente.");
-define("LAN_USET_33", "Elegir avatar almacenados en el sitio");
-define("LAN_USET_34", "Avatar control remoto uso");
-define("LAN_USET_35", "Por favor, escriba la dirección completa a la imagen");
-define("LAN_USET_36", "Haga clic para ver avatares almacenados en este sitio");
-define("LAN_USET_37", "Guardar la configuración");
-define("LAN_USET_38", "Elegir avatar");
-define("LAN_USET_39", "Actualizar configuración del usuario");
-define("LAN_USET_40", "Las dos contraseñas no coinciden");
-define("LAN_USET_41", "Valores actualizados y guardados en la base de datos.");
-define("LAN_USET_42", "Discrepancia en la clave de validación");
+define("LAN_USET_9", "Faltan algunos campos obligatorios (marcados con *) en tu configuración.");
+define("LAN_USET_10","Por favor, actualiza tu configuración ahora para continuar.");
+define("LAN_USET_11", "Este nombre de usuario no es válido. Por favor, elige otro");
+define("LAN_USET_12", "El nombre para mostrar es demasiado corto. Por favor, elige otro");
+define("LAN_USET_13", "Caracteres no válidos en el nombre de usuario. Por favor, elige otro");
+define("LAN_USET_14", "El nombre de inicio de sesión es demasiado largo. Por favor, elige otro");
+define("LAN_USET_15", "El nombre para mostrar es demasiado largo. Por favor, elige otro");
+define("LAN_USET_16", "Marca la casilla para eliminar la foto actual sin subir otra");
+define("LAN_USET_17", "El nombre para mostrar ya está en uso. Por favor, elige otro");
+define("LAN_USET_18", "Datos del usuario modificados por el administrador: [x], nombre de inicio de sesión: [y]");
+//define("LAN_USET_19", "Título personalizado");			Now LAN_USER_74
+define("LAN_USET_20", "Debes cambiar también la contraseña si modificas el nombre de inicio de sesión o dirección de correo");
+define("LAN_USET_21", "Por favor, valida los cambios reintroduciendo tu contraseña: ");
+//define("LAN_USET_22", "¡Contraseña incorrecta!"); // LAN_INCORRECT_PASSWORD
+define("LAN_USET_23", "Deja en blanco para mantener la contraseña actual");		// LAN_401
+define("LAN_USET_24", "Nueva contraseña: ");							// LAN_152
+define("LAN_USET_25", "Repite la nueva contraseña: ");					// LAN_153
+define("LAN_USET_26", "Subir avatar");						// LAN_415
+define("LAN_USET_27", "Subir fotografía");					// LAN_414
+define("LAN_USET_28", "Esto se mostrará en tu página de perfil");	// LAN_426
+//define("LAN_USET_29", "URL de tu archivo XUP");						// LAN_433
+define("LAN_USET_30", "¿qué es esto?");								// LAN_434
+define("LAN_USET_31", "Información de registro");					// LAN_418
+define("LAN_USET_32", "Nota: Cualquier imagen subida que los administradores consideren inapropiada será eliminada inmediatamente.");	// LAN_404
+define("LAN_USET_33", "Elegir avatar del sitio");					// LAN_421
+define("LAN_USET_34", "Usar avatar remoto");							// LAN_422
+define("LAN_USET_35", "Introduce la dirección completa de la imagen");			// LAN_423
+define("LAN_USET_36", "Haz clic para ver avatares almacenados en este sitio");	// LAN_424
+define("LAN_USET_37", "Guardar configuración");								// LAN_154
+define("LAN_USET_38", "Seleccionar avatar");								// LAN_403
+define("LAN_USET_39", "Actualizar configuración de usuario");						// LAN_155
+define("LAN_USET_40", "Las contraseñas no coinciden");			// LAN_105
+define("LAN_USET_41", "Configuración actualizada y guardada correctamente.");	// LAN_150
+define("LAN_USET_42", "Clave de validación no coincide");
 define("LAN_USET_43", "Error al actualizar datos de usuario");
-/*
-define("LAN_7", "Nombre para mostrar:");
-define("LAN_8", "el nombre aparece en el sitio");
-define("LAN_9", "Nombre de usuario:");
-define("LAN_10", "el nombre que utilizas para iniciar sesión en el sitio");
-define("LAN_112", "Dirección de correo electrónico:");
-define("LAN_113", "Ocultar dirección de correo electrónico?:");
-define("LAN_114", "Esto evitará que tu dirección de correo electrónico se muestra en el sitio");
-define("LAN_120", "Firma:");
-define("LAN_122", "Zona horaria:");
-define("LAN_152", "Nueva contraseña:");
-define("LAN_153", "Reingrese la nueva contraseña:");
-define("LAN_154", "Guardar la configuración");
-define("LAN_308", "Nombre real:");
-define("LAN_401", "Deje en blanco para mantener la contraseña existente");
-define("LAN_404", "Nota: cualquier imagen subido a este servidor que se considera inadecuado por los administradores será borrado inmediatamente.");
-define("LAN_414", "Subir tu fotografía");
-define("LAN_415", "Subir tu avatar");
-define("LAN_418", "Información de registro");
-define("LAN_420", "Avatar");
-define("LAN_421", "Elegir avatar almacenados en el sitio");
-define("LAN_422", "Avatar control remoto uso");
-define("LAN_423", "Por favor, escriba la dirección completa a la imagen");
-define("LAN_424", "Haga clic para ver avatares almacenados en este sitio");
-define("LAN_425", "Fotografía");
-define("LAN_426", "Esto aparecerá en tu página de perfil");
-define("LAN_433", "Dirección URL de tu archivo XUP");
-define("LAN_434", "¿Qué es esto?");
-define("LAN_435", "Archivo de protocolo de usuario XML");
-define("LAN_CUSTOMTITLE", "Título personalizado");
-*/
+
 define("LAN_USET_5", "Suscrito a");
-define("LAN_USET_6", "Suscríbete a nuestro listas de correos y/o secciones de este sitio.");
-define("LAN_USET_50", "Borrar la cuenta");
-define("LAN_USET_51", "¿Está seguro? ¡Este procedimiento no puede ser revertido! Una vez completado, su cuenta y cualquier dato personal que haya introducido en este sitio se perderá permanentemente y ya no podrá iniciar sesión.");
-define("LAN_USET_52", "Se ha enviado un correo electrónico de confirmación a [x]. Por favor, haz clic en el enlace del correo electrónico para eliminar tu cuenta de forma permanente.");
-define("LAN_USET_53", "Confirmación de la eliminación de la cuenta");
-define("LAN_USET_54", "Correo electrónico de confirmación enviado");
-define("LAN_USET_55", "Por favor, haga clic en el siguiente enlace para completar la eliminación de su cuenta.");
-define("LAN_USET_56", "Su cuenta ha sido eliminada con éxito.");
+define("LAN_USET_6", "Suscríbete a nuestra(s) lista(s) de correo y/o secciones del sitio.");
+
+define("LAN_USET_50", "Eliminar cuenta");
+define("LAN_USET_51", "¿Estás seguro? ¡Este proceso es irreversible! Al completarlo, tu cuenta y todos tus datos personales se perderán permanentemente y no podrás iniciar sesión.");
+define("LAN_USET_52", "Se envió un correo de confirmación a [x]. Haz clic en el enlace del correo para eliminar tu cuenta permanentemente.");
+define("LAN_USET_53", "Confirmación de eliminación de cuenta");
+define("LAN_USET_54", "Correo de confirmación enviado");
+define("LAN_USET_55", "Haz clic en el siguiente enlace para completar la eliminación de tu cuenta:");
+define("LAN_USET_56", "Tu cuenta ha sido eliminada correctamente.");

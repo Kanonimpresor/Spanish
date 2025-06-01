@@ -1,36 +1,66 @@
 <?php
+/*
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+define("GSLAN_1", "Enlace del sitio");
+define("GSLAN_2", "¿Importar?");
 
-define("GSLAN_1", "Vínculo a sitio");
-define("GSLAN_2", "¿De importación?");
 define("GSLAN_7", "Importar enlaces");
-define("GSLAN_8", "Importación con:");
+define("GSLAN_8", "Importar con:");
 define("GSLAN_9", "Prioridad");
 define("GSLAN_10", "Frecuencia");
 define("GSLAN_11", "siempre");
 define("GSLAN_12", "cada hora");
-define("GSLAN_13", "todos los días");
-define("GSLAN_14", "a la semana");
-define("GSLAN_15", "mensual");
-define("GSLAN_16", "anual");
-define("GSLAN_18", "Importar enlaces disponibles");
+define("GSLAN_13", "diariamente");
+define("GSLAN_14", "semanalmente");
+define("GSLAN_15", "mensualmente");
+define("GSLAN_16", "anualmente");
+
+define("GSLAN_18", "Importar enlaces marcados");
+// define("GSLAN_19", "Mapa del sitio Google");
 define("GSLAN_20", "Listado");
 define("GSLAN_21", "Instrucciones");
 define("GSLAN_22", "Crear nueva entrada");
-define("GSLAN_23", "Importación");
-define("GSLAN_24", "Entradas de Google Sitemap");
-define("GSLAN_27", "Lastmod");
-define("GSLAN_28", "Freq.");
-define("GSLAN_29", "Configuración de Google Sitemap");
-define("GSLAN_32", "Cómo utilizar Google Sitemaps");
-define("GSLAN_33", "Instrucciones de GSiteMap");
-define("GSLAN_34", "En primer lugar, crear los vínculos que desea han enumerado en su sitemap. Puede importar la mayoría de los vínculos haciendo clic en el botón 'Importar' a la derecha");
-define("GSLAN_35", "Si has elegido para importar tus enlaces, haga clic en 'Importar' y luego consultar los enlaces que desee importar");
-define("GSLAN_36", "También puede introducir enlaces individuales manualmente haciendo clic en crear nueva entrada");
-define("GSLAN_37", "Una vez que tengas algunas entradas, ir a [URL] y escriba la dirección URL siguiente-> <b>'. SITEURL.' gsitemap.php</b> - si este enlace no se ve bien a usted, por favor asegúrese de que su url del sitio es correcta en admin-> preferencias");
-define("GSLAN_38", "Para obtener más información sobre protocolo Google Sitemap, vaya a [URL].");
-define("GSLAN_39", "¿No hay enlaces en el mapa del sitio - importar sitelinks?");
-define("GSLAN_50", "Visible al público");
+define("GSLAN_23", "Importar");
+define("GSLAN_24", "Entradas del Mapa del sitio");
+
+define("GSLAN_27", "Últ. modificación");
+define("GSLAN_28", "Frec.");
+define("GSLAN_29", "Configuración del Mapa del sitio Google");
+
+define("GSLAN_32", "Cómo usar Mapas del sitio Google");
+define("GSLAN_33", "Instrucciones GSiteMap");
+define("GSLAN_34", "Primero, crea los enlaces que deseas incluir. Puedes importar la mayoría haciendo clic en 'Importar' a la derecha");
+define("GSLAN_35", "Si eliges importar, haz clic en 'Importar' y marca los enlaces deseados");
+define("GSLAN_36", "También puedes añadir enlaces manualmente con 'Crear nueva entrada'");
+define("GSLAN_38", "Para más información sobre el protocolo, visita [URL].");
+define("GSLAN_39", "No hay enlaces - ¿importar enlaces del sitio?");
+// define("GSLAN_40", "Entradas del Mapa del sitio");
+
+//define("GSLAN_Name", "Mapa del sitio");
+// define("GSLAN_17", "nunca");
+//define("GSLAN_25", "Nombre");
+//define("GSLAN_26", "URL");
+//define("GSLAN_30", "Orden");
+//define("GSLAN_31", "Visible para");
+//define("GSLAN_3", "Tipo");
+//define("GSLAN_4", "Nombre");
+// define("GSLAN_5", "URL");
+// define("GSLAN_6", "Marca los enlaces a importar...");
+// define('GSLAN_41', "Mapa del sitio Google. Más info en <a href='http://www.sitemaps.org/'>http://www.sitemaps.org/</a> o <a href='http://www.google.com/support/webmasters/bin/answer.py?answer=156184'>la página de Google sobre Mapas del sitio</a>");
+//define('GSLAN_42', 'Instalación exitosa');
+
+define("GSLAN_50", "Visible públicamente");
+define("GSLAN_51", "Generado automáticamente desde [x]");
+define("GSLAN_52", "Con entradas creadas, visita [URL] e ingresa estas URLs en la sección Mapas del sitio:[SITEMAP_URLS] (Si alguna URL parece incorrecta, verifica la URL base en [preferences])");
+define("GSLAN_53", "Instrucciones");

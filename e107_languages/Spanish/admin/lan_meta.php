@@ -1,21 +1,27 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Spanish Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2016/02/24 18:20:49
+|       e107 content management system.
+|       Spanish language file)
 |
-|        $Author: Administrador $
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025)
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 
-define("METLAN_00", "Etiquetas Meta");
-define("METLAN_1", "Etiquetas meta adicional");
-define("METLAN_2", "por ejemplo< meta='' name='revisit-after' content='30 days'>");
-define("METLAN_3", "Uso noticias título y resumen como la descripción meta en páginas de noticias.");
+define("METLAN_00", "Meta & Etiquetas Personalizadas");
 
-define("METLAN_4", "Etiquetas personalizadas (dentro de las etiquetas [x])");
+define("METLAN_1", "Etiquetas meta adicionales");
+define("METLAN_2", "Ejemplo: < meta name='revisit-after' content='30 días' />");
+define("METLAN_3", "Usar título y resumen de noticias como meta-descripción en páginas de noticias.");
+
+define("METLAN_4", "Etiquetas personalizadas (dentro de [x])");
 define("METLAN_5", "Etiquetas personalizadas (después de [x])");
 define("METLAN_6", "Etiquetas personalizadas (antes de [x])");
-define("METLAN_7", "Todos los metadatos o etiquetas HTML personalizadas que se introduzcan aquí (como las etiquetas <script> o el código de Google Analytics) se incluirán en todas las páginas del sitio web en las áreas designadas");
+define("METLAN_7", "Cualquier metadato o etiquetas HTML personalizadas (como etiquetas <script> o código de Google Analytics) se incluirán en todas las páginas del sitio en sus áreas designadas.");
+
+define("METLAN_8", "Límite de caracteres para Título SEO");
+define("METLAN_9", "Límite de caracteres para Descripción SEO");

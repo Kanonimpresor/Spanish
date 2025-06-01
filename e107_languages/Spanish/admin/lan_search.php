@@ -1,47 +1,62 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Spanish Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2016/02/24 18:28:16
+|       e107 content management system.
+|       Spanish language file)
 |
-|        $Author: Administrador $
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-
-define("SEALAN_1", "Configuración de búsqueda");
-define("SEALAN_3", "Método de tipo de búsqueda:");
+define("SEALAN_1", "Configuración de búsquedas");
+//define("SEALAN_2", "Número de caracteres mostrados en el resumen de resultados:");
+define("SEALAN_3", "Método de ordenación de búsqueda");
+//define("SEALAN_6", "Comentarios");
 define("SEALAN_7", "Miembros registrados");
-define("SEALAN_10", "Mostrar valor de relevancia:");
-define("SEALAN_11", "Que el usuario pueda seleccionar áreas búsquedas:");
-define("SEALAN_12", "Restringir el tiempo permitido entre búsquedas (máximos 5 minutos):");
-define("SEALAN_13", "Restringir la búsqueda de una cada");
+define("SEALAN_10", "Mostrar valor de relevancia");
+define("SEALAN_11", "Permitir seleccionar áreas de búsqueda");
+define("SEALAN_12", "Tiempo entre búsquedas (máx. 5 min)");
+define("SEALAN_13", "Limitar a una búsqueda cada");
 define("SEALAN_14", "segundos");
-define("SEALAN_15", "Página de búsqueda accesible a la clase de usuario");
-define("SEALAN_18", "Buscar áreas de comentarios (cuando se activa la búsqueda de comentarios)");
-define("SEALAN_19", "Permiten a los usuarios más de un área de búsqueda a la vez:");
-define("SEALAN_20", "Configuración general");
-define("SEALAN_21", "Áreas de búsqueda");
-define("SEALAN_23", "Alternativa");
-define("SEALAN_25", "Clase de Usuarios");
-define("SEALAN_26", "Texto del pre-título");
-define("SEALAN_30", "Destacar palabras claves en que se refiere a la página:");
-define("SEALAN_31", "PHP se limita a");
-define("SEALAN_32", "resultados (dejar en blanco ningún límite)");
-define("SEALAN_35", "Método de selección de áreas de búsqueda:");
-define("SEALAN_36", "Menú desplegable");
-define("SEALAN_37", "Casilla de verificación");
-define("SEALAN_38", "Radio");
+define("SEALAN_15", "Clase de usuario con acceso a búsquedas");
+//define("SEALAN_16", "Activado");
+//define("SEALAN_17", "Desactivado");
+define("SEALAN_18", "Áreas de comentarios buscables (cuando está activado)");
+define("SEALAN_19", "Permitir buscar en múltiples áreas simultáneamente");
+define("SEALAN_20", "Ajustes generales");
+define("SEALAN_21", "Áreas de busqueda");
+//define("SEALAN_22", "Predeterminado");
+define("SEALAN_23", "Alternativo");
+//define("SEALAN_24", "Tipo");
+define("SEALAN_25", "Clase de usuario");
+define("SEALAN_26", "Texto previo al título");
+define("SEALAN_30", "Resaltar palabras clave en la página");
+define("SEALAN_31", "PHP limitado a");
+define("SEALAN_32", "resultados (dejar en blanco sin límite)");
+//define("SEALAN_33", "No se puede usar método MySQL, requiere versión 4.0.1 o superior");
+//define("SEALAN_34", "Tu versión actual es");
+define("SEALAN_35", "Método de selección");
+define("SEALAN_36", "Menu Desplegable");
+define("SEALAN_37", "Menu de Casillas");
+define("SEALAN_38", "Menu de Botones Radio");
 define("SEALAN_39", "Páginas personalizadas");
+
+//define("LAN_SEARCH_98", "Noticias");
+//define("LAN_197", "Descargas");
+//define("LAN_418", "Páginas personalizadas");
+
 define("SEALAN_40", "Opciones de búsqueda");
-define("SEALAN_41", "Principal página");
-define("SEALAN_43", "Editar la configuración de búsqueda para");
-define("SEALAN_44", "Clase de usuario permitido para esta área de búsqueda");
-define("SEALAN_45", "Número de resultados mostrados por página");
-define("SEALAN_46", "Número de caracteres en el Resumen de resultados de búsqueda");
-define("SEALAN_47", "Coincidir sólo palabras completas:");
-define("SEALAN_48", "Esta configuración sólo se aplica cuando el método de tipo de búsqueda es PHP. Si su sitio incluye Idiomas ideográficos como chino y japonés debe tener esto desactivado.");
-define("SEALAN_49", "Si su sitio incluye Idiomas ideográficos como chino y japonés, se debe utilizar el método de tipo PHP.");
+define("SEALAN_41", "Página principal");
+//define("SEALAN_42", "Preferencias");
 
+define("SEALAN_43", "Editar configuración de búsqueda para");
+define("SEALAN_44", "Clase de usuario permitida en esta área");
+define("SEALAN_45", "Resultados por página");
+define("SEALAN_46", "Caracteres en resumen de resultados");
 
+define("SEALAN_47", "Coincidir palabras completas");
+define("SEALAN_48", "Este ajuste solo aplica si el método es PHP. Sitios con idiomas ideográficos como chino o japonés deben desactivarlo.");
+define("SEALAN_49", "Si tu sitio incluye idiomas ideográficos (chino, japonés), usa el método PHP.");

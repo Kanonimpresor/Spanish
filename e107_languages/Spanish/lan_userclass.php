@@ -1,24 +1,27 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Spanish Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2016/02/24 17:54:36
+|       e107 content management system.
+|       Spanish language file)
 |
-|        $Author: Administrador $
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-define("UC_LAN_0", "Todo el mundo (público)");
-define("UC_LAN_1", "Huéspedes");
+
+define("UC_LAN_0", "Todos (público)");
+define("UC_LAN_1", "Invitados");
 define("UC_LAN_2", "Nadie (inactivo)");
-define("UC_LAN_3", "Miembros de");
-define("UC_LAN_4", "De sólo lectura");
+define("UC_LAN_3", "Miembros");
+define("UC_LAN_4", "Solo lectura");
 define("UC_LAN_5", "Administrador");
 define("UC_LAN_6", "Administrador principal");
-define("UC_LAN_7", "Moderadores del Foro");
+define("UC_LAN_7", "Moderadores del foro");
 define("UC_LAN_8", "Administradores y Moderadores");
-define("UC_LAN_9", "Nuevos usuarios");
-define("UC_LAN_10", "Robots de búsqueda");
+define("UC_LAN_9", "Usuarios nuevos");
+define("UC_LAN_10", "Motores de búsqueda");
 define("UC_LAN_INVERT", "No [x]");
-define("UC_LAN_INVERTLABEL", "Todo el mundo pero...");
+define("UC_LAN_INVERTLABEL", "Todos excepto...");

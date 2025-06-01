@@ -1,57 +1,94 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Spanish Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2020/11/17 20:06:17
+|       e107 content management system.
+|       Spanish language file)
 |
-|        $Author: tgtje $
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 
-define("LWLAN_4", "No hay palabras de enlace definidos todavía.");
+//define("LWLAN_1", "Campos vacíos.");
+//define("LWLAN_2", "Linkword guardado.");
+//define("LWLAN_3", "Linkword actualizado.");
+define("LWLAN_4", "Aún no se han definido linkwords.");
 define("LWLAN_5", "Palabras");
 define("LWLAN_6", "Enlace");
 define("LWLAN_7", "¿Activo?");
-define("LWLAN_21", "Palabra de autolink (o lista de palabras separados por comas)");
-define("LWLAN_26", "Zonas en las que permitan linkwords");
-define("LWLAN_28", "Páginas en que desactivar el linkwords");
-define("LWLAN_33", "Áreas de título");
-define("LWLAN_34", "Resúmenes del artículo");
-define("LWLAN_35", "Cuerpo del texto");
-define("LWLAN_36", "Descripciones (links etc.)");
-define("LWLAN_40", "Títulos introducidos por el usuario (por ejemplo, foro)");
-define("LWLAN_41", "Texto introducido por el usuario (por ejemplo, foro)");
-define("LWLAN_50", "Información sobre herramientas");
-define("LWLAN_52", "Linkword sólo");
-define("LWLAN_53", "Sugerencia solamente");
-define("LWLAN_54", "Linkword y descripción");
+//define("LWLAN_8", "Opciones");
+//define("LWLAN_9", "sí");
+//define("LWLAN_10", "no");
+//define("LWLAN_11", "Linkwords existentes");
+//define("LWLAN_12", "Sí");
+//define("LWLAN_13", "No");
+//define("LWLAN_14", "Enviar LinkWord");
+//define("LWLAN_15", "Actualizar LinkWord");
+//define("LWLAN_16", "Editar");
+//define("LWLAN_17", "Eliminar");
+//define("LWLAN_18", "¿Seguro que quieres eliminar este linkword?");
+//define("LWLAN_19", "Linkword eliminado.");
+//define("LWLAN_20", "No se encontró el linkword especificado.");
+define("LWLAN_21", "Palabra(s) para autovincular (lista separada por comas)");
+//define("LWLAN_22", "¿Activar?");
+//define("LWLAN_23", "Administración de Linkwords");
+//define("LWLAN_24", "Gestionar palabras");
+//define("LWLAN_25", "Opciones");
+define("LWLAN_26", "Áreas donde activar linkwords");
+//define("LWLAN_27", "Este es el 'contexto' del texto mostrado");
+define("LWLAN_28", "Páginas donde desactivar linkwords");
+//define("LWLAN_29", "Mismo formato que control de visibilidad de menús. Una coincidencia por línea. Especificar URL parcial/completa. ¡Terminar con '!' para coincidencia exacta al final del enlace");
+//define("LWLAN_30", "Guardar opciones");
+//define("LWLAN_31", "Añadir/editar linkword");
+//define("LWLAN_32", "Opciones de Linkword");
+define("LWLAN_33", "Áreas de títulos");
+define("LWLAN_34", "Resúmenes de elementos");
+define("LWLAN_35", "Texto principal");
+define("LWLAN_36", "Descripciones (enlaces, etc.)");
+//define("LWLAN_37", "Áreas heredadas");
+//define("LWLAN_38", "Enlaces clickables");
+//define("LWLAN_39", "Texto sin procesar");
+define("LWLAN_40", "Títulos ingresados por usuarios (ej. foro)");
+define("LWLAN_41", "Texto ingresado por usuarios (ej. foro)");
+
+define("LWLAN_50", "Tooltip");
+//define("LWLAN_51", "Inactivo"); // LAN_INACTIVE
+define("LWLAN_52", "Solo linkword");
+define("LWLAN_53", "Solo tooltip");
+define("LWLAN_54", "Linkword y tooltip");
 define("LWLAN_55", "Abrir enlace en nueva ventana");
-define("LWLAN_58", "Gancho de Pref convertido al formato 0,8");
-define("LWLAN_59", "Habilitar la funcionalidad de Ajax");
-define("LWLAN_64", "Suprimir el enlace en la página actual");
+//define("LWLAN_56", "Abrir en nueva página");
+//define("LWLAN_57", "Error al escribir nuevos valores");
+define("LWLAN_58", "Pref hook convertido a formato 0.8"); // Usado solo en stub compatible con 0.7
+define("LWLAN_59", "Activar funcionalidad Ajax");
+//define("LWLAN_60", "ID LW");
+//define("LWLAN_61", "ID");
+//define("LWLAN_62", "ID de tooltip (ID LW)");
+//define("LWLAN_63", "Solo números positivos");
+define("LWLAN_64", "Suprimir enlace en la página actual");
+//define("LWLAN_65", "Si está marcado, suprime el enlace clickable si apunta a la página actual");
 define("LWLAN_66", "Clase CSS personalizada");
-define("LWLAN_67", "Máximo de enlaces/consejos");
-define("LAN_LW_HELP_01", "  <b>Áreas para permitir</b><br>muchas áreas de texto tienen un \'context\ asociado', y linkwords se mostrará sólo en áreas de coincidencia de ese contexto.<br><br>
-  <b>Desactivar Linkwords</b><br>Linkwords puede ser desactivada en específico de páginas, o páginas que empareja un patrón. Entre estos aquí (misma sintaxis en cuanto a menús), un patrón por la línea. 
-  Si el patrón termina en \ '! \', esto corresponde a \'end de query\, y suele ser una coincidencia exacta. De lo contrario coincidirá con cualquier URL que contiene la cadena especificada.<br>Observe que linkwords <i>no</i> aparece en las páginas de admin.<br><br>
-  <b>Habilitar la funcionalidad de Ajax</b><br>La información sobre herramientas puede utilizar Ajax para obtener información para su presentación. Esto generalmente requiere algunas custom de codificación.<br><br>
-  <b>Suprimir el enlace en la página actual</b><br>Generalmente su sentido para el usuario poder hacer clic en un enlace si they\ 're ya en la página. Marque esta casilla para quitar la opción,<br>");
-define("LAN_LW_HELP_02", "Definir las palabras que se convierten en enlaces cliqueables, o que muestre texto en mouseover, aquí<br><br>
-  <b><u>Palabra enlace</u></b><br>Esto es entre mayúsculas y minúsculas. Para varias palabras con los mismos enlaces y descripciones, sepárelos por comas (sin espacios)<br><br>
-  <b><u>Enlace</u></b><br>Definir un enlace clic aquí. Si su un enlace externo, [i] debe [/ i] empezar \'http://\'. Si es un enlace dentro de este sitio, pueden utilizarse las constantes normales {e_XXX}.<br><br>
-  <b><u>Información sobre herramientas</u></b><br>Esto define el texto que aparece cuando el user\ «s del mouse pasa sobre la palabra.<br><br>
-  <b><u>LW ID (identificador descripción)</u></b><br><br>Esto define un identificador numérico opcional para ser utilizado con Ajax de procesamiento. Si en blanco, se utiliza el número de registro de base de datos.<br><br>
-  <b><u>¿Activar?</u></b><br>Define las opciones que están activas.");
-define("LAN_LW_HELP_03", "Normalmente no tiene sentido que el usuario pueda hacer clic en un enlace si ya está en la página a la que enlaza. Cuando esta opción está desactivada, las palabras de enlace no se activan en este caso.");
-define("LAN_LW_HELP_04", "Las palabras de enlace pueden ser desactivadas en páginas específicas, o páginas que coincidan con un patrón. Introduzca estas aquí (la misma sintaxis que para la visibilidad del menú), un patrón por línea. Si el patrón termina en '!', esto corresponde al 'fin de la consulta', y suele ser una coincidencia exacta. De lo contrario, cualquier URL que contenga la cadena especificada coincidirá.");
-define("LAN_LW_HELP_05", "Añadirá esta clase a todos los enlaces generados.");
-define("LAN_LW_HELP_10", "Aquí puedes definir las palabras que se convierten en enlaces clicables, o que muestran el texto al pasar el ratón por encima.");
-define("LAN_LW_HELP_11", "Esto es insensible a los casos. Para el mapeo de múltiples palabras a los mismos enlaces y tooltips, sepárelos con comas (sin espacios)");
-define("LAN_LW_HELP_12", "Defina un enlace en el que se pueda hacer clic aquí. Si es un enlace externo, DEBE comenzar con 'http(s)://'. Si es un enlace dentro de este sitio, las constantes normales {e_XXX} pueden ser usadas.");
-define("LAN_LW_HELP_13", "Define qué opciones están activas.");
-define("LAN_LW_HELP_14", "Esto define el texto que se mostrará cuando el ratón del usuario pase por encima de la palabra.");
-define("LAN_LW_HELP_15", "Cantidad máxima de las mismas palabras de enlace. Debe ser un número positivo. Se usa cuando la misma palabra se encuentra varias veces en un texto.");
-define("LAN_LW_HELP_16", "Esto define una identificación numérica opcional para ser usada con el procesamiento de Ajax. Debe ser un número positivo. Si está en blanco, se utiliza el número de registro de la base de datos");
-define("LAN_LW_HELP_17", "Cuando se enciende, el enlace se abre en una nueva pestaña/ventana del navegador");
+define("LWLAN_67", "Máx. enlaces/tips");
+
+// Textos de ayuda
+//define("LAN_LW_HELP_00","Ayuda de Linkwords");
+
+// Preferencias
+define("LAN_LW_HELP_01", "Muchas áreas de texto tienen un 'contexto' asociado, y los linkwords solo se mostrarán en áreas que coincidan con ese contexto.");
+define("LAN_LW_HELP_02", "Los tooltips pueden usar Ajax para obtener información. Esto normalmente requiere codificación personalizada.");
+define("LAN_LW_HELP_03", "Normalmente no tiene sentido que el usuario pueda hacer clic en un enlace si ya está en esa página. Al activar esta opción, se suprimirán los linkwords en ese caso.");
+define("LAN_LW_HELP_04", "Los linkwords pueden desactivarse en páginas específicas. Introduce patrones aquí (misma sintaxis que visibilidad de menús), uno por línea. Si termina en '!', será coincidencia exacta al final del enlace.");
+define("LAN_LW_HELP_05", "Añade esta clase CSS a todos los enlaces generados.");
+
+// Crear linkwords
+define("LAN_LW_HELP_10", "Aquí defines las palabras que se convertirán en enlaces o mostrarán tooltips.");
+define("LAN_LW_HELP_11", "No distingue mayúsculas. Para múltiples palabras con mismo destino, sepáralas con comas (sin espacios)."); 
+define("LAN_LW_HELP_12", "Define el enlace. Para enlaces externos debe comenzar con 'http(s)://'. Enlaces internos pueden usar constantes {e_XXX}."); 
+define("LAN_LW_HELP_13", "Define qué opciones están activas."); 
+define("LAN_LW_HELP_14", "Texto que se muestra al pasar el mouse sobre la palabra.");
+define("LAN_LW_HELP_15", "Número máximo de repeticiones del mismo linkword en un texto. Debe ser positivo."); 
+define("LAN_LW_HELP_16", "ID numérico opcional para procesamiento Ajax. Si está vacío, se usa el ID de registro de la base de datos."); 
+define("LAN_LW_HELP_17", "Al activar, el enlace se abre en nueva pestaña/ventana."); 

@@ -1,8 +1,16 @@
 <?php
+/*
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("NWSF_FP_1", "Feeds de noticias");
-define("NWSF_FP_2", "Página principal");
+define("NWSF_FP_1", "Feeds de Noticias");
+define("NWSF_FP_2", "página principal");

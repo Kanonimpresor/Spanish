@@ -1,8 +1,15 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
+/*
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 define("LAN_PLUGIN_LINKWORDS_NAME", "Linkwords");
-define("LAN_PLUGIN_LINKWORDS_DESCRIPTION", "Este plugin unirá palabras especificados con un enlace definido o sugerencia.");
+define("LAN_PLUGIN_LINKWORDS_DESCRIPTION", "Este plugin enlazará palabras específicas con un enlace definido y/o un tooltip.");

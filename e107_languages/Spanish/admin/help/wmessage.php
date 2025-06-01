@@ -1,20 +1,21 @@
 <?php
 /*
- * e107 website system
- *
- * Copyright (C) 2008-2009 e107 Inc (e107.org)
- * Released under the terms and conditions of the
- * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
- *
- *
- *
- * $Source: /cvs_backup/e107_0.8/e107_languages/English/admin/help/wmessage.php,v $
- * $Revision$
- * $Date$
- * $Author$
- */
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$text = defset('WMLAN_13');
-$ns -> tablerender( defset('WMLAN_12'), $text);
+$caption = "Ayuda:<br />
+			# Mensaje de bienvenida";
+$text = "Esta página le permite configurar un mensaje que aparecerá al principio de su página inicial todo el tiempo que esté activada.<br />
+Puede configurar un mensaje diferente para invitados, miembros registrados/con sesión iniciada o administradores.";
+$ns -> tablerender($caption, $text);

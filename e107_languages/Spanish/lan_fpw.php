@@ -1,44 +1,60 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
- if(!defined('PAGE_NAME')) // TODO Fix me.
+/*
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
+if(!defined('PAGE_NAME')) // TODO Corregir
 {
-	define("PAGE_NAME", "Restablecimiento de contraseña");
+    define("PAGE_NAME", "Restablecer contraseña");
 }
 
-define("LAN_02", "Lo sentimos, no se puede enviar un e-mail - póngate en contacto con el administrador del sitio principal.");
+define("LAN_02", "Lo sentimos, no se pudo enviar el correo - contacta al administrador principal del sitio.");
 define("LAN_03", "Restablecimiento de contraseña");
-define("LAN_05", "Para restablecer tu contraseña, introduce la siguiente información");
-define("LAN_06", "Intento de restablecimiento de contraseña");
-define("LAN_07", "Alguien con dirección IP");
-define("LAN_08", "trató de restablecer la contraseña de administrador principal.");
-define("LAN_09", "Restablecimiento de contraseña");
-//define("LAN_112", "Dirección de e-mail registrada en este sitio");
-define("LAN_213", "El nombre de usuario/e-mail no fue encontrado en la base de datos.");
-define("LAN_214", "Incapaz de restablecer contraseña");
+define("LAN_05", "Para restablecer tu contraseña, introduce la siguiente información:");
+define("LAN_06", "Intento de restablecer contraseña");
+define("LAN_07", "Alguien con la dirección IP ");
+define("LAN_08", "intentó restablecer la contraseña del administrador principal.");
+define("LAN_09", "Restablecimiento de contraseña desde ");
+// define("LAN_112", "Correo electrónico registrado en este sitio"); // conflicto eliminado
+// define("LAN_156", "Enviar");
+define("LAN_213", "Nombre de usuario/correo electrónico no encontrado en la base de datos.");
+define("LAN_214", "No se puede restablecer la contraseña");
+// define("LAN_216", "Para validar tu nueva contraseña visita la siguiente URL...");
+// define("LAN_217", "Tu nueva contraseña ha sido validada. Ya puedes iniciar sesión con ella.");
 define("LAN_218", "Tu nombre de usuario es:");
+// define("LAN_219", "La contraseña asociada a este correo ya fue restablecida. Contacta al administrador.");
 define("LAN_FPW1", "Nombre de usuario");
-define("LAN_FPW4", "Una solicitud ya ha sido enviada para restablecer esta contraseña, si no recibes el correo electrónico, póngate en contacto con el administrador del sitio para obtener ayuda.");
-define("LAN_FPW5", "Una solicitud para cambiar tu contraseña de");
-define("LAN_FPW6", "Te ha enviado un correo electrónico con un enlace que le permitirá restablecer tu contraseña.");
-define("LAN_FPW7", "Esto no es un enlace válido para restablecer tu contraseña.<br>Para más detalles por favor póngate en contacto con el administrador del sitio.");
-define("LAN_FPW8", "Tu contraseña ha sido cambiada con éxito.");
+// define("LAN_FPW2", "Introduce el código");
+// define("LAN_FPW3", "Código incorrecto");
+define("LAN_FPW4", "Ya existe una solicitud para esta contraseña. Si no recibiste el correo, contacta al administrador.");
+define("LAN_FPW5", "Solicitud para restablecer tu contraseña en");
+define("LAN_FPW6", "Se envió un correo con un enlace para restablecer tu contraseña.");
+define("LAN_FPW7", "Este enlace no es válido para restablecer tu contraseña.<br />Contacta al administrador del sitio.");
+define("LAN_FPW8", "Tu contraseña se ha cambiado correctamente.");
 define("LAN_FPW9", "La nueva contraseña es:");
-define("LAN_FPW10", "Por favor,");
-define("LAN_FPW11", "iniciar sesión ahora");
-define("LAN_FPW12", "y cambiar inmediatamente tu contraseña, por motivos de seguridad.");
-define("LAN_FPW13", "por favor sígue las instrucciones en el e-mail para validar tu contraseña.");
-define("LAN_FPW14", "ha sido presentado por una persona con la IP");
-define("LAN_FPW15", "Esto no significa sin embargo ha restablecido tu contraseña. Debes navegar al enlace que se muestra a continuación para completar el proceso de reinicio.");
-define("LAN_FPW16", "Si no solicitas restablecer contraseña y no deseas que reinicio, simplemente puedes ignorar este mensaje");
-define("LAN_FPW17", "Este enlace será válido durante 48 horas.");
-define("LAN_FPW18", "Pedido de restablecimiento de contraseña");
-define("LAN_FPW19", "No se pudo enviar el e-mail ");
-define("LAN_FPW20", "Enviar e-mail tuvo éxito");
-define("LAN_FPW21", "Usuario hace clic en el enlace de restablecimiento de contraseña");
-define("LAN_FPW22", "Dirección de correo electrónico registrada en este sitio web");
+define("LAN_FPW10", "Por favor");
+define("LAN_FPW11", "inicia sesión ahora");
+define("LAN_FPW12", "y cambia tu contraseña inmediatamente por seguridad.");
+
+define("LAN_FPW13", "sigue las instrucciones del correo para validar tu contraseña.");
+define("LAN_FPW14", "fue enviada por alguien con la IP");
+define("LAN_FPW15", "Esto no restablece tu contraseña aún. Debes acceder al enlace para completar el proceso.");
+define("LAN_FPW16", "Si no solicitaste este cambio, puedes ignorar este correo.");
+define("LAN_FPW17", "El enlace será válido durante 10 minutos.");
+define("LAN_FPW18", "Solicitud de restablecimiento de contraseña");
+define("LAN_FPW19", "Error al enviar el correo");
+define("LAN_FPW20", "Correo enviado exitosamente");
+define("LAN_FPW21", "Usuario hizo clic en el enlace de restablecimiento");
+define("LAN_FPW22", "Correo electrónico registrado en este sitio");
+
 define("LAN_FPW_100", "¿Olvidaste tu contraseña?");
-define("LAN_FPW_101", "No te preocupes. Introduce tu dirección de email abajo y le enviaremos un e-mail de instrucciones para la recuperación.");
-define("LAN_FPW_102", "Restablecer contraseña");
+define("LAN_FPW_101", "Tranquilo/a. Introduce tu correo electrónico y te enviaremos instrucciones para recuperarla.");
+define("LAN_FPW_102", "Restablecer Contraseña");

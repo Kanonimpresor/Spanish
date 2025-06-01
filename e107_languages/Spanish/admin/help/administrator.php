@@ -1,22 +1,22 @@
 <?php
 /*
- * e107 website system
- *
- * Copyright (C) 2008-2009 e107 Inc (e107.org)
- * Released under the terms and conditions of the
- * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
- *
- *
- *
- * $Source: /cvs_backup/e107_0.8/e107_languages/English/admin/help/administrator.php,v $
- * $Revision$
- * $Date$
- * $Author$
- */
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$caption = "Site Admin Help";
-$text = "Use this page to edit the preferences for, or delete site administrators. The administrator will only have permission to access the features that are ticked.<br /><br />
-To create a new admin go to the user config page and update an existing user to admin status.";
+$caption = "Ayuda:<br />
+			# Administración del Sitio";
+$text = "Utilice esta página para editar o eliminar las preferencias de administradores del sitio web.
+		Los administradores solo tendrán acceso a las características marcadas<br /><br />
+		Para crear un nuevo administrador, vaya a la configuración de usuarios y cambie el estado a admin en el usuario seleccionado.";
 $ns -> tablerender($caption, $text);

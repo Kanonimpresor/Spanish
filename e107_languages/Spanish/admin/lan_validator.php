@@ -1,28 +1,48 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LAN_VALIDATE_0", "Error desconocido");
-define("LAN_VALIDATE_101", "Falta de valor");
+/*
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025)
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
+/*
+ * Mensajes de error por código numérico
+ */ 
+define("LAN_VALIDATE_0",   "Error desconocido");
+define("LAN_VALIDATE_101", "Valor faltante");
 define("LAN_VALIDATE_102", "Tipo de valor inesperado");
-define("LAN_VALIDATE_103", "Caracteres no válidos");
-define("LAN_VALIDATE_104", "No una dirección de correo electrónico válida");
-define("LAN_VALIDATE_105", "Campos don\ 'match t");
+define("LAN_VALIDATE_103", "Caracteres no válidos detectados");
+define("LAN_VALIDATE_104", "Dirección de correo no válida");
+define("LAN_VALIDATE_105", "Los campos no coinciden");
 define("LAN_VALIDATE_131", "Cadena demasiado corta");
 define("LAN_VALIDATE_132", "Cadena demasiado larga");
 define("LAN_VALIDATE_133", "Número demasiado bajo");
 define("LAN_VALIDATE_134", "Número demasiado alto");
-define("LAN_VALIDATE_135", "Matriz cuenta demasiado");
-define("LAN_VALIDATE_136", "Matriz cuenta demasiado");
-define("LAN_VALIDATE_151", "Número de tipo integer esperada");
-define("LAN_VALIDATE_152", "Número de tipo float esperada");
-define("LAN_VALIDATE_153", "Tipo de instancia esperada");
-define("LAN_VALIDATE_154", "Tipo de matriz esperada");
+define("LAN_VALIDATE_135", "Número de elementos insuficiente");
+define("LAN_VALIDATE_136", "Número de elementos excesivo");
+define("LAN_VALIDATE_151", "Se esperaba un número entero");
+define("LAN_VALIDATE_152", "Se esperaba un número decimal");
+define("LAN_VALIDATE_153", "Se esperaba un tipo de instancia");
+define("LAN_VALIDATE_154", "Se esperaba un array");
 define("LAN_VALIDATE_191", "Valor vacío");
-define("LAN_VALIDATE_201", "Archivo no existe");
-define("LAN_VALIDATE_202", "Archivo no modificable");
-define("LAN_VALIDATE_203", "Archivo supera el tamaño de archivo permitido");
-define("LAN_VALIDATE_204", "Tamaño de archivo inferior que permite el tamaño de archivo mínimo");
-define("LAN_VALIDATE_FAILMSG", "[x] error de validación: [y] [z].");
+define("LAN_VALIDATE_201", "El archivo no existe");
+define("LAN_VALIDATE_202", "El archivo no se puede modificar");
+define("LAN_VALIDATE_203", "El archivo supera el tamaño permitido");
+define("LAN_VALIDATE_204", "Tamaño de archivo inferior al mínimo permitido");
+
+/*
+ * INSTRUCCIONES DE TRADUCCIÓN:
+ * No traducir %1$s, %2$s, %3$s, etc.
+ * Estos son sustituidos por el validador:
+ * %1$s - nombre del campo
+ * %2$d - código de error (número)
+ * %3$s - mensaje de error (texto)
+ */
+
+define("LAN_VALIDATE_FAILMSG", "Error de validación en [x]: [y] [z].");

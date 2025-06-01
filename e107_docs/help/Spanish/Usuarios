@@ -1,0 +1,3 @@
+
+P> ¿Para qué sirve la sección de Campo Extendido?
+R> Esto te permite agregar más secciones a la página de Usuarios. Por ejemplo, si estás gestionando un clan, podrías agregar un campo para el apodo del clan, o el número promedio de banderas :) El nuevo campo aparecerá en la página de Configuración de Usuario y también en la lista de Miembros.

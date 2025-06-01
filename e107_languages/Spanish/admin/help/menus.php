@@ -1,62 +1,66 @@
 <?php
 /*
- * e107 website system
- *
- * Copyright (C) 2008-2009 e107 Inc (e107.org)
- * Released under the terms and conditions of the
- * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
- *
- *
- *
- * $Source: /cvs_backup/e107_0.8/e107_languages/English/admin/help/menus.php,v $
- * $Revision$
- * $Date$
- * $Author$
- */
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
-if(!defined('e107_INIT')){ die("Unauthorised Access");}
-if (!getperms("2")) {
+if (!defined('e107_INIT')) { exit; }
+
+if (!getperms("2") && !e107::isCli())
+{
 	e107::redirect();
-	 exit;
+	exit;
 }
+
 
 $sql = e107::getDb();
 $tp = e107::getParser();
+$frm = e107::getForm();
 
 if(isset($_POST['reset']))
 {
-		for($mc=1;$mc<=5;$mc++)
+	for($mc=1;$mc<=5;$mc++)
+	{
+		$sql->select("menus","*", "menu_location='".$mc."' ORDER BY menu_order");
+		$count = 1;
+		$sql2 = e107::getDb('sql2');
+		while(list($menu_id, $menu_name, $menu_location, $menu_order) = $sql->fetch())
 		{
-			$sql -> db_Select("menus","*", "menu_location='".$mc."' ORDER BY menu_order");
-			$count = 1;
-			$sql2 = new db;
-			while(list($menu_id, $menu_name, $menu_location, $menu_order) = $sql-> db_Fetch())
-			{
-				$sql2 -> db_Update("menus", "menu_order='$count' WHERE menu_id='$menu_id' ");
-				$count++;
-			}
-			$text = "<b>Menus reset in database</b><br /><br />";
+			$sql2 ->update("menus", "menu_order='$count' WHERE menu_id='$menu_id' ");
+			$count++;
 		}
+		$text = "<b>Menús reiniciados en la base de datos</b><br /><br />";
+	}
 }
 else
 {
 	unset($text);
 }
+$caption = "Ayuda:<br />
+			# Gestión de Menús";
+$text = "El Gestor de Menús te permite colocar y organizar tus menús dentro de la plantilla de tu tema.
 
-$frm = e107::getForm();
+[u]Pasa el ratón[/u] sobre las subáreas para modificar los elementos de menú existentes.
 
-$text = "The Menu-Manager allows you to place and arrange your menus within your theme template. 
-[u]Hover[/u] over the sub-areas to modify existing menu items. 
+Si ves que los menús no se actualizan correctamente, hacer clic en el botón de actualizar que hay abajo puede ayudarte.
 
-If you find the menus are not updating correctly, clicking the refresh button below may help. 
 [html]
-<form method='post' id='menurefresh' action='".$_SERVER['PHP_SELF']."'>
+<form method='post' id='menurefresh' action='".e_SELF."'>
 <div>
 ".$frm->admin_button('reset','Refresh','cancel')."</div>
 </form>
-<div class='indent'><span class='required'><i class='icon-search icon-white'></i></span> indicates that the menu's visibility has been modified.</div>
+[br]
+".e107::getParser()->toGlyph('fa-search')." indica que la visibilidad del menú ha sido modificada.
 [/html]
 ";
 
-$text = $tp->toHtml($text,true);
-$ns -> tablerender("Menus Help", $text);
+$text = $tp->toHTML($text, true);
+e107::getRender()->tablerender($caption, $text);

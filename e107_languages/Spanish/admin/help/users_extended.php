@@ -1,20 +1,20 @@
 <?php
 /*
- * e107 website system
- *
- * Copyright (C) 2008-2009 e107 Inc (e107.org)
- * Released under the terms and conditions of the
- * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
- *
- *
- *
- * $Source: /cvs_backup/e107_0.8/e107_languages/English/admin/help/users_extended.php,v $
- * $Revision$
- * $Date$
- * $Author$
- */
++---------------------------------------------------------------+
+|       e107 content management system.
+|       Spanish language file)
+|
+|       Traducción Spanish(ES) -> KANONimpresor
+|       (http://www.kanonimpresor.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$text = " Extended user fields allow you to add additional types of data a user is able to specify as part of their profile.";
-$ns -> tablerender(" Extended User Fields Help", $text);
+$caption = "Ayuda:<br />
+			# Campos Adicionales de Usuarios";
+$text = "Los campos adicionales de usuario le permiten añadir más tipos de campos de datos. El usuario tendrá los campos adicionales disponibles en el área de perfil de usuario.";
+$ns -> tablerender($caption, $text);
