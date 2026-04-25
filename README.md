@@ -1,16 +1,18 @@
-# e107 Paquete de Idioma Español v2.3.3
+# e107 Paquete de Idioma Español v2.4.0
 
 ## Archivos de Lenguaje ESPAÑOL (España)
 
-- **Revisión**: 1.0
-- **Fecha de lanzamiento**: 2025-05-04
+- **Revisión**: 2.0
+- **Fecha de lanzamiento**: 2026-04-25
 - **Autor**: Kanonimpresor - <kanonimpresor@gmail.com>
 
 ---
 
 ## DESCRIPCIÓN
 
-Este paquete de archivos contiene los archivos (codificación utf-8) en Español de España para la versión v2.3.3 del sistema de gestión de contenido e107. La traducción se ha realizado a partir de los archivos originales en inglés de la misma versión, y contiene las siguientes carpetas y archivos:
+Este paquete de archivos contiene los archivos (codificación utf-8) en Español de España para la versión v2.4.0 del sistema de gestión de contenido e107. La traducción se ha realizado a partir de los archivos originales en inglés de la misma versión, y contiene las siguientes carpetas y archivos:
+
+> 🆕 **Novedad v2.4.0** — Los archivos de ayuda de `e107_docs/help/Spanish/` se han reescrito para aprovechar el nuevo renderizador enriquecido del panel de administración (PR upstream [#5596](https://github.com/e107inc/e107/pull/5596)). Ahora soportan marcadores tipo `H1>`, `P>`, `NOTE>`, `TIP>`, `WARN>`, `SHOT>` (capturas de pantalla), `STEP>` (pasos numerados), `IMG>` y `CODE>`, además de seguir siendo compatibles con el formato legacy `Q>/A>`.
 
 ---
 
@@ -61,13 +63,15 @@ Si detectas algún error y deseas notificar al autor para su corrección, puedes
 
 ## HISTORIAL
 
+v2.0 [2026-04-25] => Reescritura de los 21 archivos de `e107_docs/help/Spanish/` con los nuevos marcadores enriquecidos (`H1>`, `P>`, `NOTE>`, `TIP>`, `WARN>`, `SHOT>`, `STEP>`, `IMG>`, `CODE>`) introducidos por el PR upstream [#5596](https://github.com/e107inc/e107/pull/5596). Compatible con e107 v2.4.0 y retrocompatible con instalaciones v2.3.x (fallback a párrafos planos + BBCode si el renderizador antiguo no entiende los marcadores).
+
 v1.0 [2025-05-04] => Primer lanzamiento oficial de la traducción ES-ES .utf-8 (v2.3.3).
 
 ---
 
 ## LICENCIA
 
-e107 Paquete de Idioma Español v2.3.3, lanzado bajo los términos y condiciones de la [Licencia Pública General GNU](http://www.gnu.org/licenses/gpl.txt)
+e107 Paquete de Idioma Español v2.4.0, lanzado bajo los términos y condiciones de la [Licencia Pública General GNU](http://www.gnu.org/licenses/gpl.txt)
 
 ---
 

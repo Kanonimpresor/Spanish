@@ -1,21 +1,52 @@
+H1> Visión general de las preferencias del sitio
 
-P> ¿Cómo cambio de tema?
-R> Hay una sección en la página de Preferencias que te permite cambiar el tema de tu sitio. Asegúrate de previsualizar el tema primero, ya que algunos temas antiguos ya no son compatibles y podrían dejar tu sitio inutilizable si se aplican.
+P> El área de Preferencias es el corazón de e107: temas, seguridad, sesiones y modos de renderizado se configuran todos desde aquí. Esta página responde a las preguntas más frecuentes de los administradores cuando abren la pantalla por primera vez.
 
-P> ¿Qué es COPPA?
-R> La Ley de Protección de la Privacidad Infantil en Línea de 1998 (COPPA, por sus siglas en inglés). Es una norma utilizada de manera universal para proteger la privacidad de los menores de 13 años o menos. Asegura que ninguna información sobre menores será utilizada por el 'Operador' (es decir, tú) para fines distintos al mantenimiento del sitio web. Para más información, consulta http://www.ftc.gov/privacy/coppafaqs.shtm.
+NOTE> La mayoría de preferencias surten efecto inmediatamente al guardar. Si no ves un cambio reflejado en el front-end, limpia la caché desde [b]Admin → Caché[/b].
 
-P> ¿Qué es la protección contra inundaciones?
-R> Evita que tu sitio sea inundado por llamadas HTTP, lo cual podría hacer que tu sitio sea inaccesible.
+H1> Temas
 
-P> ¿Debo usar Cookies o Sesiones para rastrear a mis usuarios?
-R> Depende de ti. Si tu sitio funciona correctamente con cookies (que es el valor predeterminado), entonces déjalo tal cual. Si prefieres usar sesiones PHP, entonces utiliza esa opción (e107 usa un manejador de sesiones personalizado para almacenar y gestionar las sesiones).
+Q> ¿Cómo cambio de tema?
+A> Abre [b]Admin → Temas[/b], pasa el ratón por encima de la tarjeta del tema y haz clic en [b]Previsualizar[/b] antes de activar. Algunos temas antiguos construidos para e107 1.x ya no son compatibles y podrían dejar el sitio inutilizable, así que previsualiza siempre primero.
 
-P> ¿Por qué debo ejecutar mi sitio en modo de estándares?
-R> Si estás desarrollando un tema y tienes problemas para que se renderice correctamente en Firefox/Mozilla e IE, intenta marcar esta opción. IE se ejecutará entonces en modo de estándares y usará el modelo de caja correcto.
+SHOT> preferences/theme-manager.png | Gestor de Temas – pasa el ratón por cualquier tarjeta para mostrar Previsualizar / Activar
 
-P> ¿Qué significa PLAINTEXT?
-R> Es una cadena de texto que se muestra con un valor para cada atributo de texto.
+TIP> Activa el tema en una copia de staging antes de promoverlo a producción. El Gestor de Temas recuerda tu tema anterior para que puedas revertir con un clic.
 
-P> ¿Qué significa CHAP?
-R> El Protocolo de Autenticación Challenge-Handshake (CHAP) autentica a un usuario o a un host de red ante una entidad autenticadora. Esa entidad puede ser, por ejemplo, un proveedor de servicios de Internet.
+H1> Seguridad y protección contra abusos
+
+Q> ¿Qué es COPPA?
+A> La [b]Children's Online Privacy Protection Act de 1998[/b]. Es una norma universalmente adoptada que protege a los menores de 13 años o menos. Garantiza que ninguna información sobre menores sea utilizada por el operador (tú) para fines distintos al mantenimiento del sitio. Consulta la [url=https://www.ftc.gov/business-guidance/resources/complying-coppa-frequently-asked-questions]FAQ COPPA de la FTC[/url] para el texto completo.
+
+Q> ¿Qué es la protección contra inundación (flood)?
+A> Evita que tu sitio se vea inundado por peticiones HTTP abusivas, que en caso contrario podrían hacerlo inaccesible. e107 limita las llamadas repetidas desde la misma IP dentro de una ventana corta de tiempo.
+
+SHOT> preferences/flood-protection.png | Ajustes de protección contra inundación dentro de Preferencias del Sitio
+
+WARN> Desactivar la protección contra inundación en un sitio público no es nada recomendable. Si tienes que subir el umbral, hazlo de forma incremental y monitoriza `e107_system/<sitehash>/logs/`.
+
+H1> Sesiones y seguimiento
+
+Q> ¿Debo usar Cookies o Sesiones para rastrear a mis usuarios?
+A> Es elección tuya. Si tu sitio funciona bien con cookies (el valor por defecto), déjalo así. Si prefieres sesiones PHP, cambia a ese modo – e107 incluye un manejador de sesiones personalizado que las almacena y gestiona de forma segura.
+
+H2> Cuándo preferir sesiones
+
+STEP> Operas bajo un régimen estricto de consentimiento de cookies y quieres minimizar cookies persistentes.
+STEP> Gestionas varios subdominios que necesitan compartir el estado de login de forma limpia.
+STEP> Sospechas manipulación de cookies y quieres estado del lado del servidor.
+
+H1> Modo de renderizado y estándares
+
+Q> ¿Por qué debo ejecutar mi sitio en modo estándares?
+A> Si estás desarrollando un tema y tienes problemas para renderizarlo correctamente en varios navegadores, activa el modo estándares. Los navegadores modernos aplicarán entonces el modelo de caja y la especificación CSS correctos, acordes a lo que espera tu hoja de estilos.
+
+H1> Glosario de autenticación
+
+Q> ¿Qué significa PLAINTEXT?
+A> Una cadena de texto que se transmite (o almacena) con un valor por atributo de texto, sin ningún cifrado aplicado. Úsalo solo sobre HTTPS o redes de confianza.
+
+Q> ¿Qué significa CHAP?
+A> [b]Challenge-Handshake Authentication Protocol[/b]. CHAP autentica a un usuario u host de red frente a una entidad autenticadora (por ejemplo, un proveedor de servicios de Internet) intercambiando un desafío hasheado en vez de la contraseña misma, mitigando ataques de reenvío.
+
+NOTE> Para integraciones nuevas, prefiere siempre autenticación moderna basada en tokens (JWT, OAuth2) en lugar de PLAINTEXT o CHAP.

@@ -1,6 +1,17 @@
+H1> Modo de mantenimiento
 
-P> ¿Para qué sirve esta sección?
-R> Esta pantalla te permite hacer que tu sitio sea inaccesible para los visitantes. Utilízala cuando estés actualizando tu sitio o necesites retirarlo por alguna razón. Solo el administrador principal del sitio puede acceder a él cuando está en modo de mantenimiento; sabrás que está en este modo porque aparecerá un mensaje en todas las páginas.
+P> El modo de mantenimiento oculta el sitio al público mientras actualizas, ejecutas una migración o investigas un incidente. Solo el administrador principal puede navegar el sitio mientras el indicador está activo; el resto ve un aviso de mantenimiento.
 
-P> ¡Ayuda! He activado la bandera de mantenimiento y, por accidente, me he desconectado. ¿Cómo puedo volver a acceder a la sección de administración para poner el sitio en línea de nuevo?
-R> Ve a http://tusitio.com/e107_admin/admin.php e inicia sesión desde allí.
+SHOT> maintainance/admin-maintenance.png | Interruptor del indicador de mantenimiento dentro del área de administración
+
+Q> ¿Para qué sirve esta sección?
+A> Te permite hacer el sitio inaccesible para los visitantes. Úsalo al actualizar el sitio o cuando necesites retirarlo por cualquier motivo. El administrador principal sigue viendo todas las páginas (con una banda recordando que el mantenimiento está activo).
+
+H1> ¿Te has quedado fuera?
+
+Q> ¡Ayuda! Activé el indicador de Mantenimiento y accidentalmente cerré sesión – ¿cómo vuelvo al área de administración para reactivar el sitio?
+A> Ve directamente a `http://tusitio.com/e107_admin/admin.php` e inicia sesión desde ahí. La URL de login de administración está exenta del modo de mantenimiento precisamente por este motivo.
+
+WARN> Confirma siempre que sigues autenticado [b]antes[/b] de activar el modo de mantenimiento, sobre todo en redes inestables. Marca la URL de administración de arriba como favorita por si acaso.
+
+TIP> Durante el mantenimiento los visitantes ven un mensaje genérico. Personalízalo desde [b]Preferencias → Mensaje de mantenimiento[/b] para que los visitantes sepan cuándo esperas volver.

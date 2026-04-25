@@ -1,7 +1,15 @@
+H1> Gestionar descargas
 
-P> ¿Qué es un descarga principal?
-R> Esto te permite agrupar tus descargas en diferentes categorías.
+P> La administración de Descargas organiza los archivos en categorías ("descargas principales") y los vincula a imágenes y descripciones para la página pública de descargas.
 
-P> Quiero añadir una descarga pero el archivo no aparece en la lista, ¿por qué?
-R> Solo los archivos que estén en la carpeta e107_files/downloads aparecerán en la lista desplegable. Copia el archivo a esa carpeta y entonces aparecerá. Lo mismo se aplica a las imágenes; deben estar en la carpeta e107_files/downloadimages.
+SHOT> downloads/admin-download.png | Vista de lista de descargas agrupadas por categoría principal
 
+Q> ¿Qué es una descarga principal?
+A> Una categoría principal agrupa tus descargas en temas (por ejemplo, "Documentación", "Temas", "Herramientas"). Los visitantes navegan por categoría, lo que mantiene las listas largas manejables.
+
+Q> Quiero añadir una descarga pero el archivo no aparece en la lista – ¿por qué?
+A> Solo los archivos colocados en `e107_files/downloads/` aparecen en el desplegable. Copia el archivo ahí y aparecerá. Las imágenes para la descarga funcionan igual pero viven en `e107_files/downloadimages/`.
+
+TIP> Si gestionas muchas descargas, considera subir por SFTP/SSH directamente a `e107_files/downloads/` en lugar del uploader web – es más rápido y salta el límite `upload_max_filesize` de PHP.
+
+WARN> Los archivos colocados en `e107_files/downloads/` son públicamente descargables a través de e107 una vez enlazados. No dejes documentos privados en esa carpeta.
