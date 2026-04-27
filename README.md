@@ -1,4 +1,4 @@
-# e107 Paquete de Idioma Español v2.3.3
+# e107 Paquete de Idioma Español v2.3.4
 
 ## Archivos de Lenguaje ESPAÑOL (España)
 

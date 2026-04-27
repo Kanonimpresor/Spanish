@@ -83,7 +83,7 @@ define("LINKLAN_1", "Se abre en ventana 800x600");
 define("LINKLAN_4", "Generador de subenlaces");
 define("LINKLAN_5", "Generar subenlaces");
 define("LINKLAN_6", "Crear subenlaces desde");
-define("LINKLAN_7", "¿Bajo qué enlace crear subenlaces?");
+define("LINKLAN_7", "Seleccionar enlace principal");
 define("LINKLAN_8", "Categorías de noticias");
 define("LINKLAN_9", "Categorías de descargas");
 

@@ -21,7 +21,7 @@ define("DBLAN_6", "Selecciona para optimizar tu base de datos de e107");
 define("DBLAN_7", "Optimizar base de datos SQL");
 define("DBLAN_8", "Selecciona para respaldar configuraciones principales");
 define("DBLAN_9", "Respaldar núcleo");
-define("DBLAN_10", "Utilidades de base de datos");
+define("DBLAN_10", "Gestión base de datos");
 define("DBLAN_11", "Base de datos MySQL [x] optimizada");
 //define("DBLAN_12", "optimized");
 // define("DBLAN_13", "Back");

@@ -31,7 +31,7 @@ define("LAN_MAILOUT_11", "Insertar variables");
 define("LAN_MAILOUT_12", "Todos los usuarios");
 define("LAN_MAILOUT_13", "Todos los usuarios no verificados");
 define("LAN_MAILOUT_14", "Nombre mostrado");
-define("LAN_MAILOUT_15", "Envío masivo");
+define("LAN_MAILOUT_15", "Envío de Email");
 define("LAN_MAILOUT_16", "Nombre de usuario");
 define("LAN_MAILOUT_17", "Enlace de registro");
 define("LAN_MAILOUT_18", "ID de usuario");

@@ -65,8 +65,8 @@ define("USRLAN_55", "Depurar");
 define("USRLAN_56", "Eliminado");
 define("USRLAN_57", "Eliminando usuarios inactivos...");
 define("USRLAN_58", "subida de archivos desactivada en php.ini");
-define("USRLAN_59", "Añadir usuario rápido");
-define("USRLAN_60", "Añadir usuario");
+define("USRLAN_59", "Añadir usuario");
+define("USRLAN_60", "Guardar");
 define("USRLAN_61", "Nombre visible");
 //define("USRLAN_62", "Contraseña");//LAN_PASSWORD
 define("USRLAN_63", "Confirmar contraseña");

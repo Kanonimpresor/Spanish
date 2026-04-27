@@ -20,7 +20,7 @@
 //define("ADMSLAN_5", "Error!");
 define("ADMSLAN_6", "es el administrador principal del sitio y no puede eliminarse.");
 
-define("ADMSLAN_13", "Administradores existentes");
+define("ADMSLAN_13", "Administradores");
 
 define("ADMSLAN_16", "Nombre de administrador");
 // define("ADMSLAN_17", "Admin Password");

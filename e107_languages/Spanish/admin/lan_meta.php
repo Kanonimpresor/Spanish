@@ -12,7 +12,7 @@
 +---------------------------------------------------------------+
 */
 
-define("METLAN_00", "Meta & Etiquetas Personalizadas");
+define("METLAN_00", "Configuración SEO");
 
 define("METLAN_1", "Etiquetas meta adicionales");
 define("METLAN_2", "Ejemplo: < meta name='revisit-after' content='30 días' />");

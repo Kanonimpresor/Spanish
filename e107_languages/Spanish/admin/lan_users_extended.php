@@ -19,7 +19,7 @@ define("EXTLAN_5", "Aplicable");
 define("EXTLAN_6", "Acceso de lectura");
 define("EXTLAN_7", "Acceso de escritura");
 define("EXTLAN_8", "Acción");
-define("EXTLAN_9", "Campos Extendidos de Usuario");
+define("EXTLAN_9", "Formulario de usuarios");
 
 define("EXTLAN_10", "Nombre del campo");
 define("EXTLAN_11", "Nombre único almacenado en la tabla, no debe existir en la tabla principal de usuarios");

@@ -14,7 +14,7 @@
 //define("UGFLAN_1", "Configuración de mantenimiento actualizada");
 define("UGFLAN_2", "Activar indicador de mantenimiento");
 //define("UGFLAN_3", "Actualizar configuración de mantenimiento");
-define("UGFLAN_4", "Configuración de mantenimiento");
+define("UGFLAN_4", "Gestión de mantenimiento");
 
 define("UGFLAN_5", "Texto a mostrar cuando el sitio está inactivo");
 define("UGFLAN_6", "Dejar en blanco para mensaje predeterminado");
