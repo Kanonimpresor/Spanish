@@ -264,7 +264,7 @@ return [
 	'PRFLAN_278' => "URL de la Política de Privacidad",
 	'PRFLAN_279' => "¡Asegúrate de que la URL existe! Usa URL absoluta. Se usará en todos los lugares que requieran consentimiento (ej. registro, formulario de contacto)",
 	'PRFLAN_280' => "URL de Términos y Condiciones",
-	'PRFLAN_281' => "Estos enlaces se usan en varias páginas (ej. registro y contacto).\nCrea 2 páginas con tu 'Política de Privacidad' y 'Términos y condiciones'.\nUsa generadores online si es necesario.\nIntroduce las URLs aquí (ej. /pagina/privacidad).\n¡Asegúrate de que funcionan!",
+	'PRFLAN_281' => "Estos enlaces se usan en varias páginas (ej. registro y contacto).\\nCrea 2 páginas con tu 'Política de Privacidad' y 'Términos y condiciones'.\\nUsa generadores online si es necesario.\\nIntroduce las URLs aquí (ej. /pagina/privacidad).\\n¡Asegúrate de que funcionan!",
 	'PRFLAN_282' => "Método de guardado de sesión",
 	'PRFLAN_283' => "Mostrar etiquetas en barra de navegación",
 	'PRFLAN_284' => "Contraer barra lateral por defecto",

@@ -95,7 +95,7 @@ return [
 	'USRLAN_136' => "Múltiples usuarios con IP {IP} - no bloqueada",
 	'USRLAN_137' => "IP {IP} bloqueada",
 	'USRLAN_138' => "Usuarios no verificados",
-	'USRLAN_139' => "Su cuenta ha sido activada.\n\nAcceda en {SITEURL}",
+	'USRLAN_139' => "Su cuenta ha sido activada.\\n\\nAcceda en {SITEURL}",
 	'USRLAN_140' => "Correo de activación reenviado a",
 	'USRLAN_141' => "Error al reenviar a",
 	'USRLAN_142' => "con enlace de activación",
