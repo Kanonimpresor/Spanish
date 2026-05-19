@@ -19,6 +19,6 @@ define("BLOGCAL_1", "Entradas de noticias");
 define("BLOGCAL_CONF1", "Meses por fila");
 define("BLOGCAL_CONF2", "Espaciado interno (cellpadding)");
 //define("BLOGCAL_CONF3", "Actualizar configuración del menú");
-define("BLOGCAL_CONF4", "Configuración del menú");
+define("BLOGCAL_CONF4", "Configuración del menú BlogCal");
 //define("BLOGCAL_CONF5", "Configuración del menú BlogCal guardada");
 define("BLOGCAL_ARCHIV1", "Seleccionar archivo");

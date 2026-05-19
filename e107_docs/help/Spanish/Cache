@@ -1,18 +1,10 @@
-H1> Sobre la caché
 
-P> La caché almacena fragmentos ya renderizados de tu sitio para que e107 no tenga que reconstruirlos en cada petición. Bien afinada, reduce drásticamente la carga en MySQL y acorta los tiempos de respuesta.
+P> ¿Para qué sirve esta sección?
+R> Activar el estado de caché hará que se guarden ciertas áreas de tu sitio en la base de datos. Esto reduce las consultas a MySQL y acelera mucho el rendimiento de tu web.
 
-SHOT> cache/admin-cache.png | Panel de estado de la caché con los botones para limpiar
+P> He hecho algunos cambios en el tema que estoy usando pero no se han aplicado, ¿es por la caché?
+R> Lo más probable. Cuando cambias de tema, la caché se borra automáticamente, pero si solo modificas el código en tu archivo theme.php, la caché no se limpia. Desactiva el estado de caché hasta que termines tus modificaciones.
 
-Q> ¿Para qué sirve esta sección?
-A> Establecer el [b]Estado de la Caché[/b] en [i]activada[/i] guarda ciertas áreas de tu sitio (menús, listas de noticias, etc.). Esto reduce las consultas a MySQL y acelera enormemente el sitio.
+P> ¿Puedo guardar la caché en archivos del disco duro?
+R> Sí. Solo asegúrate de que el directorio e107_files/cache tenga permisos de escritura (chmod 777). Luego, selecciona la opción correspondiente en la página de caché.
 
-Q> He modificado el tema que estoy usando pero el cambio no se ve – ¿estará en caché?
-A> Muy probablemente sí. Cambiar de tema limpia la caché automáticamente, pero editar `theme.php` no. O desactivas la caché mientras iteras, o pulsas [b]Limpiar caché[/b] después de cada cambio.
-
-TIP> Mientras desarrollas un tema o plugin, pon el Estado de la Caché en [i]desactivada[/i]. Vuelve a activarla antes de pasar a producción.
-
-Q> ¿Puedo guardar la caché en archivos en el disco duro?
-A> Sí. Asegúrate de que el directorio `e107_system/<sitehash>/cache/` tiene permisos de escritura (chmod 755 / 775 en Linux), y después activa la caché en archivos en esta página.
-
-WARN> Si por accidente cacheas una versión autenticada de una página, cierra sesión y limpia la caché inmediatamente para evitar filtrar contenido ligado a la sesión a los invitados.

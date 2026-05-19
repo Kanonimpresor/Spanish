@@ -14,9 +14,8 @@
 
 if (!defined('e107_INIT')) { exit; }
 
-$caption = "Ayuda:<br />
-			# Registros del Sistema";
-			if (e_QUERY) list($action,$junk) = explode('.', e_QUERY); else $action = 'list';
+$caption = "Ayuda:<br /># Registros del Sistema";
+if (e_QUERY) list($action,$junk) = explode('.', e_QUERY); else $action = 'list';
 
 function common_filters()
 {
@@ -71,4 +70,4 @@ default :
   (Actualmente, el registro todavía se está implementando en el código, por lo que la lista no está completa.)<br /><br />";
   $text .= common_filters();
 }
-$ns -> tablerender($caption, $text);
+e107::getRender()->tablerender($caption, $text);

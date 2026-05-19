@@ -12,29 +12,28 @@
 +---------------------------------------------------------------+
 */
 
-define("LANDT_01", "Año");
-define("LANDT_02", "Mes");
-define("LANDT_03", "Semana");
-define("LANDT_04", "Día");
-define("LANDT_05", "Hora");
-define("LANDT_06", "Minuto");
-define("LANDT_07", "Segundo");
-define("LANDT_01s", "Años");
-define("LANDT_02s", "Meses");
-define("LANDT_03s", "Semanas");
-define("LANDT_04s", "Días");
-define("LANDT_05s", "Horas");
-define("LANDT_06s", "Minutos");
-define("LANDT_07s", "Segundos");
-
-define("LANDT_08", "min");
-define("LANDT_08s", "mins");
-define("LANDT_09", "seg");
-define("LANDT_09s", "segs");
-define("LANDT_AGO", "hace");
-define("LANDT_IN", "dentro de");
-
-define("LANDT_10", "Ahora mismo");
-
-define("LANDT_XAGO", "hace [x]");
-define("LANDT_INX", "dentro de [x]");
+return [
+	'LANDT_01' => "Año",
+	'LANDT_02' => "Mes",
+	'LANDT_03' => "Semana",
+	'LANDT_04' => "Día",
+	'LANDT_05' => "Hora",
+	'LANDT_06' => "Minuto",
+	'LANDT_07' => "Segundo",
+	'LANDT_01s' => "Años",
+	'LANDT_02s' => "Meses",
+	'LANDT_03s' => "Semanas",
+	'LANDT_04s' => "Días",
+	'LANDT_05s' => "Horas",
+	'LANDT_06s' => "Minutos",
+	'LANDT_07s' => "Segundos",
+	'LANDT_08' => "min",
+	'LANDT_08s' => "mins",
+	'LANDT_09' => "seg",
+	'LANDT_09s' => "segs",
+	'LANDT_AGO' => "hace",
+	'LANDT_IN' => "dentro de",
+	'LANDT_10' => "Ahora mismo",
+	'LANDT_XAGO' => "hace [x]",
+	'LANDT_INX' => "dentro de [x]",
+];

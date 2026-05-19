@@ -1,16 +1,10 @@
-H1> Configurar la chatbox
 
-P> La Chatbox es un pequeño tablón de mensajes en tiempo real. Con un par de opciones se puede volver segura para cualquier audiencia.
+P> ¿Para qué sirve la sección Reemplazar enlaces?
+R> Puedes convertir cualquier enlace introducido en tu chatbox en otro texto o en una imagen. Esto evita que tu chatbox se llene con direcciones web largas. Para usar una imagen, marca la opción Reemplazar enlaces y, en la casilla inferior, introduce: <img src='path_to_your_image' alt='' />. A partir de ese momento, cualquier enlace introducido se convertirá en la imagen que hayas definido.
 
-Q> ¿Para qué sirve la sección Reemplazar Enlaces?
-A> Puedes convertir cualquier enlace introducido en la chatbox por otro texto o por una imagen. Esto evita que la chatbox se llene de URLs largas. Para usar una imagen, marca [b]Reemplazar Enlaces[/b] y en el cuadro inferior introduce `<img src="ruta_a_tu_imagen" alt="" />` – cada enlace se renderizará entonces como esa imagen.
+P> ¿Para qué sirve la opción de ajuste de palabras (Wordwrap)?
+R> Si alguien introduce una palabra muy larga en el chatbox, podría alterar el diseño de tu sitio. Si introduces, por ejemplo, 40 en la casilla Wordwrap, cualquier palabra con más de 40 caracteres se ajustará a la línea para no ensanchar la columna. Puede que necesites ajustar este valor según el tema que estés usando y el ancho de la columna en la que se encuentra el chatbox.
 
-Q> ¿Para qué sirve el Wordwrap?
-A> Si un usuario escribe una palabra muy larga puede estirar la columna donde está la chatbox. Poner el Wordwrap a, por ejemplo, `40` obliga a las palabras con más de 40 caracteres a ajustarse. Ajusta el valor al ancho de columna de tu tema activo.
+P> Mi sitio es para todas las edades, pero alguien sigue poniendo palabrotas en el chatbox. ¿Cómo puedo evitarlo?
+R> Ve a la pantalla de Preferencias en tu sección de administración y busca la opción Protección de menores. Allí puedes añadir una lista de palabras que serán reemplazadas por un texto o palabra que elijas, por ejemplo: ¡CENSURADO! Así, cada vez que aparezca esa palabra en tu sitio, será sustituida automáticamente por el texto que hayas definido.
 
-H1> Moderación
-
-Q> Mi sitio es para todos los públicos pero alguien sigue diciendo palabrotas en la chatbox – ¿cómo lo paro?
-A> Abre [b]Admin → Preferencias[/b] y busca las opciones de [b]Protección de menores[/b]. Añade las palabras que quieras censurar; serán reemplazadas en todo el sitio por el texto que elijas (por ejemplo, `¡CENSURADO!`).
-
-WARN> La lista de censura es global – afecta a noticias, comentarios, foros y chatbox por igual. Prueba primero con una palabra inofensiva para confirmar el comportamiento.

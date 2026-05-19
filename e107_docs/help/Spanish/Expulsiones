@@ -1,13 +1,7 @@
-H1> Sobre la lista de expulsiones
 
-P> La lista de expulsiones bloquea a los visitantes no deseados en la puerta. Puedes banear por dirección IP, por dirección de correo electrónico, o por un patrón con comodines de cualquiera de las dos.
+P> ¿Para qué sirve esta sección?
+R> Esta página te permite bloquear visitantes a tu sitio, ya sea por su dirección IP y/o dirección de correo electrónico.
 
-Q> ¿Para qué sirve esta sección?
-A> Te permite banear visitantes a tu sitio, ya sea por dirección IP y/o por dirección de correo. Las direcciones bloqueadas se comprueban muy temprano en el ciclo de la petición, así que los visitantes bloqueados nunca llegan a tu contenido.
+P> ¿Por qué tengo que dar un motivo?
+R> No es obligatorio, ese campo de texto está ahí para que otros administradores puedan ver el motivo del bloqueo, o podrían eliminarlo por error.
 
-Q> ¿Por qué tengo que dar un motivo?
-A> No es obligatorio, pero sí muy recomendable. El campo de motivo se muestra a otros administradores para que entiendan por qué existe el bloqueo – sin él, alguien podría levantar el veto por error.
-
-TIP> Usa el campo [b]Caducidad[/b] para programar bloqueos cortos (por ejemplo, 24 horas de pausa). Los bloqueos permanentes deben reservarse para reincidentes.
-
-WARN> Banear por IP afecta a todos los usuarios detrás de esa IP – incluyendo visitantes legítimos en conexiones compartidas (universidades, operadoras móviles, NAT). Prefiere bloqueos por correo/cuenta siempre que sea posible.

@@ -1,22 +1,10 @@
-H1> Clases de usuario explicadas
 
-P> Las clases de usuario son la primitiva de permisos de e107. Casi todas las configuraciones de visibilidad del sitio (noticias, enlaces, descargas, menús, BBCodes individuales…) se expresan como "disponible para la clase X".
+P> ¿Qué son esas clases de usuario que sigo viendo? ¿Para qué sirven?
+R> Las clases de usuario restringen el acceso a ciertas áreas o funciones de tu sitio. Si defines una clase y luego añades usuarios a ella, puedes hacer que ciertas cosas sean visibles solo para los usuarios de esa clase.
+Por ejemplo, hay una clase que se crea por defecto cuando instalas e107 llamada PRIVATEFORUM. Si añades usuarios a esa clase y luego creas un foro bajo esa clase, solo esos usuarios podrán acceder a ese foro. También puedes restringir otras áreas y funciones por clase, como noticias, enlaces, descargas, etc.
 
-Q> ¿Qué son esas clases de usuario que veo por todas partes? ¿Para qué sirven?
-A> Las clases de usuario restringen el acceso a ciertas áreas o funciones del sitio. Define una clase, añade usuarios, y puedes limitar contenido para que [b]solo[/b] los miembros de esa clase lo vean.
+P> ¿Para qué sirve el campo 'clase padre'?
+R> En la versión 2.x, puedes establecer una "jerarquía de clases", donde los usuarios de una clase también tienen los derechos de la clase padre. Si no quieres esto, simplemente configura la clase padre como "Todos".
 
-P> Un ejemplo incluido es la clase `PRIVATEFORUM`: añade usuarios a ella y crea un foro visible solo para esa clase, y el foro se vuelve invisible para el resto.
-
-H1> Jerarquía y herencia
-
-Q> ¿Para qué sirve el campo [b]clase padre[/b]?
-A> Desde la 2.x puedes construir una jerarquía de clases: los usuarios de una clase hija heredan automáticamente los derechos de la clase padre. Pon el padre en [b]Todos[/b] para desactivar la herencia.
-
-TIP> Usa una jerarquía cuando tengas niveles de pertenencia (por ejemplo, Miembro → Premium → Vitalicio). Un usuario premium tendrá automáticamente todos los privilegios de miembro sin necesidad de estar en dos clases.
-
-H1> Pertenencia por defecto para nuevos usuarios
-
-Q> Quiero que los nuevos usuarios empiecen siendo miembros de ciertas clases.
-A> Abre el menú [b]Clases de Usuario[/b] y marca las clases que quieras asignar automáticamente al registrarse. También puedes elegir si la pertenencia se concede inmediatamente o solo cuando la cuenta esté verificada.
-
-WARN> Ten cuidado con las clases que marcas como "por defecto al registro" – cualquier registro abusivo de invitados heredará esos privilegios.
+P> Quiero que los nuevos usuarios empiecen siendo miembros de ciertas clases.
+R> Ahora puedes definir la clase inicial de membresía desde el menú "Clases de usuario". También puedes decidir si esta membresía se aplica en cuanto se registran o si se añade cuando se verifica su cuenta.

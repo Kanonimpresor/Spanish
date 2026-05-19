@@ -11,54 +11,57 @@
 |       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-//v.616
-define("ONLINE_EL1", "Invitados: ");
-define("ONLINE_EL2", "Miembros: ");
-define("ONLINE_EL3", "En esta página: ");
-define("ONLINE_EL4", "En línea");
-define("ONLINE_EL5", "Miembros");
-define("ONLINE_EL6", "Último miembro");
-define("ONLINE_EL7", "viendo");
-define("ONLINE_EL8", "máximo de conexiones: ");
-define("ONLINE_EL9", "el");
-define("ONLINE_EL10", "Nombre de usuario");
-define("ONLINE_EL11", "Viendo página");
-define("ONLINE_EL12", "Respondiendo a");
-define("ONLINE_EL13", "Foro");
-define("ONLINE_EL14", "Tema");
-define("ONLINE_EL15", "Página");
-define("ONLINE_EL16", "Información no disponible");
 
-define("CLASSRESTRICTED", "Página restringida por clase");
-define("CHAT", "Chat");
-define("DOWNLOAD", "Descargas");
-define("EMAIL", "email.php");
-define("FORUM", "Índice principal del foro");
-define("LINKS", "Enlaces");
-define("NEWS", "Noticias");
-define("OLDPOLLS", "Encuestas antiguas");
-define("POLLCOMMENT", "Encuesta");
-define("PRINTPAGE", "Imprimir");
-define("LOGIN", "Iniciando sesión");
-define("SEARCH", "Buscando");
-define("STATS", "Estadísticas del sitio");
-define("SUBMITNEWS", "Enviar noticias");
-define("UPLOAD", "Subidas");
-define("USERPAGE", "Perfiles de usuario");
-define("USERSETTINGS", "Configuración de usuario");
-define("ONLINE", "Usuarios en línea");
-define("LISTNEW", "Listar nuevos elementos");
-define("USERPOSTS", "Publicaciones del usuario");
-define("SUBCONTENT", "Enviar contenido");
-define("TOP", "Publicaciones destacadas / Temas más activos");
-define("ADMINAREA", "Área de administración");
-define("BUGTRACKER", "Bugtracker");
-define("EVENT", "Lista de eventos");
-define("CALENDAR", "Calendario de eventos");
-define("FAQ", "Preguntas frecuentes");
-define("PM", "Mensajería privada");
-define("SURVEY", "Encuesta");
-define("ARTICLE", "Artículo");
-define("CONTENT", "Página de contenido");
-define("REVIEW", "Reseña");
-define("OTHER", "Otra página: ");
+//v.616
+
+return [
+	'ONLINE_EL1' => "Invitados: ",
+	'ONLINE_EL2' => "Miembros: ",
+	'ONLINE_EL3' => "En esta página: ",
+	'ONLINE_EL4' => "En línea",
+	'ONLINE_EL5' => "Miembros",
+	'ONLINE_EL6' => "Último miembro",
+	'ONLINE_EL7' => "viendo",
+	'ONLINE_EL8' => "máximo de conexiones: ",
+	'ONLINE_EL9' => "el",
+	'ONLINE_EL10' => "Nombre de usuario",
+	'ONLINE_EL11' => "Viendo página",
+	'ONLINE_EL12' => "Respondiendo a",
+	'ONLINE_EL13' => "Foro",
+	'ONLINE_EL14' => "Tema",
+	'ONLINE_EL15' => "Página",
+	'ONLINE_EL16' => "Información no disponible",
+	'CLASSRESTRICTED' => "Página restringida por clase",
+	'CHAT' => "Chat",
+	'DOWNLOAD' => "Descargas",
+	'EMAIL' => "email.php",
+	'FORUM' => "Índice principal del foro",
+	'LINKS' => "Enlaces",
+	'NEWS' => "Noticias",
+	'OLDPOLLS' => "Encuestas antiguas",
+	'POLLCOMMENT' => "Encuesta",
+	'PRINTPAGE' => "Imprimir",
+	'LOGIN' => "Iniciando sesión",
+	'SEARCH' => "Buscando",
+	'STATS' => "Estadísticas del sitio",
+	'SUBMITNEWS' => "Enviar noticias",
+	'UPLOAD' => "Subidas",
+	'USERPAGE' => "Perfiles de usuario",
+	'USERSETTINGS' => "Configuración de usuario",
+	'ONLINE' => "Usuarios en línea",
+	'LISTNEW' => "Listar nuevos elementos",
+	'USERPOSTS' => "Publicaciones del usuario",
+	'SUBCONTENT' => "Enviar contenido",
+	'TOP' => "Publicaciones destacadas / Temas más activos",
+	'ADMINAREA' => "Área de administración",
+	'BUGTRACKER' => "Bugtracker",
+	'EVENT' => "Lista de eventos",
+	'CALENDAR' => "Calendario de eventos",
+	'FAQ' => "Preguntas frecuentes",
+	'PM' => "Mensajería privada",
+	'SURVEY' => "Encuesta",
+	'ARTICLE' => "Artículo",
+	'CONTENT' => "Página de contenido",
+	'REVIEW' => "Reseña",
+	'OTHER' => "Otra página: ",
+];

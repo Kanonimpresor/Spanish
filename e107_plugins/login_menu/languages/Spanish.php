@@ -11,7 +11,6 @@
 |       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-
 define("LAN_LOGINMENU_1", "Usuario: ");
 define("LAN_LOGINMENU_2", "Contraseña: ");
 define("LAN_LOGINMENU_3", "Registrarse");

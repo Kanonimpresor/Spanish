@@ -1,24 +1,6 @@
-H1> Aceptar subidas de forma segura
 
-P> Permitir que los visitantes suban archivos es potente, pero también es una de las superficies de ataque más grandes de cualquier CMS. e107 viene con valores por defecto sensatos; los consejos de abajo aprietan aún más las tuercas.
+P> Me gustaría permitir que la gente suba archivos a mi sitio, pero me preocupa la seguridad...
+R> Hay un par de cosas que puedes hacer para mejorar la seguridad. Primero, usa el almacenamiento binario, así los archivos subidos se almacenarán en la base de datos MySQL y no serán accesibles por nadie, aparte de para ser descargados. Además, define la lista de tipos de archivo permitidos; si alguien intenta subir un tipo de archivo distinto a los que hayas definido, se eliminará de inmediato de tu servidor.
 
-WARN> No aceptes nunca tipos de archivo arbitrarios de usuarios anónimos. La lista de [b]tipos permitidos[/b] es tu defensa más importante.
-
-Q> Me gustaría permitir que la gente suba archivos a mi sitio pero me preocupa la seguridad…
-A> Dos ajustes marcan una enorme diferencia:
-
-STEP> Usa [b]almacenamiento binario[/b] – los archivos subidos se escriben en la base de datos MySQL, no en un directorio público, así que no pueden enlazarse directamente ni ejecutarse.
-STEP> Define una lista de [b]tipos de archivo permitidos[/b]. Todo lo que no esté en la lista es rechazado y eliminado del servidor de inmediato.
-
-TIP> Restringe las subidas a clases de usuario específicas (ver la página de ayuda Clases) para que solo los miembros verificados puedan subir. Combinado con los dos ajustes anteriores, esto estrecha muchísimo el abuso.
-
-H1> Qué hacer cuando se sube un archivo
-
-Q> Tengo algunos archivos subidos – ¿qué hago ahora?
-A> Desde la pantalla de revisión de subidas puedes:
-
-STEP> Copiar el archivo al [b]Gestor de Descargas[/b] para que otros puedan obtenerlo.
-STEP> Enviar los metadatos de la subida al formulario de [b]Noticias[/b] para anunciar el archivo en un artículo.
-STEP> Rechazar la subida si no cumple tus directrices – el archivo se elimina entonces.
-
-NOTE> Revisa siempre las subidas antes de publicarlas. Incluso con filtrado por tipo de archivo, la moderación a nivel de contenido (derechos de autor, contenido sensible, reportes de malware) no se puede automatizar de forma fiable.
+P> He recibido algunos archivos subidos, ¿qué debo hacer ahora?
+R> Tienes la opción de copiar el archivo a tu Gestor de Descargas, para permitir que otros lo descarguen, y copiar la información de la subida a la sección de noticias, para hacer un anuncio de un artículo sobre él.

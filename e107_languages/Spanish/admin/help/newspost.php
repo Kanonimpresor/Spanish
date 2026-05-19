@@ -53,4 +53,4 @@ Si estableces una fecha de inicio y/o fin, tu noticia solo se mostrará entre es
   default :
 	$text = 'Lista de todas las publicaciones de noticias. Para editar o eliminar, haz clic en uno de los iconos en la columna de \'opciones\'. Para ver la noticia, haz clic en el ID.';
 }
-$ns -> tablerender($caption, $text);
+e107::getRender()->tablerender($caption, $text);

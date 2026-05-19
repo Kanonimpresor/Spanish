@@ -1,15 +1,6 @@
-H1> Elegir la página principal
 
-P> La administración de Página Principal decide lo que ven los visitantes en la URL raíz de tu sitio. Por defecto es el listado de noticias, pero puedes enrutar la página principal a casi cualquier cosa.
+P> ¿Para qué sirve esta sección?
+R> Esta pantalla te permite configurar qué aparece en la página principal de tu sitio. Por defecto, está configurada para mostrar las noticias.
 
-SHOT> front-page/admin-frontpage.png | Selector de Página Principal con las rutas predefinidas
-
-Q> ¿Para qué sirve esta sección?
-A> Controla la página que se renderiza en `/` de tu sitio. El valor por defecto es `news.php`.
-
-Q> ¿Qué otras páginas puedo mostrar?
-A> Cualquiera. Marca una de las predefinidas (noticias, foro, descargas, página personalizada, …) o pega una URL/ruta personalizada para enviar la página principal a donde necesites.
-
-TIP> Clases de usuario distintas pueden enviarse a páginas principales distintas. Útil cuando los administradores quieren un panel mientras los visitantes aterrizan en las noticias públicas.
-
-NOTE> El ajuste de la página principal solo afecta a peticiones a `/`. Los enlaces directos a otras URLs siguen funcionando como siempre.
+P> ¿Qué otras páginas puedo mostrar?
+R> Cualquiera. Puedes marcar las páginas predefinidas (foro, descargas, etc.) o introducir la dirección de la página que deseas usar.

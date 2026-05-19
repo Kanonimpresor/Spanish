@@ -1,26 +1,15 @@
-H1> Administración de foros
 
-P> Los foros se organizan bajo [b]padres[/b] (categorías), con moderadores, seguimiento y políticas de poda opcionales por foro.
+P> ¿Qué son los foros padres?
+R> Un foro padre es un encabezado bajo el cual se agrupan otros foros. Esto facilita la navegación por los foros.
 
-SHOT> forums/forum-admin.png | Árbol de foros con padres y foros hijos
+P> Quiero hacer que un administrador sea moderador de un foro, pero su nombre no aparece en la lista, ¿por qué?
+R> Los administradores solo aparecerán si tienen los permisos correctos para ser moderadores de foros. Ve a la sección de Administradores, edita el administrador en cuestión y asegúrate de que la opción 'Moderación de foros' esté activada.
 
-Q> ¿Qué son los foros padres?
-A> Un padre es un encabezado usado para agrupar otros foros. Los padres facilitan la navegación cuando tienes muchos foros.
+P> ¿Qué es el seguimiento?
+R> Si tienes esta opción activada, los usuarios podrán hacer un seguimiento de un tema del foro; recibirán un correo electrónico cuando alguien responda a ese tema.
 
-H1> Moderación
+P> ¿Qué es el pruning (poda)?
+R> Esto permite eliminar temas antiguos que no han recibido respuestas en un tiempo determinado. Ten cuidado con esta función, una vez eliminados los temas, no podrán ser recuperados.
 
-Q> Quiero hacer a un administrador moderador de un foro pero su nombre no sale en la lista – ¿por qué?
-A> Un administrador solo aparece como candidato a moderador si tiene el permiso [b]Moderar Foros[/b]. Abre [b]Admin → Administradores[/b], edita al administrador y marca ese permiso.
-
-Q> ¿Qué son los mensajes reportados?
-A> Los usuarios pueden marcar mensajes que consideren inapropiados. El tema reportado aparece en la cola de moderación, donde puedes leerlo en contexto y actuar (borrar, bloquear, avisar al usuario, etc.).
-
-H1> Suscripciones y limpieza
-
-Q> ¿Qué es el seguimiento?
-A> Cuando el seguimiento está activo, los usuarios pueden suscribirse a un tema y recibir un correo cada vez que se publica una nueva respuesta.
-
-Q> ¿Qué es la poda (pruning)?
-A> La poda elimina automáticamente temas que no han recibido respuesta en un plazo configurable.
-
-WARN> La poda es destructiva – los temas eliminados no se pueden recuperar. Prueba primero en un foro de poco tráfico y mantén copias de seguridad regulares de la base de datos.
+P> ¿Qué son los mensajes reportados?
+R> Los usuarios pueden reportar mensajes que encuentren con material inapropiado. Puedes abrir el tema reportado y moderarlo como desees.

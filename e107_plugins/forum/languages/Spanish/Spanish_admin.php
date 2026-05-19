@@ -11,7 +11,6 @@
 |       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-
 //define("FORLAN_1", "Debes ingresar el número de días que deseas podar.");
 define("FORLAN_2", "Por favor, selecciona si deseas eliminar los posts podados por completo o hacerlos inactivos (no eliminados pero no visibles en los foros)");
 // define("FORLAN_3", "eliminar");

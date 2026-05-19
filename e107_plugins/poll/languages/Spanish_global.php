@@ -12,5 +12,5 @@
 +---------------------------------------------------------------+
 */
  
-define("LAN_PLUGIN_POLL_NAME", "Encuestas");
+define("LAN_PLUGIN_POLL_NAME", "Encuesta");
 define("LAN_PLUGIN_POLL_DESCRIPTION", "El plugin de encuestas te permite crear votaciones en un menú o publicaciones del foro.");

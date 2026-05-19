@@ -14,7 +14,10 @@
 
 // Admin log messages
 //-------------------
-define("LAN_AL_GSMAP_01", "Importar enlaces del sitio");
-define("LAN_AL_GSMAP_02", "Enlace del mapa del sitio eliminado");
-define("LAN_AL_GSMAP_03", "Enlace del mapa del sitio añadido");
-define("LAN_AL_GSMAP_04", "Enlace del mapa del sitio actualizado");
+
+return [
+	'LAN_AL_GSMAP_01' => "Importar enlaces del sitio",
+	'LAN_AL_GSMAP_02' => "Enlace del mapa del sitio eliminado",
+	'LAN_AL_GSMAP_03' => "Enlace del mapa del sitio añadido",
+	'LAN_AL_GSMAP_04' => "Enlace del mapa del sitio actualizado",
+];

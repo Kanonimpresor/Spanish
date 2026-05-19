@@ -11,10 +11,9 @@
 |       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-if(!defined('PAGE_NAME')) // FIXME.
-{
-	define("PAGE_NAME", "El Sitio está cerrado temporalmente");
-}
 
-define("LAN_SITEDOWN_00", "<b>- Temporalmente cerrado -</b><br /><br />Hemos cerrado temporalmente nuestro portal para realizar un mantenimiento del mismo e implementar nuevas utilidades. Este proceso durará pocas horas - Le rogamos nos disculpe por los inconvenientes que este proceso le pueda causar..");
-define("LAN_SITEDOWN_01", "Este sitio está cerrado temporalmente por mantenimiento. El sitio estará disponible lo antes posible, por favor disculpe las molestias.");
+return [
+	'PAGE_NAME' => "Sitio Cerrado Temporalmente",
+	'LAN_SITEDOWN_00' => "Temporalmente Cerrado ",
+	'LAN_SITEDOWN_01' => "Hemos cerrado temporalmente nuestro portal para realizar un mantenimiento del mismo e implementar nuevas utilidades. Este proceso durará pocas horas - Pedimos desculpa por qualquer inconveniente que esto pueda causar.",
+];

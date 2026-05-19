@@ -12,6 +12,15 @@
 +---------------------------------------------------------------+
 */
 
+
+/**
+ *	e107 Import plugin
+ *
+ *	@package	e107_plugins
+ *	@subpackage	import
+ *	@version 	$Id$;
+*/
+
 if (!defined("e107_INIT")) { exit; }
 
 //define("LAN_CONTINUE","Continuar");		Definición global actual

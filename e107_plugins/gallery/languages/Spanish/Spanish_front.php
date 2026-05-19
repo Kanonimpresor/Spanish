@@ -11,5 +11,8 @@
 |       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-define("LAN_GALLERY_FRONT_01", "Clic derecho > Guardar enlace como");
-define("LAN_GALLERY_FRONT_02", "Ampliar la imagen");
+
+return [
+	'LAN_GALLERY_FRONT_01' => "Clic derecho > Guardar enlace como",
+	'LAN_GALLERY_FRONT_02' => "Ampliar la imagen",
+];

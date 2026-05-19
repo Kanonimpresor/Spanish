@@ -5,13 +5,12 @@
 |       Spanish language file)
 |
 |       Traducción Spanish(ES) -> KANONimpresor
-|       (http://www.kanonimpresor.com), 2025
+|       (http:
 |
 |       Released under the terms and conditions of the
-|       GNU General Public License (http://gnu.org).
+|       GNU General Public License (http:
 +---------------------------------------------------------------+
 */
-
 /*
 Las definiciones en este archivo corresponden a mensajes explicativos estándar que pueden registrarse
 en cualquiera de los registros del sistema. Se organizan en tres grupos con diferentes prefijos:
@@ -20,286 +19,254 @@ en cualquiera de los registros del sistema. Se organizan en tres grupos con dife
     LAN_ROLL_LOG_nnn - registro dinámico (registra eventos secundarios, depuración, etc.)
 */
 
-// User audit trail events
-define("LAN_AUDIT_LOG_001", "Acceso de usuario baneado");
-define("LAN_AUDIT_LOG_002", "Protección anti-flood activada");
-define("LAN_AUDIT_LOG_003", "Acceso desde IP baneada");
-define("LAN_AUDIT_LOG_006", "Usuario cambió contraseña");
-define("LAN_AUDIT_LOG_007", "Usuario cambió email");
-define("LAN_AUDIT_LOG_010", "Datos de usuario modificados por admin");
-define("LAN_AUDIT_LOG_011", "Usuario registrado");
-define("LAN_AUDIT_LOG_012", "Usuario confirmó registro");
-define("LAN_AUDIT_LOG_013", "Inicio de sesión de usuario");
-define("LAN_AUDIT_LOG_014", "Cierre de sesión de usuario");
-define("LAN_AUDIT_LOG_015", "Usuario cambió nombre mostrado");
-define("LAN_AUDIT_LOG_016", "Usuario cambió contraseña");
-define("LAN_AUDIT_LOG_017", "Usuario cambió email");
-define("LAN_AUDIT_LOG_018", "Restablecimiento de contraseña");
-define("LAN_AUDIT_LOG_019", "Usuario cambió configuraciones");
-define("LAN_AUDIT_LOG_020", "Usuario añadido por admin");
-define("LAN_AUDIT_LOG_021", "Email rebotado de usuario");
-define("LAN_AUDIT_LOG_022", "Usuario baneado");
-define("LAN_AUDIT_LOG_023", "Restablecimiento de rebote");
-define("LAN_AUDIT_LOG_024", "Estado temporal de usuario");
+// User audit trail events. For messages 11-30, the last 2 digits must match the define for the event type in the admin log class file
 
-// Admin log events
-define("LAN_AL_ADLOG_01", "Log de admin - preferencias actualizadas");
-define("LAN_AL_ADLOG_02", "Log de admin - datos antiguos eliminados");
-define("LAN_AL_ADLOG_03", "Log de auditoría - datos antiguos eliminados");
-define("LAN_AL_ADLOG_04", "Opciones de auditoría actualizadas");
-
-// User edits
-define("LAN_AL_USET_01", "Admin editó datos de usuario");
-define("LAN_AL_USET_02", "Usuario añadido por Admin");
-define("LAN_AL_USET_03", "Opciones de usuario actualizadas");
-define("LAN_AL_USET_04", "Usuarios purgados");
-define("LAN_AL_USET_05", "Usuario baneado");
-define("LAN_AL_USET_06", "Usuario desbaneado");
-define("LAN_AL_USET_07", "Usuario eliminado");
-define("LAN_AL_USET_08", "Usuario convertido en admin");
-define("LAN_AL_USET_09", "Usuario dejó de ser admin");
-define("LAN_AL_USET_10", "Usuario aprobado");
-define("LAN_AL_USET_11", "Reenviar email de validación");
-define("LAN_AL_USET_12", "Reenviar todos los emails de validación");
-define("LAN_AL_USET_13", "Emails rebotados eliminados");
-define("LAN_AL_USET_14", "Membresía de clase actualizada");
-define("LAN_AL_USET_15", "Registro rechazado");
-
-// Userclass events
-define("LAN_AL_UCLASS_00", "Evento desconocido relacionado con clases");
-define("LAN_AL_UCLASS_01", "Clase de usuario creada");
-define("LAN_AL_UCLASS_02", "Clase de usuario eliminada");
-define("LAN_AL_UCLASS_03", "Clase de usuario editada");
-define("LAN_AL_UCLASS_04", "Membresía de clase actualizada");
-define("LAN_AL_UCLASS_05", "Configuración inicial de clases editada");
-define("LAN_AL_UCLASS_06", "Clase de usuario vaciada");
-
-// Banlist events
-define("LAN_AL_BANLIST_00", "Evento de ban desconocido");
-define("LAN_AL_BANLIST_01", "Ban manual añadido");
-define("LAN_AL_BANLIST_02", "Ban eliminado");
-define("LAN_AL_BANLIST_03", "Tiempo de ban modificado");
-define("LAN_AL_BANLIST_04", "Entrada en lista blanca añadida");
-define("LAN_AL_BANLIST_05", "Entrada en lista blanca eliminada");
-define("LAN_AL_BANLIST_06", "Lista de bans exportada");
-define("LAN_AL_BANLIST_07", "Lista de bans importada");
-define("LAN_AL_BANLIST_08", "Opciones de banlist actualizadas");
-define("LAN_AL_BANLIST_09", "Entrada de ban editada");
-define("LAN_AL_BANLIST_10", "Entrada en lista blanca editada");
-define("LAN_AL_BANLIST_11", "Coincidencia en lista blanca");
-define("LAN_AL_BANLIST_12", "Bans expirados limpiados");
-
-// Comment-related events
-define("LAN_AL_COMMENT_01", "Comentario(s) eliminado(s)");
-
-// Rolling log events
-define("LAN_ROLL_LOG_01", "Usuario/contraseña vacíos");
-define("LAN_ROLL_LOG_02", "Código de imagen incorrecto");
-define("LAN_ROLL_LOG_03", "Combinación usuario/contraseña inválida");
-define("LAN_ROLL_LOG_04", "Usuario inválido");
-define("LAN_ROLL_LOG_05", "Intento de login sin registro completo");
-define("LAN_ROLL_LOG_06", "Login bloqueado por evento");
-define("LAN_ROLL_LOG_07", "Múltiples logins desde misma IP");
-define("LAN_ROLL_LOG_08", "Nombre de usuario demasiado largo");
-define("LAN_ROLL_LOG_09", "Usuario baneado intentó login");
-define("LAN_ROLL_LOG_10", "Error de login - razón desconocida");
-define("LAN_ROLL_LOG_11", "Error de login de admin");
-
-// Prefs events
-define("LAN_AL_PREFS_01", "Preferencias cambiadas");
-define("LAN_AL_PREFS_02", "Nuevas preferencias creadas");
-define("LAN_AL_PREFS_03", "Error guardando preferencias");
-
-// Front Page events
-define("LAN_AL_FRONTPG_00", "Evento desconocido en portada");
-define("LAN_AL_FRONTPG_01", "Orden de reglas cambiado");
-define("LAN_AL_FRONTPG_02", "Regla añadida");
-define("LAN_AL_FRONTPG_03", "Regla editada");
-define("LAN_AL_FRONTPG_04", "Regla eliminada");
-
-// User theme admin
-define("LAN_AL_UTHEME_00", "Evento de tema desconocido");
-define("LAN_AL_UTHEME_01", "Configuración de temas actualizada");
-
-// Update routines
-define("LAN_AL_UPDATE_00", "Evento de actualización desconocido");
-define("LAN_AL_UPDATE_01", "Actualización 1.0 a 2.0 ejecutada");
-define("LAN_AL_UPDATE_02", "Actualización 0.7.x a 0.7.6 ejecutada");
-define("LAN_AL_UPDATE_03", "Preferencias faltantes añadidas");
-
-// Administrator routines
-define("LAN_AL_ADMIN_00", "Evento de admin desconocido");
-define("LAN_AL_ADMIN_01", "Permisos de admin actualizados");
-define("LAN_AL_ADMIN_02", "Privilegios de admin revocados");
-
-// Maintenance mode
-define("LAN_AL_MAINT_00", "Mensaje de mantenimiento desconocido");
-define("LAN_AL_MAINT_01", "Modo mantenimiento activado");
-define("LAN_AL_MAINT_02", "Modo mantenimiento desactivado");
-
-// Sitelinks routines
-define("LAN_AL_SLINKS_00", "Evento de enlaces desconocido");
-define("LAN_AL_SLINKS_01", "Subenlaces generados");
-define("LAN_AL_SLINKS_02", "Enlace movido arriba");
-define("LAN_AL_SLINKS_03", "Enlace movido abajo");
-define("LAN_AL_SLINKS_04", "Orden de enlaces actualizado");
-define("LAN_AL_SLINKS_05", "Opciones de enlaces actualizadas");
-define("LAN_AL_SLINKS_06", "Enlace eliminado");
-define("LAN_AL_SLINKS_07", "Enlace enviado");
-define("LAN_AL_SLINKS_08", "Enlace actualizado");
-
-// Theme manager routines
-define("LAN_AL_THEME_00", "Evento de tema desconocido");
-define("LAN_AL_THEME_01", "Tema del sitio actualizado");
-define("LAN_AL_THEME_02", "Tema de admin actualizado");
-define("LAN_AL_THEME_03", "Precarga de imágenes/CSS actualizado");
-define("LAN_AL_THEME_04", "Estilo admin/CSS actualizado");
-
-// Cache control routines
-define("LAN_AL_CACHE_00", "Evento de caché desconocido");
-define("LAN_AL_CACHE_01", "Configuración de caché actualizada");
-define("LAN_AL_CACHE_02", "Caché del sistema vaciada");
-define("LAN_AL_CACHE_03", "Caché de contenido vaciada");
-
-// Emote admin
-define("LAN_AL_EMOTE_00", "Evento de emotes desconocido");
-define("LAN_AL_EMOTE_01", "Paquete de emotes activo cambiado");
-define("LAN_AL_EMOTE_02", "Emotes activados");
-define("LAN_AL_EMOTE_03", "Emotes desactivados");
-
-// Welcome message
-define("LAN_AL_WELCOME_00", "Evento de bienvenida desconocido");
-define("LAN_AL_WELCOME_01", "Mensaje de bienvenida creado");
-define("LAN_AL_WELCOME_02", "Mensaje de bienvenida actualizado");
-define("LAN_AL_WELCOME_03", "Mensaje de bienvenida eliminado");
-define("LAN_AL_WELCOME_04", "Opciones de bienvenida cambiadas");
-
-// Admin Password
-define("LAN_AL_ADMINPW_01", "Contraseña de admin cambiada");
-define("LAN_AL_ADMINPW_02", "Contraseña de admin rehasheada");
-
-// Banners Admin
-define("LAN_AL_BANNER_00", "Evento de banner desconocido");
-define("LAN_AL_BANNER_01", "Menú de banners actualizado");
-define("LAN_AL_BANNER_02", "Banner creado");
-define("LAN_AL_BANNER_03", "Banner actualizado");
-define("LAN_AL_BANNER_04", "Banner eliminado");
-define("LAN_AL_BANNER_05", "Configuración de banners actualizada");
-
-// Image management
-define("LAN_AL_IMALAN_00", "Evento de imagen desconocido");
-define("LAN_AL_IMALAN_01", "Avatar eliminado");
-define("LAN_AL_IMALAN_02", "Todos los avatars/fotos eliminados");
-define("LAN_AL_IMALAN_03", "Avatar eliminado");
-define("LAN_AL_IMALAN_04", "Configuración actualizada");
-
-// Language management
-define("LAN_AL_LANG_00", "Evento de idioma desconocido");
-define("LAN_AL_LANG_01", "Preferencias de idioma cambiadas");
-define("LAN_AL_LANG_02", "Tablas de idioma eliminadas");
-define("LAN_AL_LANG_03", "Tablas de idioma creadas");
-define("LAN_AL_LANG_04", "Paquete de idioma zip creado");
-
-// Meta Tags
-define("LAN_AL_META_01", "Meta tags actualizadas");
-
-// Custom Pages/Menus
-define("LAN_AL_CPAGE_01", "Página/menú personalizado añadido");
-define("LAN_AL_CPAGE_02", "Página/menú personalizado actualizado");
-define("LAN_AL_CPAGE_03", "Página/menú personalizado eliminado");
-define("LAN_AL_CPAGE_04", "Configuración de páginas/menús actualizada");
-
-// Extended User Fields
-define("LAN_AL_EUF_01", "Campo extendido movido arriba");
-define("LAN_AL_EUF_02", "Campo extendido movido abajo");
-define("LAN_AL_EUF_03", "Categoría EUF movida arriba");
-define("LAN_AL_EUF_04", "Categoría EUF movida abajo");
-define("LAN_AL_EUF_05", "Campo extendido añadido");
-define("LAN_AL_EUF_06", "Campo extendido actualizado");
-define("LAN_AL_EUF_07", "Campo extendido eliminado");
-define("LAN_AL_EUF_08", "Categoría EUF añadida");
-define("LAN_AL_EUF_09", "Categoría EUF actualizada");
-define("LAN_AL_EUF_10", "Categoría EUF eliminada");
-define("LAN_AL_EUF_11", "Campos extendidos activados");
-define("LAN_AL_EUF_12", "Campos extendidos desactivados");
-
-// Menus
-define("LAN_AL_MENU_01", "Menú activado");
-define("LAN_AL_MENU_02", "Visibilidad de menú establecida");
-define("LAN_AL_MENU_03", "Área de menú cambiada");
-define("LAN_AL_MENU_04", "Menú desactivado");
-define("LAN_AL_MENU_05", "Menú movido al inicio");
-define("LAN_AL_MENU_06", "Menú movido al final");
-define("LAN_AL_MENU_07", "Menú movido arriba");
-define("LAN_AL_MENU_08", "Menú movido abajo");
-
-// Public Uploads
-define("LAN_AL_UPLOAD_01", "Archivo subido eliminado");
-define("LAN_AL_UPLOAD_02", "Preferencias de subida cambiadas");
-
-// Search
-define("LAN_AL_SEARCH_01", "Configuración de búsqueda actualizada");
-define("LAN_AL_SEARCH_02", "Preferencias de búsqueda actualizadas");
-define("LAN_AL_SEARCH_03", "Parámetros de búsqueda auto-actualizados");
-define("LAN_AL_SEARCH_04", "Áreas buscables actualizadas");
-define("LAN_AL_SEARCH_05", "Configuración de buscador actualizada");
-
-// Notify
-define("LAN_AL_NOTIFY_01", "Configuración de notificaciones actualizada");
-
-// News
-define("LAN_AL_NEWS_01", "Noticia eliminada");
-define("LAN_AL_NEWS_02", "Categoría de noticias eliminada");
-define("LAN_AL_NEWS_03", "Noticia enviada eliminada");
-define("LAN_AL_NEWS_04", "Categoría de noticias creada");
-define("LAN_AL_NEWS_05", "Categoría de noticias actualizada");
-define("LAN_AL_NEWS_06", "Preferencias de noticias actualizadas");
-define("LAN_AL_NEWS_07", "Noticia enviada autorizada");
-define("LAN_AL_NEWS_08", "Noticia añadida");
-define("LAN_AL_NEWS_09", "Noticia actualizada");
-define("LAN_AL_NEWS_10", "Reescritura de categoría cambiada");
-define("LAN_AL_NEWS_11", "Reescritura de categoría eliminada");
-define("LAN_AL_NEWS_12", "Reescritura de noticia cambiada");
-define("LAN_AL_NEWS_13", "Reescritura de noticia eliminada");
-
-// File Manager
-define("LAN_AL_FILEMAN_01", "Archivo(s) eliminado(s)");
-define("LAN_AL_FILEMAN_02", "Archivo(s) movido(s)");
-define("LAN_AL_FILEMAN_03", "Archivo(s) subido(s)");
-
-// Mail
-define("LAN_AL_MAIL_01", "Email de prueba enviado");
-define("LAN_AL_MAIL_02", "Mailshot creado");
-define("LAN_AL_MAIL_03", "Configuración de email actualizada");
-define("LAN_AL_MAIL_04", "Detalles de mailshot eliminados");
-define("LAN_AL_MAIL_05", "Base de datos de email limpiada");
-define("LAN_AL_MAIL_06", "Mailshot activado");
-
-// Plugin Manager
-define("LAN_AL_PLUGMAN_01", "Plugin instalado");
-define("LAN_AL_PLUGMAN_02", "Plugin actualizado");
-define("LAN_AL_PLUGMAN_03", "Plugin desinstalado");
-define("LAN_AL_PLUGMAN_04", "Plugin actualizado");
-
-// URL Manager
-define("LAN_AL_EURL_01", "Configuración de URL del sitio cambiada");
-
-// Sundry Pseudo-plugins
-define("LAN_AL_MISC_01", "Configuración de menú árbol actualizada");
-define("LAN_AL_MISC_02", "Configuración de menú online actualizada");
-define("LAN_AL_MISC_03", "Configuración de menú login actualizada");
-define("LAN_AL_MISC_04", "Configuración de menú comentarios actualizada");
-define("LAN_AL_MISC_05", "Configuración de reloj actualizada");
-define("LAN_AL_MISC_06", "Configuración de calendario actualizada");
-
-define("LAN_AL_PING_01", "Ping enviado al servicio");
-
-define("LAN_AL_ADMINUI_01", "Admin-UI: Inserción en tabla [x]");
-define("LAN_AL_ADMINUI_02", "Admin-UI: Actualización en tabla [x]");
-define("LAN_AL_ADMINUI_03", "Admin-UI: Eliminación en tabla [x]");
-define("LAN_AL_ADMINUI_04", "Admin-UI: Error en DB [x]");
-
-define("LAN_AL_BACKUP", "Copia de seguridad de la base de datos");
-define("LAN_AL_MEDIA_01", "Subida de medios");
-define("LAN_AL_USET_100", "Admin inició sesión como otro usuario");
-define("LAN_AL_USET_101", "Admin cerró sesión como otro usuario");
+return [
+	'LAN_AUDIT_LOG_001' => "Acceso de usuario baneado",
+	'LAN_AUDIT_LOG_002' => "Protección anti-flood activada",
+	'LAN_AUDIT_LOG_003' => "Acceso desde IP baneada",
+    'LAN_AUDIT_LOG_004' => "",
+    'LAN_AUDIT_LOG_005' => "",
+	'LAN_AUDIT_LOG_006' => "Usuario cambió contraseña",
+	'LAN_AUDIT_LOG_007' => "Usuario cambió email",
+	'LAN_AUDIT_LOG_008' => "",
+	'LAN_AUDIT_LOG_009' => "",
+	'LAN_AUDIT_LOG_010' => "Datos de usuario modificados por admin",
+	'LAN_AUDIT_LOG_011' => "Usuario registrado",
+	'LAN_AUDIT_LOG_012' => "Usuario confirmó registro",
+	'LAN_AUDIT_LOG_013' => "Inicio de sesión de usuario",
+	'LAN_AUDIT_LOG_014' => "Cierre de sesión de usuario",
+	'LAN_AUDIT_LOG_015' => "Usuario cambió nombre mostrado",
+	'LAN_AUDIT_LOG_016' => "Usuario cambió contraseña",
+	'LAN_AUDIT_LOG_017' => "Usuario cambió email",
+	'LAN_AUDIT_LOG_018' => "Restablecimiento de contraseña",
+	'LAN_AUDIT_LOG_019' => "Usuario cambió configuraciones",
+	'LAN_AUDIT_LOG_020' => "Usuario añadido por admin",
+	'LAN_AUDIT_LOG_021' => "Email rebotado de usuario",
+	'LAN_AUDIT_LOG_022' => "Usuario baneado",
+	'LAN_AUDIT_LOG_023' => "Restablecimiento de rebote",
+	'LAN_AUDIT_LOG_024' => "Estado temporal de usuario",
+	'LAN_AUDIT_LOG_025' => "User navigation trail",
+	'LAN_AL_ADLOG_01' => "Log de admin - preferencias actualizadas",
+	'LAN_AL_ADLOG_02' => "Log de admin - datos antiguos eliminados",
+	'LAN_AL_ADLOG_03' => "Log de auditoría - datos antiguos eliminados",
+	'LAN_AL_ADLOG_04' => "Opciones de auditoría actualizadas",
+	'LAN_AL_ADLOG_05' => "",
+	'LAN_AL_USET_01' => "Admin editó datos de usuario",
+	'LAN_AL_USET_02' => "Usuario añadido por Admin",
+	'LAN_AL_USET_03' => "Opciones de usuario actualizadas",
+	'LAN_AL_USET_04' => "Usuarios purgados",
+	'LAN_AL_USET_05' => "Usuario baneado",
+	'LAN_AL_USET_06' => "Usuario desbaneado",
+	'LAN_AL_USET_07' => "Usuario eliminado",
+	'LAN_AL_USET_08' => "Usuario convertido en admin",
+	'LAN_AL_USET_09' => "Usuario dejó de ser admin",
+	'LAN_AL_USET_10' => "Usuario aprobado",
+	'LAN_AL_USET_11' => "Reenviar email de validación",
+	'LAN_AL_USET_12' => "Reenviar todos los emails de validación",
+	'LAN_AL_USET_13' => "Emails rebotados eliminados",
+	'LAN_AL_USET_14' => "Membresía de clase actualizada",
+	'LAN_AL_USET_15' => "Registro rechazado",
+	'LAN_AL_UCLASS_00' => "Evento desconocido relacionado con clases",
+	'LAN_AL_UCLASS_01' => "Clase de usuario creada",
+	'LAN_AL_UCLASS_02' => "Clase de usuario eliminada",
+	'LAN_AL_UCLASS_03' => "Clase de usuario editada",
+	'LAN_AL_UCLASS_04' => "Membresía de clase actualizada",
+	'LAN_AL_UCLASS_05' => "Configuración inicial de clases editada",
+	'LAN_AL_UCLASS_06' => "Clase de usuario vaciada",
+	'LAN_AL_BANLIST_00' => "Evento de ban desconocido",
+	'LAN_AL_BANLIST_01' => "Ban manual añadido",
+	'LAN_AL_BANLIST_02' => "Ban eliminado",
+	'LAN_AL_BANLIST_03' => "Tiempo de ban modificado",
+	'LAN_AL_BANLIST_04' => "Entrada en lista blanca añadida",
+	'LAN_AL_BANLIST_05' => "Entrada en lista blanca eliminada",
+	'LAN_AL_BANLIST_06' => "Lista de bans exportada",
+	'LAN_AL_BANLIST_07' => "Lista de bans importada",
+	'LAN_AL_BANLIST_08' => "Opciones de banlist actualizadas",
+	'LAN_AL_BANLIST_09' => "Entrada de ban editada",
+	'LAN_AL_BANLIST_10' => "Entrada en lista blanca editada",
+	'LAN_AL_BANLIST_11' => "Coincidencia en lista blanca",
+	'LAN_AL_BANLIST_12' => "Bans expirados limpiados",
+	'LAN_AL_COMMENT_01' => "Comentario(s) eliminado(s)",
+	'LAN_ROLL_LOG_01' => "Usuario/contraseña vacíos",
+	'LAN_ROLL_LOG_02' => "Código de imagen incorrecto",
+	'LAN_ROLL_LOG_03' => "Combinación usuario/contraseña inválida",
+	'LAN_ROLL_LOG_04' => "Usuario inválido",
+	'LAN_ROLL_LOG_05' => "Intento de login sin registro completo",
+	'LAN_ROLL_LOG_06' => "Login bloqueado por evento",
+	'LAN_ROLL_LOG_07' => "Múltiples logins desde misma IP",
+	'LAN_ROLL_LOG_08' => "Nombre de usuario demasiado largo",
+	'LAN_ROLL_LOG_09' => "Usuario baneado intentó login",
+	'LAN_ROLL_LOG_10' => "Error de login - razón desconocida",
+	'LAN_ROLL_LOG_11' => "Error de login de admin",
+	'LAN_AL_PREFS_01' => "Preferencias cambiadas",
+	'LAN_AL_PREFS_02' => "Nuevas preferencias creadas",
+	'LAN_AL_PREFS_03' => "Error guardando preferencias",
+	'LAN_AL_FRONTPG_00' => "Evento desconocido en portada",
+	'LAN_AL_FRONTPG_01' => "Orden de reglas cambiado",
+	'LAN_AL_FRONTPG_02' => "Regla añadida",
+	'LAN_AL_FRONTPG_03' => "Regla editada",
+	'LAN_AL_FRONTPG_04' => "Regla eliminada",
+	'LAN_AL_FRONTPG_05' => "",
+	'LAN_AL_FRONTPG_06' => "",
+	'LAN_AL_UTHEME_00' => "Evento de tema desconocido",
+	'LAN_AL_UTHEME_01' => "Configuración de temas actualizada",
+	'LAN_AL_UTHEME_02' => "",
+	'LAN_AL_UPDATE_00' => "Evento de actualización desconocido",
+	'LAN_AL_UPDATE_01' => "Actualización 1.0 a 2.0 ejecutada",
+	'LAN_AL_UPDATE_02' => "Actualización 0.7.x a 0.7.6 ejecutada",
+	'LAN_AL_UPDATE_03' => "Preferencias faltantes añadidas",
+	'LAN_AL_ADMIN_00' => "Evento de admin desconocido",
+	'LAN_AL_ADMIN_01' => "Permisos de admin actualizados",
+	'LAN_AL_ADMIN_02' => "Privilegios de admin revocados",
+	'LAN_AL_ADMIN_03' => "",
+	'LAN_AL_MAINT_00' => "Mensaje de mantenimiento desconocido",
+	'LAN_AL_MAINT_01' => "Modo mantenimiento activado",
+	'LAN_AL_MAINT_02' => "Modo mantenimiento desactivado",
+	'LAN_AL_SLINKS_00' => "Evento de enlaces desconocido",
+	'LAN_AL_SLINKS_01' => "Subenlaces generados",
+	'LAN_AL_SLINKS_02' => "Enlace movido arriba",
+	'LAN_AL_SLINKS_03' => "Enlace movido abajo",
+	'LAN_AL_SLINKS_04' => "Orden de enlaces actualizado",
+	'LAN_AL_SLINKS_05' => "Opciones de enlaces actualizadas",
+	'LAN_AL_SLINKS_06' => "Enlace eliminado",
+	'LAN_AL_SLINKS_07' => "Enlace enviado",
+	'LAN_AL_SLINKS_08' => "Enlace actualizado",
+	'LAN_AL_THEME_00' => "Evento de tema desconocido",
+	'LAN_AL_THEME_01' => "Tema del sitio actualizado",
+	'LAN_AL_THEME_02' => "Tema de admin actualizado",
+	'LAN_AL_THEME_03' => "Precarga de imágenes/CSS actualizado",
+	'LAN_AL_THEME_04' => "Estilo admin/CSS actualizado",
+	'LAN_AL_THEME_05' => "",
+	'LAN_AL_CACHE_00' => "Evento de caché desconocido",
+	'LAN_AL_CACHE_01' => "Configuración de caché actualizada",
+	'LAN_AL_CACHE_02' => "Caché del sistema vaciada",
+	'LAN_AL_CACHE_03' => "Caché de contenido vaciada",
+	'LAN_AL_CACHE_04' => "",
+	'LAN_AL_EMOTE_00' => "Evento de emotes desconocido",
+	'LAN_AL_EMOTE_01' => "Paquete de emotes activo cambiado",
+	'LAN_AL_EMOTE_02' => "Emotes activados",
+	'LAN_AL_EMOTE_03' => "Emotes desactivados",
+	'LAN_AL_WELCOME_00' => "Evento de bienvenida desconocido",
+	'LAN_AL_WELCOME_01' => "Mensaje de bienvenida creado",
+	'LAN_AL_WELCOME_02' => "Mensaje de bienvenida actualizado",
+	'LAN_AL_WELCOME_03' => "Mensaje de bienvenida eliminado",
+	'LAN_AL_WELCOME_04' => "Opciones de bienvenida cambiadas",
+	'LAN_AL_WELCOME_05' => "",
+	'LAN_AL_ADMINPW_01' => "Contraseña de admin cambiada",
+	'LAN_AL_ADMINPW_02' => "Contraseña de admin rehasheada",
+	'LAN_AL_BANNER_00' => "Evento de banner desconocido",
+	'LAN_AL_BANNER_01' => "Menú de banners actualizado",
+	'LAN_AL_BANNER_02' => "Banner creado",
+	'LAN_AL_BANNER_03' => "Banner actualizado",
+	'LAN_AL_BANNER_04' => "Banner eliminado",
+	'LAN_AL_BANNER_05' => "Configuración de banners actualizada",
+	'LAN_AL_BANNER_06' => "",
+	'LAN_AL_IMALAN_00' => "Evento de imagen desconocido",
+	'LAN_AL_IMALAN_01' => "Avatar eliminado",
+	'LAN_AL_IMALAN_02' => "Todos los avatars/fotos eliminados",
+	'LAN_AL_IMALAN_03' => "Avatar eliminado",
+	'LAN_AL_IMALAN_04' => "Configuración actualizada",
+	'LAN_AL_IMALAN_05' => "",
+	'LAN_AL_IMALAN_06' => "",
+	'LAN_AL_LANG_00' => "Evento de idioma desconocido",
+	'LAN_AL_LANG_01' => "Preferencias de idioma cambiadas",
+	'LAN_AL_LANG_02' => "Tablas de idioma eliminadas",
+	'LAN_AL_LANG_03' => "Tablas de idioma creadas",
+	'LAN_AL_LANG_04' => "Paquete de idioma zip creado",
+	'LAN_AL_LANG_05' => "",
+	'LAN_AL_META_01' => "Meta tags actualizadas",
+    'LAN_AL_DOWNL_01' => "Download options changed",
+    'LAN_AL_DOWNL_02' => "Download category created",
+    'LAN_AL_DOWNL_03' => "Download category updated",
+    'LAN_AL_DOWNL_04' => "Download category deleted",
+    'LAN_AL_DOWNL_05' => "Download created",
+    'LAN_AL_DOWNL_06' => "Download updated",
+    'LAN_AL_DOWNL_07' => "Download deleted",
+    'LAN_AL_DOWNL_08' => "Download category order updated",
+    'LAN_AL_DOWNL_09' => "Download limit added",
+    'LAN_AL_DOWNL_10' => "Download limit edited",
+    'LAN_AL_DOWNL_11' => "Download limit deleted",
+    'LAN_AL_DOWNL_12' => "Download mirror added",
+    'LAN_AL_DOWNL_13' => "Download mirror updated",
+    'LAN_AL_DOWNL_14' => "Download mirror deleted",
+    'LAN_AL_DOWNL_15' => "",
+	'LAN_AL_CPAGE_01' => "Página/menú personalizado añadido",
+	'LAN_AL_CPAGE_02' => "Página/menú personalizado actualizado",
+	'LAN_AL_CPAGE_03' => "Página/menú personalizado eliminado",
+	'LAN_AL_CPAGE_04' => "Configuración de páginas/menús actualizada",
+	'LAN_AL_EUF_01' => "Campo extendido movido arriba",
+	'LAN_AL_EUF_02' => "Campo extendido movido abajo",
+	'LAN_AL_EUF_03' => "Categoría EUF movida arriba",
+	'LAN_AL_EUF_04' => "Categoría EUF movida abajo",
+	'LAN_AL_EUF_05' => "Campo extendido añadido",
+	'LAN_AL_EUF_06' => "Campo extendido actualizado",
+	'LAN_AL_EUF_07' => "Campo extendido eliminado",
+	'LAN_AL_EUF_08' => "Categoría EUF añadida",
+	'LAN_AL_EUF_09' => "Categoría EUF actualizada",
+	'LAN_AL_EUF_10' => "Categoría EUF eliminada",
+	'LAN_AL_EUF_11' => "Campos extendidos activados",
+	'LAN_AL_EUF_12' => "Campos extendidos desactivados",
+	'LAN_AL_MENU_01' => "Menú activado",
+	'LAN_AL_MENU_02' => "Visibilidad de menú establecida",
+	'LAN_AL_MENU_03' => "Área de menú cambiada",
+	'LAN_AL_MENU_04' => "Menú desactivado",
+	'LAN_AL_MENU_05' => "Menú movido al inicio",
+	'LAN_AL_MENU_06' => "Menú movido al final",
+	'LAN_AL_MENU_07' => "Menú movido arriba",
+	'LAN_AL_MENU_08' => "Menú movido abajo",
+	'LAN_AL_MENU_09' => "",
+	'LAN_AL_UPLOAD_01' => "Archivo subido eliminado",
+	'LAN_AL_UPLOAD_02' => "Preferencias de subida cambiadas",
+	'LAN_AL_SEARCH_01' => "Configuración de búsqueda actualizada",
+	'LAN_AL_SEARCH_02' => "Preferencias de búsqueda actualizadas",
+	'LAN_AL_SEARCH_03' => "Parámetros de búsqueda auto-actualizados",
+	'LAN_AL_SEARCH_04' => "Áreas buscables actualizadas",
+	'LAN_AL_SEARCH_05' => "Configuración de buscador actualizada",
+	'LAN_AL_SEARCH_06' => "",
+	'LAN_AL_NOTIFY_01' => "Configuración de notificaciones actualizada",
+	'LAN_AL_NEWS_01' => "Noticia eliminada",
+	'LAN_AL_NEWS_02' => "Categoría de noticias eliminada",
+	'LAN_AL_NEWS_03' => "Noticia enviada eliminada",
+	'LAN_AL_NEWS_04' => "Categoría de noticias creada",
+	'LAN_AL_NEWS_05' => "Categoría de noticias actualizada",
+	'LAN_AL_NEWS_06' => "Preferencias de noticias actualizadas",
+	'LAN_AL_NEWS_07' => "Noticia enviada autorizada",
+	'LAN_AL_NEWS_08' => "Noticia añadida",
+	'LAN_AL_NEWS_09' => "Noticia actualizada",
+	'LAN_AL_NEWS_10' => "Reescritura de categoría cambiada",
+	'LAN_AL_NEWS_11' => "Reescritura de categoría eliminada",
+	'LAN_AL_NEWS_12' => "Reescritura de noticia cambiada",
+	'LAN_AL_NEWS_13' => "Reescritura de noticia eliminada",
+	'LAN_AL_FILEMAN_01' => "Archivo(s) eliminado(s)",
+	'LAN_AL_FILEMAN_02' => "Archivo(s) movido(s)",
+	'LAN_AL_FILEMAN_03' => "Archivo(s) subido(s)",
+	'LAN_AL_FILEMAN_04' => "",
+	'LAN_AL_MAIL_01' => "Email de prueba enviado",
+	'LAN_AL_MAIL_02' => "Mailshot creado",
+	'LAN_AL_MAIL_03' => "Configuración de email actualizada",
+	'LAN_AL_MAIL_04' => "Detalles de mailshot eliminados",
+	'LAN_AL_MAIL_05' => "Base de datos de email limpiada",
+	'LAN_AL_MAIL_06' => "Mailshot activado",
+	'LAN_AL_MAIL_07' => "",
+	'LAN_AL_PLUGMAN_01' => "Plugin instalado",
+	'LAN_AL_PLUGMAN_02' => "Plugin actualizado",
+	'LAN_AL_PLUGMAN_03' => "Plugin desinstalado",
+	'LAN_AL_PLUGMAN_04' => "Plugin actualizado",
+	'LAN_AL_EURL_01' => "Configuración de URL del sitio cambiada",
+	'LAN_AL_MISC_01' => "Configuración de menú árbol actualizada",
+	'LAN_AL_MISC_02' => "Configuración de menú online actualizada",
+	'LAN_AL_MISC_03' => "Configuración de menú login actualizada",
+	'LAN_AL_MISC_04' => "Configuración de menú comentarios actualizada",
+	'LAN_AL_MISC_05' => "Configuración de reloj actualizada",
+	'LAN_AL_MISC_06' => "Configuración de calendario actualizada",
+	'LAN_AL_PING_01' => "Ping enviado al servicio",
+	'LAN_AL_ADMINUI_01' => "Admin-UI: Inserción en tabla [x]",
+	'LAN_AL_ADMINUI_02' => "Admin-UI: Actualización en tabla [x]",
+	'LAN_AL_ADMINUI_03' => "Admin-UI: Eliminación en tabla [x]",
+	'LAN_AL_ADMINUI_04' => "Admin-UI: Error en DB [x]",
+	'LAN_AL_BACKUP' => "Copia de seguridad de la base de datos",
+	'LAN_AL_MEDIA_01' => "Subida de medios",
+	'LAN_AL_USET_100' => "Admin inició sesión como otro usuario",
+	'LAN_AL_USET_101' => "Admin cerró sesión como otro usuario",
+];

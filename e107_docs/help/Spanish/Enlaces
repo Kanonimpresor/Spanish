@@ -1,13 +1,7 @@
-H1> Gestionar enlaces
 
-P> La administración de Enlaces posee tanto el menú de navegación principal como la página pública de Enlaces. Ambos comparten el mismo almacenamiento y modelo de categorías.
+P> ¿Cómo puedo ingresar un enlace para que aparezca en mi menú de navegación principal?
+R> Cualquier enlace en la categoría Principal aparecerá en tu menú de navegación principal. Las demás categorías aparecerán en la página de Enlaces.
 
-Q> ¿Cómo introduzco un enlace para que aparezca en mi menú de navegación principal?
-A> Añade el enlace en la categoría [b]Principal[/b]. Todo lo de esa categoría se renderiza dentro del menú de navegación principal del tema activo. Los enlaces de cualquier otra categoría aparecen en la página pública de Enlaces.
+P> ¿Para qué sirve el cuadro de texto del botón de enlace?
+R> Esto te permite mostrar el botón para el enlace en la página de Enlaces. Si lo dejas en blanco, se mostrará un botón vacío.
 
-Q> ¿Para qué sirve el campo de texto del botón del enlace?
-A> Define la imagen del botón usado para representar el enlace en la página de Enlaces. Si lo dejas en blanco se muestra un botón vacío / de placeholder.
-
-TIP> Usa leyendas claras y cortas para los enlaces en la categoría Principal – el menú de navegación tiene espacio horizontal limitado y las leyendas largas se recortan o saltan de línea según el tema.
-
-NOTE> Las reglas de visibilidad de los enlaces respetan las clases de usuario (ver la página de ayuda Clases), así que puedes publicar enlaces "solo miembros" que los visitantes nunca verán.

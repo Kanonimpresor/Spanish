@@ -1,27 +1,12 @@
-H1> Publicar noticias
 
-P> Las noticias son la columna vertebral de la mayoría de sitios e107. Los elementos pueden agruparse en categorías, programarse, ocultarse tras un corte "leer más" y restringirse por clase de usuario.
+P> ¿Para qué son las categorías de noticias?
+R> Puedes agrupar tus artículos de noticias bajo diferentes categorías, y se mostrarán con un icono diferente, etc., si está definido. Esto facilita la navegación de tus visitantes y les permite leer solo los artículos que les interesan.
 
-SHOT> news/admin-newspost.png | Editor de noticias con los campos Cuerpo y Extendido
+P> ¿Para qué sirve el cuadro Extendido?
+R> Puede que hayas notado que algunos sitios reportan los artículos de noticias de una forma especial, mostrando una pequeña introducción con un enlace al artículo completo. Puedes hacer esto introduciendo la introducción en el cuadro de texto del cuerpo y el resto del artículo en el cuadro Extendido.
 
-H1> Categorías
+P> ¿Para qué sirven los cuadros de activación?
+R> Puedes configurar un artículo de noticias para que aparezca solo entre ciertas fechas utilizando los cuadros de activación. Si los dejas en blanco, las noticias que publiques aparecerán de inmediato.
 
-Q> ¿Para qué sirven las categorías de noticias?
-A> Agrupan los artículos de noticias en temas (por ejemplo, "Lanzamientos", "Comunidad"). Cada categoría puede tener su propio icono, para que los visitantes identifiquen y filtren elementos de un vistazo.
-
-H1> Cuerpo vs Extendido
-
-Q> ¿Para qué sirve el cuadro Extendido?
-A> Contiene la parte larga de un artículo. El campo [b]Cuerpo[/b] guarda una introducción corta que se muestra en las listas; el campo [b]Extendido[/b] se revela cuando el visitante hace clic en [i]Leer más[/i]. Usa esta combinación siempre que el artículo completo sea más largo que unos pocos párrafos.
-
-TIP> Un Cuerpo corto y atractivo aumenta el clic hacia el artículo completo. Trátalo como si fuera la entradilla de una noticia periodística.
-
-H1> Programación y visibilidad
-
-Q> ¿Para qué sirven los cuadros de activación?
-A> Programan cuándo un artículo de noticia es visible. Establece una fecha de [b]inicio[/b] para publicar en el futuro, una fecha de [b]fin[/b] para que expire automáticamente, o deja ambas en blanco para publicar inmediatamente y de forma indefinida.
-
-Q> He introducido un artículo de noticia y dice "Noticia guardada en la base de datos" – ¿eso significa que aparecerá en mi página de noticias?
-A> Significa que el texto se ha guardado correctamente. Que los visitantes lo vean depende del indicador [b]activo[/b] y de las fechas de activación: si el elemento está activo y dentro de su ventana de visibilidad, aparece en la página de noticias.
-
-NOTE> Los borradores son útiles: deja [b]activo[/b] desmarcado mientras iteras sobre el artículo, y actívalo cuando esté listo.
+P> He introducido un artículo de noticias y dice "Noticia guardada en la base de datos" ¿Eso significa que aparecerá en mi página de noticias?
+R> Significa que el texto que introdujiste ha sido guardado. Si el artículo de noticias que introdujiste está configurado como activo, entonces sí, aparecerá en tu página de noticias.

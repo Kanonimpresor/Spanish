@@ -12,8 +12,10 @@
 +---------------------------------------------------------------+
 */
 
-define("LAN_DOCS", "Documentación del Sistema");
-define("LAN_DOCS_SECTIONS", "Secciones");
-define("LAN_DOCS_GOTOP", "Ir arriba");
-define("LAN_DOCS_ANSWER", "Respuesta");
-define("LAN_DOCS_QUESTION", "Pregunta");
+return [
+	'LAN_DOCS' => "Documentación del Sistema",
+	'LAN_DOCS_SECTIONS' => "Secciones",
+	'LAN_DOCS_GOTOP' => "Ir arriba",
+	'LAN_DOCS_ANSWER' => "Respuesta",
+	'LAN_DOCS_QUESTION' => "Pregunta",
+];

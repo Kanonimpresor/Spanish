@@ -1,28 +1,3 @@
-H1> Gestionar usuarios
 
-P> El área de Usuarios te permite crear cuentas, agruparlas en clases de usuario y extender su perfil con campos personalizados. Dos preguntas surgen una y otra vez entre nuevos administradores.
-
-H1> Campos extendidos de usuario
-
-Q> ¿Para qué sirve la sección de Campos Extendidos?
-A> Te permite añadir más secciones a la página de Usuarios. Por ejemplo, si gestionas un clan podrías añadir un campo para el apodo de clan o el número medio de banderas. El nuevo campo aparece tanto en la página [b]Ajustes[/b] del usuario como en la lista pública de [b]Miembros[/b].
-
-SHOT> users/user-classe-extended-fields.png | Lista de campos extendidos con tipo y visibilidad
-
-H2> Casos de uso típicos
-
-STEP> Añade un desplegable [b]País[/b] para que los miembros localicen su perfil.
-STEP> Añade un campo de texto [b]Discord[/b] para contacto comunitario.
-STEP> Añade un campo de fecha para [b]cumpleaños[/b] y úsalo en tu tema para saludar a los usuarios.
-
-TIP> Marca los campos sensibles como [b]privados[/b] si no deben aparecer nunca en el perfil público – e107 los sigue almacenando y solo los expone a administradores.
-
-H1> Clases de usuario
-
-P> Cada cuenta pertenece a una o más clases de usuario (Invitados, Miembros, Administradores, además de cualquier clase personalizada que crees). Las clases son la base del modelo de permisos de e107: menús, plugins, BBCodes e incluso artículos de noticias individuales pueden restringirse por clase.
-
-SHOT> users/tree-user.png | Árbol de clases de usuario con clases integradas y personalizadas
-
-NOTE> Puedes crear una nueva clase desde [b]Admin → Clases de Usuario[/b]. Una vez creada, la clase se vuelve seleccionable en todos los desplegables de visibilidad del área de administración.
-
-WARN> Eliminar una clase que está referenciada por contenido (noticias, páginas, menús) no borra ese contenido, pero caerá a la visibilidad por defecto, lo que podría exponer elementos privados. Audita las referencias antes de eliminar una clase.
+P> ¿Para qué sirve la sección de Campo Extendido?
+R> Esto te permite agregar más secciones a la página de Usuarios. Por ejemplo, si estás gestionando un clan, podrías agregar un campo para el apodo del clan, o el número promedio de banderas :) El nuevo campo aparecerá en la página de Configuración de Usuario y también en la lista de Miembros.

@@ -1,19 +1,7 @@
-H1> Conceder acceso de administrador
 
-P> Los administradores son usuarios normales con permisos elevados. A cada administrador se le pueden asignar exactamente los permisos que necesita – nada más – para que los moderadores del día a día nunca vean las áreas sensibles del sitio.
+P> ¿Qué son los permisos de acceso?
+R> Te permiten asignar diferentes niveles de acceso a los administradores dentro del área de administración. Por ejemplo, puede que solo quieras permitir que un determinado administrador publique noticias; con los permisos puedes hacer esto. Algunas funciones de administración solo están disponibles para el administrador principal del sitio, por motivos de seguridad.
 
-SHOT> administrators/admin-users.png | Matriz de permisos al editar un administrador
+P> Quiero convertir a un usuario registrado en administrador, ¿cómo lo hago?
+R> Haz clic en Usuarios dentro del área de administración y busca al usuario registrado, luego haz clic en Hacer administrador. Después deberías ir directamente a la sección de Administradores y asignarle sus permisos. También puedes retirar el estado de administrador de alguien desde ahí.
 
-Q> ¿Qué son los permisos?
-A> Los permisos te permiten asignar a los administradores distintos niveles de acceso a la sección de administración. Por ejemplo, puede que solo quieras permitir que un administrador publique noticias; con los permisos puedes hacerlo. Algunas funciones de administración solo están accesibles para el [b]administrador principal del sitio[/b] por motivos de seguridad.
-
-WARN> Al administrador principal (usuario #1) no se le pueden revocar los permisos – es así por diseño, para que el sitio nunca pueda quedar bloqueado para sí mismo.
-
-H1> Promocionar a un miembro existente
-
-STEP> Abre [b]Admin → Usuarios[/b] y busca al miembro registrado.
-STEP> Haz clic en [b]Hacer Administrador[/b] en las acciones de la fila.
-STEP> Ve inmediatamente a la sección [b]Administradores[/b].
-STEP> Marca los permisos que debe tener el nuevo administrador y guarda.
-
-TIP> El mismo flujo te permite [b]revocar[/b] el estado de administrador: basta con limpiar los permisos o hacer clic en [b]Quitar Administrador[/b].

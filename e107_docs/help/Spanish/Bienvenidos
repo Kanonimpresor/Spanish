@@ -1,37 +1,3 @@
-H1> ¿Qué es el Mensaje de Bienvenida?
 
-P> El Mensaje de Bienvenida es un bloque de texto que siempre aparece por encima de tus artículos de noticias en la página principal. Puedes adaptarlo a tres audiencias distintas para que cada visitante vea exactamente lo que le interesa.
-
-SHOT> welcome/message-welcome.png | El bloque de bienvenida tal como lo ven los visitantes en la página principal
-
-NOTE> Puedes usar BBCode e incluso [b]HTML en línea[/b] en tu mensaje de bienvenida. Mantenlo corto – es lo primero que leen tus visitantes.
-
-H1> Dónde configurarlo
-
-STEP> Inicia sesión en el Área de Administración.
-STEP> Abre [b]Mensaje de Bienvenida[/b] desde el menú de administración.
-STEP> Edita el mensaje para cada clase de usuario (Invitados, Miembros, Administradores).
-STEP> Guarda. El nuevo texto aparece inmediatamente en la página principal.
-
-SHOT> welcome/message-welcome-edit.png | Editor del Mensaje de Bienvenida con las tres pestañas por clase de usuario
-
-H2> ¿Por qué tres variantes?
-
-Cada audiencia tiene necesidades distintas:
-
-TIP> [b]Invitados[/b]: invítales a registrarse, resalta contenido público.
-TIP> [b]Miembros[/b]: muestra atajos, anuncios, enlaces de la comunidad.
-TIP> [b]Administradores[/b]: saca a la luz tareas de moderación pendientes o notas de mantenimiento.
-
-H1> Preguntas frecuentes
-
-Q> ¿Puedo dejar un mensaje de bienvenida vacío?
-A> Sí. Si una variante está vacía, la audiencia correspondiente simplemente no ve bloque de bienvenida.
-
-Q> ¿El mensaje soporta imágenes?
-A> Por supuesto. Usa el BBCode estándar [i][img]…[/img][/i] o pega una URL completa.
-
-Q> ¿Cómo oculto el mensaje en páginas concretas?
-A> El mensaje de bienvenida solo se renderiza en el controlador de la página principal (news.php por defecto). Otras páginas no se ven afectadas.
-
-WARN> Evita pegar bloques largos de JavaScript o HTML sin filtrar – e107 sanea la salida, y todo lo que se elimine simplemente desaparecerá de la vista.
+P> ¿Para qué sirve esta sección?
+R> Puedes ingresar un texto aquí que siempre se mostrará por encima de tus artículos de noticias en la página principal. Puedes ingresar un mensaje diferente para Visitantes, Miembros y Administradores.

@@ -1,17 +1,3 @@
-H1> Cuando algo va mal
 
-P> Los errores forman parte de operar cualquier aplicación web. e107 registra muchos automáticamente – esta página te dice dónde buscar y cómo pedir ayuda.
-
-Q> Estoy teniendo errores en una página determinada – ¿qué hago?
-A> Visita el foro [b]Problemas[/b] en [url=https://e107.org]e107.org[/url] y comprueba si alguien más tiene el mismo fallo. Si crees que es un bug, abre un informe en el bug tracker para que el equipo principal pueda reproducirlo.
-
-H1> Primeros pasos útiles
-
-STEP> Activa el modo depuración añadiendo `?debug=1` a la URL estando autenticado como administrador.
-STEP> Revisa `e107_system/<sitehash>/logs/` en busca de entradas recientes.
-STEP> Limpia la caché desde [b]Admin → Caché[/b] – muchos problemas "raros" desaparecen tras un flush.
-STEP> Reproduce el error en una ventana privada/incógnito para descartar extensiones del navegador.
-
-TIP> Al abrir un informe de bug, incluye: versión de e107, versión de PHP, versión de MySQL/MariaDB, tema activo, la URL exacta y cualquier fragmento relevante del archivo de log. Cuanto más contexto aportes, más rápido se arregla el problema.
-
-WARN> Nunca publiques en un informe de bug público el contenido crudo de `e107_config.php` ni credenciales de base de datos.
+P> Estoy obteniendo algunos errores en una página determinada, ¿qué puedo hacer al respecto?
+R> Visita el foro de Problemas en e107.org y comprueba si alguien más está teniendo el mismo problema. Si crees que es un error, por favor publica el error en el sistema de seguimiento de errores en e107.org.

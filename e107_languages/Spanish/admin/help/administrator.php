@@ -14,8 +14,7 @@
 
 if (!defined('e107_INIT')) { exit; }
 
-$caption = "Ayuda:<br />
-			# Administración del Sitio";
+$caption = "Ayuda:<br /># Administración del Sitio";
 $text = "Utilice esta página para editar o eliminar las preferencias de administradores del sitio web.
 		Los administradores solo tendrán acceso a las características marcadas<br /><br />
 		Para crear un nuevo administrador, vaya a la configuración de usuarios y cambie el estado a admin en el usuario seleccionado.";

@@ -1,30 +1,9 @@
-H1> Escenarios de recuperación
 
-P> A veces las cosas se rompen. Esta página cubre las tres emergencias más comunes: núcleo corrupto, contraseña de administrador olvidada y sitio inaccesible tras instalar un tema o plugin.
+P> Hice algunos cambios en mi sitio y ahora estoy recibiendo errores de MySQL y no aparece mi sitio.
+R> Podría ser que tu núcleo se haya corrompido. El núcleo son la configuración y las variables principales de e107. Para restablecer tu núcleo, ve a http://tusitio.com/e107_files/resetcore/resetcore.php. Siempre haz una copia de seguridad de tu núcleo (desde la pantalla de la base de datos) antes de aplicar cambios, luego podrás restaurar la copia de seguridad del núcleo si algo sale mal (de nuevo desde resetcore.php).
 
-WARN> Haz siempre una copia de seguridad de la base de datos (e idealmente del sistema de archivos) [b]antes[/b] de aplicar cualquiera de los pasos de abajo. La recuperación es mucho más fácil cuando tienes un snapshot conocido.
+P> Olvidé mi contraseña de administrador principal y ahora no puedo acceder al área de administración.
+R> Por razones de seguridad, es imposible restablecer tu contraseña a menos que estés conectado. Si no has anotado tu contraseña en un lugar seguro, hazlo ahora para que este escenario no vuelva a ocurrir. Si sucede, tendrás que restablecer tu contraseña manualmente usando phpMyAdmin o algún otro administrador MySQL similar. Ve a la tabla de usuarios, el administrador principal debe ser el usuario número 1. Haz clic en el botón de editar y cambia la contraseña a 4cb9c8a8048fd02294477fcb1a41191a, esto cambiará tu contraseña a changeme. Ahora inicia sesión y [b]actualiza tu contraseña inmediatamente[/b].
 
-H1> El sitio muestra errores de MySQL tras un cambio
-
-Q> Hice algunos cambios en mi sitio y ahora salen errores de MySQL, el sitio no aparece.
-A> Tu núcleo puede haberse corrompido. Restáuralo visitando `http://tusitio.com/e107_files/resetcore/resetcore.php`. Exporta siempre una copia de seguridad desde [b]Admin → Base de Datos[/b] antes de aplicar cambios; si algo sale mal puedes restaurarla desde la misma página `resetcore.php`.
-
-H1> Contraseña de administrador principal perdida
-
-Q> Olvidé mi contraseña de administrador principal y ahora no puedo acceder al área de administración.
-A> Por motivos de seguridad no existe restablecimiento de contraseña dentro de la aplicación para un administrador que no está autenticado. Restáurala manualmente con phpMyAdmin (o cualquier cliente MySQL):
-
-STEP> Abre la tabla `users`.
-STEP> Localiza al usuario #1 (el administrador principal) y edítalo.
-STEP> Cambia `user_password` a `4cb9c8a8048fd02294477fcb1a41191a` (este hash significa [b]changeme[/b]).
-STEP> Inicia sesión con la contraseña [b]changeme[/b].
-STEP> Abre [b]Ajustes de Usuario[/b] y cambia la contraseña a un valor fuerte y único [b]inmediatamente[/b].
-
-WARN> No dejes la contraseña temporal `changeme`. Cualquiera que lea este archivo de ayuda la conoce.
-
-H1> Sitio inaccesible tras instalar un tema o plugin
-
-Q> Instalé un tema/plugin y ahora mi sitio es inaccesible – ¿qué puedo hacer?
-A> Usa `resetcore.php` (ver arriba) para restaurar la configuración anterior del núcleo, o renombra por FTP/SSH la carpeta del plugin/tema problemático para que e107 deje de cargarlo.
-
-TIP> Al probar un tema nuevo, haz siempre clic en [b]Previsualizar[/b] primero en lugar de [b]Activar[/b] – la previsualización está en sandbox y no te puede bloquear.
+P> Instalé un tema/plugin, etc. y ahora mi sitio es inaccesible, ¿qué puedo hacer?
+R> Usa resetcore.php (ver arriba).

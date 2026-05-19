@@ -12,5 +12,7 @@
 +---------------------------------------------------------------+
 */
 
-define("LAN_PLUGIN_GSITEMAP_NAME", "Mapa del Sitio");
-define("LAN_PLUGIN_GSITEMAP_DESCRIPTION", "Genera un mapa del sitio para Google");
+return [
+	'LAN_PLUGIN_GSITEMAP_NAME' => "Mapa del sitio de Google",
+	'LAN_PLUGIN_GSITEMAP_DESCRIPTION' => "Genera un mapa del sitio para Google",
+];

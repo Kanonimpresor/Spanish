@@ -11,10 +11,12 @@
 |       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-define("LAN_PLUGIN_GALLERY_TITLE", "Galería");
-define("LAN_PLUGIN_GALLERY_DIZ", "Una galería de imágenes simple");
 
-define("LAN_PLUGIN_GALLERY_SEF_01", "Galería SEF");
-define("LAN_PLUGIN_GALLERY_SEF_02", "URLs SEF activadas.");
-define("LAN_PLUGIN_GALLERY_SEF_03", "URLs SEF desactivadas.");
-define("LAN_PLUGIN_GALLERY_SEF_04", "Galería predeterminada");
+return [
+	'LAN_PLUGIN_GALLERY_TITLE' => "Galería",
+	'LAN_PLUGIN_GALLERY_DIZ' => "Una galería de imágenes simple",
+	'LAN_PLUGIN_GALLERY_SEF_01' => "Galería SEF",
+	'LAN_PLUGIN_GALLERY_SEF_02' => "URLs SEF activadas.",
+	'LAN_PLUGIN_GALLERY_SEF_03' => "URLs SEF desactivadas.",
+	'LAN_PLUGIN_GALLERY_SEF_04' => "Galería predeterminada",
+];

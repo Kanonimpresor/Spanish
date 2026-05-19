@@ -1,19 +1,12 @@
-H1> ¿Qué es BBCode?
 
-P> BBCode es una sintaxis segura y ligera que se compila a HTML. Permite a tus usuarios (y administradores) dar formato al texto sin los riesgos de seguridad de aceptar HTML en crudo.
+P> ¿Qué es BBCode?
+R> Un BBCode es un atajo para una etiqueta HTML. Por ejemplo, si introduces &#91;b]¡Soy texto en negrita!&#91;/b] en cualquiera de los campos de texto del admin, el texto entre &#91;b] y &#91;/b] aparecerá en negrita. Así, [b]¡Soy texto en negrita![/b] se verá como texto en negrita en pantalla.
 
-Q> ¿Qué es BBCode?
-A> Un BBCode es un atajo para una etiqueta HTML. Por ejemplo, escribir [b]&#91;b]¡Soy texto en negrita![&#91;/b][/b] en cualquier campo de administración se renderiza como [b]¡Soy texto en negrita![/b] en el front-end.
+P> Pero, ¿para qué sirve?
+R> Te ahorra tiempo al introducir etiquetas HTML. Puedes usar etiquetas HTML normales en los cuadros de texto, pero usar BBCode acelerará mucho la escritura de contenido.
 
-Q> Pero, ¿para qué sirve?
-A> Ahorra tiempo y evita etiquetas mal formadas. Aún puedes usar HTML normal en las áreas de texto del administrador, pero BBCode es más rápido de escribir y siempre lo sanea el parser.
+P> Cuando hago clic en uno de los botones BBCode, el código aparece al final del texto, no donde está el cursor, ¿por qué?
+R> Hay un fallo en Internet Explorer que puede hacer que se bloquee si e107 intenta insertar el código en la posición del cursor. Por eso, para mantener la compatibilidad, el código se inserta al final del texto.
 
-H1> Trucos y peculiaridades
-
-Q> Cuando hago clic en un botón BBCode el código aparece al final del texto, no donde está el cursor – ¿por qué?
-A> Un antiguo bug de Internet Explorer podía colgar el editor al insertar en la posición del cursor. Para máxima compatibilidad, e107 sigue añadiendo el BBCode al final del área de texto.
-
-Q> ¿Qué BBCodes puedo usar?
-A> Pasa el ratón por cualquier botón BBCode – un pequeño tooltip muestra lo que hace cada uno. También puedes usar [b]&#91;url][/b], [b]&#91;email][/b], [b]&#91;img][/b], [b]&#91;list][/b] y muchos más. Las URLs y los correos sueltos se enlazan automáticamente.
-
-TIP> Puedes ampliar los BBCodes disponibles añadiendo archivos a `e107_core/bbcodes/` (o mediante plugins). Consulta `e107_handlers/bbcode_handler.php` para la API.
+P> ¿Qué BBCodes puedo usar?
+R> Coloca el cursor del ratón sobre cualquiera de las cajas de BBCode y verás una pequeña explicación justo encima de los botones. También hay códigos para enlaces [url] [/url] y correos electrónicos [email] [/email], aunque también puedes usar etiquetas HTML normales. Todas las direcciones web y correos introducidos se convierten automáticamente en hipervínculos clicables.

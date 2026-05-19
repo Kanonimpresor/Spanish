@@ -99,4 +99,4 @@ $action = e107::getParser()->toDB(varset($_GET['mode'],'makemail'));
 		$text = 'Opción no documentada';
   }
 
-$ns->tablerender($caption, $text);
+e107::getRender()->tablerender($caption, $text);
