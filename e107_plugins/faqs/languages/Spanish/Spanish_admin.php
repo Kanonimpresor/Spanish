@@ -1,0 +1,51 @@
+<?php
+/*
+* Copyright (c) e107 Inc 2008-2025 - e107.org, 
+* Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
+*
+* "FAQ plugin" admin-area language definitions
+*/
+
+return [
+    'LANA_FAQ_QUESTION' => "Pregunta",
+    'LANA_FAQ_QUESTIONS' => "Preguntas",
+    'LANA_FAQ_ANSWER' => "Respuesta",
+    'LANA_FAQ_UNANSWERED' => "Sin respuesta",
+    'LANA_FAQ_COMMENT' => "Clase de comentario",
+    'LANA_FAQ_ULOGINNAME' => "Usuario",
+    'LANA_FAQ_TAGS' => "Etiquetas",
+    'LANA_FAQ_TAGS_HELP' => "Lista de etiquetas separadas por comas",
+    'LANA_FAQ_METAK' => "Meta keywords",
+    'LANA_FAQ_PREF_1' => "Permitir el envío de FAQs a:",
+    'LANA_FAQ_PREF_2' => "'Hacer una pregunta' está limitado a",
+    'LANA_FAQ_PREF_3' => "Usar diseño clásico",
+    'LANA_FAQ_PREF_4' => "Límite de 'Hacer una pregunta' por usuario",
+    'LANA_FAQ_PREF_5' => "Límite de caracteres en 'Hacer una pregunta'",
+    'LANA_FAQ_PREF_6' => "'Hacer una pregunta' limitado a",
+    'LANA_FAQ_PREF_7' => "Confirmación de preguntas enviadas",
+    'LANA_FAQ_PREF_8' => "Tipo de lista",
+    'LANA_FAQ_PREF_9' => "Lista sin ordenar",
+    'LANA_FAQ_PREF_10' => "Lista ordenada",
+    'LANA_FAQ_PREF_11' => "Título de página",
+    'LANA_FAQ_PREF_12' => "Las FAQs 'nuevas' tienen como máximo",
+    'LANA_FAQ_PREF_13' => "Mostrar total de FAQs",
+    'LANA_FAQ_PREF_14' => "Mostrar fecha",
+    'LANA_FAQ_PREF_15' => "Mostrar botones sociales",
+    'LANA_FAQ_PREF_16' => "Orden específico",
+    'LANA_FAQ_PREF_17' => "Todos los idiomas",
+    'LANA_FAQ_PREF_18' => "Ascendente por ID",
+    'LANA_FAQ_PREF_19' => "Descendente por ID",
+    'LANA_FAQ_PREF_20' => "Ascendente por fecha",
+    'LANA_FAQ_PREF_21' => "Descendente por fecha",
+    'LANA_FAQ_PREF_22' => "Gestionar preguntas",
+    'LANA_FAQ_PREF_23' => "Gestionar categorías",
+    'LANA_FAQ_PREF_24' => "Hacer una pregunta: longitud mínima de caracteres",
+    'LANA_FAQ_PREF_HELP_1' => "0 = sin límite",
+    'LANA_FAQ_PREF_HELP_2' => "Déjalo en blanco para usar el valor por defecto",
+    'LANA_FAQ_CRON_1' => "Informe de preguntas sin responder",
+    'LANA_FAQ_CRON_2' => "Envía por correo un informe de las preguntas sin responder a [x].",
+    'LANA_FAQ_CRON_3' => "[x] preguntas sin responder en [y]",
+    'LANA_FAQ_CRON_4' => "Por favor, accede a tu sitio para revisar y responder estas preguntas mediante el siguiente enlace.",
+    'LANA_FAQ_CRON_5' => "A continuación se muestran las [x] preguntas más recientes.",
+    'LANA_FAQ_CRON_6' => "[x] pregunta sin responder a fecha de [y].",
+];
