@@ -1,15 +1,15 @@
 
-P> He definido un nuevo banner desde el área de administración pero no se muestra, ¿por qué?
-R> El tema que estás usando necesita saber que debe mostrar un banner. Abre el archivo theme.php del tema y asegúrate de que tienes {BANNER} o {BANNER=elnombredetucampaña} en la sección $HEADER.
+Q>	He definido un nuevo banner desde el área de administración pero no se muestra, ¿por qué?
+A>	El tema que estás usando necesita saber que debe mostrar un banner. Abre el archivo theme.php del tema y asegúrate de que tienes {BANNER} o {BANNER=elnombredetucampaña} en la sección $HEADER.
 
-P> Quiero mostrar un conjunto de banners en un área y otro conjunto distinto en otra, ¿cómo lo hago?
-R> Puedes agrupar tus banners por "campañas" y luego configurar tu tema para que muestre banners de campañas específicas. Por ejemplo, si tienes dos campañas llamadas cam_1 y cam_2, poniendo {BANNER=cam_1} en una parte del $HEADER de tu theme.php se mostrarán solo los banners de cam_1, y poniendo {BANNER=cam_2} en otra parte se mostrarán solo los de cam_2. Si pones {BANNER} (sin nombre de campaña), se mostrarán banners aleatorios de todas las campañas.
+Q>	Quiero mostrar un conjunto de banners en un área y otro conjunto distinto en otra, ¿cómo lo hago?
+A>	Puedes agrupar tus banners por "campañas" y luego configurar tu tema para que muestre banners de campañas específicas. Por ejemplo, si tienes dos campañas llamadas cam_1 y cam_2, poniendo {BANNER=cam_1} en una parte del $HEADER de tu theme.php se mostrarán solo los banners de cam_1, y poniendo {BANNER=cam_2} en otra parte se mostrarán solo los de cam_2. Si pones {BANNER} (sin nombre de campaña), se mostrarán banners aleatorios de todas las campañas.
 
-P> ¿Para qué sirve el inicio de sesión y la contraseña del cliente?
-R> Puedes definir un nombre de usuario y una contraseña para tus clientes de banners, y así ellos podrán ver cómo están funcionando sus banners entrando en http://tusitio.com/banner.php y usando su nombre y contraseña.
+Q>	¿Para qué sirve el inicio de sesión y la contraseña del cliente?
+A>	Puedes definir un nombre de usuario y una contraseña para tus clientes de banners, y así ellos podrán ver cómo están funcionando sus banners entrando en http://tusitio.com/banner.php y usando su nombre y contraseña.
 
-P> ¿Cómo puedo tener un banner tipo "torre" en un elemento de menú?
-R> Primero necesitas definir una campaña para los banners tipo torre (esto los mantendrá separados de los banners tipo barra)...
+Q>	¿Cómo puedo tener un banner tipo "torre" en un elemento de menú?
+A>	Primero necesitas definir una campaña para los banners tipo torre (esto los mantendrá separados de los banners tipo barra)...
 
 	1. Ve al área de administración y haz clic en Banners.
 	2. Introduce tu(s) banner(s) tipo torre, asegurándote de usar un nombre de campaña nuevo, por ejemplo, torres.
