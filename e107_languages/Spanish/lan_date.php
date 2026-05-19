@@ -28,7 +28,7 @@ return [
 	'LANDT_06s' => "Minutos",
 	'LANDT_07s' => "Segundos",
 	'LANDT_08' => "min",
-	'LANDT_08s' => "mins",
+	'LANDT_08s' => "mín",
 	'LANDT_09' => "seg",
 	'LANDT_09s' => "segs",
 	'LANDT_AGO' => "hace",

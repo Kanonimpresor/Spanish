@@ -92,7 +92,7 @@ return [
     'LAN_ALT_68' => "El servicio Alt auth está instalado. Ahora debes configurar el método que prefieras.",
     'LAN_ALT_69' => "",
     'LAN_ALT_70' => "Ninguno",
-    'LAN_ALT_71' => "TRUE/FALSE",
+    'LAN_ALT_71' => "VERDADERO/FALSO",
     'LAN_ALT_72' => "Mayúsculas",
     'LAN_ALT_73' => "Minúsculas",
     'LAN_ALT_74' => "Primera en mayúscula",

@@ -107,5 +107,5 @@ return [
 	'RL_LAN_133' => "Aviso",
 	'RL_LAN_134' => "Advertencia",
 	'RL_LAN_135' => "Crítico",
-    'RL_LAN_136' => "User navigation trail",
+    'RL_LAN_136' => "Rastro de navegación del usuario",
 ];

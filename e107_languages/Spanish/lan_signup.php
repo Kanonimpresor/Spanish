@@ -14,9 +14,9 @@
 
 return [
 	'PAGE_NAME' => "Registro de nuevo miembro",
-    'LAN_108' => "Registration complete",
-    'LAN_185' => "You left required field(s) blank",
-    'LAN_407' => "Please keep this email for your own information. Your password has been encrypted and cannot be retrieved if you misplace or forget it. You can, however, request a new password if this happens.\\n\\nThank you for registering.\\n\\nFrom",
+    'LAN_108' => "Registro completado",
+    'LAN_185' => "Has dejado campos obligatorios en blanco",
+    'LAN_407' => "Guarda este correo para tu información. Tu contraseña ha sido cifrada y no puede recuperarse si la pierdes u olvidas. No obstante, puedes solicitar una nueva contraseña si esto ocurre.\\n\\nGracias por registrarte.\\n\\nDe",
 	'LAN_EMAIL_01' => "Estimado/a",
 	'LAN_EMAIL_04' => "Guarda este correo para tus registros.",
 	'LAN_EMAIL_05' => "Tu contraseña está cifrada y no se puede recuperar si la pierdes u olvidas. Sin embargo, puedes solicitar una nueva contraseña si esto ocurre.",
@@ -42,7 +42,7 @@ return [
 	'LAN_SIGNUP_24' => "Gracias por registrarte en",
 	'LAN_SIGNUP_25' => "Sube tu avatar",
 	'LAN_SIGNUP_26' => "Sube tu fotografía",
-    'LAN_SIGNUP_30' => "If you do not wish to display your email address on this site, please select 'Yes' for the 'Hide email address?' option.",
+    'LAN_SIGNUP_30' => "Si no deseas mostrar tu dirección de correo electrónico en este sitio, selecciona 'Sí' en la opción '¿Ocultar dirección de correo?'.",
 	'LAN_SIGNUP_34' => "Nota: Cualquier imagen subida a este servidor que los administradores consideren inapropiada será eliminada inmediatamente.",
 	'LAN_SIGNUP_36' => "Error al crear tu información de usuario - contacta con el administrador",
 	'LAN_SIGNUP_37' => "Esta fase del registro está completada. El administrador debe aprobar tu membresía. Recibirás un correo de confirmación cuando sea aprobada.",

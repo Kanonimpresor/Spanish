@@ -47,7 +47,7 @@ return [
 	'LANHELP_32' => "Código - texto preformateado: [code]\$foo = bah;[/code]",
 	'LANHELP_33' => "HTML - elimina saltos de linea del texto: [html]<table><tr><td> etc[/html]",
 	'LANHELP_34' => "[newpage] o [newpage=title] Insertando el tag newpage, agrupa el artículo en más de una página",
-	'LANHELP_35' => "hyperlink url",
+	'LANHELP_35' => "url del hiperenlace",
 	'LANHELP_36' => "Desordenado: [list]line1*line2*line3[/list] Ordenado: [list=type]line1*line2*line3[/list]",
 	'LANHELP_37' => "Insertar imagen desde la carpeta e107_images/newspost_images/",
 	'LANHELP_38' => "Se generará un enlace a pantalla completa",

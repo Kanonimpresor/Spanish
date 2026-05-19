@@ -39,12 +39,12 @@ return [
 	'UPLAN_IS' => "es ",
 	'UPLAN_ARE' => "son ",
 	'UPLAN_COPYTODLS' => "Copiar a Descargas",
-    'UPLLAN_48' => "For security reasons allowed file types has been moved out of the database into a
-flatfile located in your admin directory. To use, rename the file e107_admin/filetypes_.php to e107_admin/filetypes.php 
+    'UPLLAN_48' => "Por motivos de seguridad, los tipos de archivo permitidos se han movido de la base de datos a un
+fichero plano ubicado en tu directorio de administración. Para usarlo, renombra el archivo e107_admin/filetypes_.php a e107_admin/filetypes.php 
 
-and add a comma delimited list of file type extensions to it. You should not allow the upload of .html, .txt, etc., as an attacker may upload a file of this type which includes malicious javascript. You should also, of course, not allow 
+y añade una lista de extensiones de archivo separadas por comas. No deberías permitir la subida de .html, .txt, etc., ya que un atacante podría subir un archivo de este tipo con javascript malicioso. Tampoco deberías, por supuesto, 
 
-the upload of .php files or any other type of executable script.",
+permitir la subida de archivos .php ni de ningún otro tipo de script ejecutable.",
 	'UPLLAN_51' => "Listar subidas",
 	'UPLLAN_52' => "Esta página ayuda a crear un archivo para gestionar permisos de subida. El archivo se guarda como [x], debes copiarlo a [y] para que surta efecto.",
 	'UPLLAN_54' => "Extensiones permitidas",

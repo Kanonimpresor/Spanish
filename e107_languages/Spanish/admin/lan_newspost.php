@@ -145,6 +145,6 @@ return [
 	'LAN_NEWS_110' => "Cache de noticias",
 	'LAN_NEWS_111' => "Minutos (solo con cache activado)",
 	'LAN_NEWS_112' => "Formato de paginación: conteo (page=20) o número (page=2). Advertencia: cambios afectan SEO",
-	'LAN_NEWS_113' => "Limit to self-authored news posts only",
-    'LAN_NEWS_114' => "Enable this preference to restrict group members from viewing and editing news posts authored by other administrators.",
+	'LAN_NEWS_113' => "Limitar solo a las noticias propias del autor",
+    'LAN_NEWS_114' => "Activa esta preferencia para impedir que los miembros del grupo vean y editen noticias creadas por otros administradores.",
 ];
