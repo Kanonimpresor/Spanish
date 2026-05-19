@@ -16,4 +16,5 @@ return [
 	'LAN_PRINT_303' => "Esta noticia proviene de ",
 	'LAN_PRINT_307' => "Imprimir esta página",
 	'LAN_PRINT_1' => "modo impresión",
+	'LAN_PRINT_PAGE_NAME' => "Versión para imprimir",
 ];

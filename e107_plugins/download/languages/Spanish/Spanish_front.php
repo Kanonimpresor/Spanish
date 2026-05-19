@@ -101,3 +101,4 @@ define("LAN_dl_77", "Descargas");		// Uso intencionado - algunos idiomas lo requ
 define('LAN_dl_78', "Esa descarga ha sido deshabilitada o discontinuada. Por favor, consulta la [zona de descargas] para una versión más reciente.");
 define("LAN_dl_79", "No tienes permisos suficientes para reportar esta descarga como rota.");
 
+define("LAN_dl_80", "Volver a [x]");

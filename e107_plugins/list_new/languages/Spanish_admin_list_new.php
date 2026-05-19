@@ -139,3 +139,6 @@ define("LIST_ADMIN_LAN_40", "¿abrir secciones con resultados automáticamente?"
 
 // Registro de administración
 define("LAN_AL_LISTNEW_01", "Preferencias de Listar Nuevos actualizadas");
+
+define("PAGE_NAME", "Listar elementos nuevos");
+define("LIST_ADMIN_LAN_28", "");

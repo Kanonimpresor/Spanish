@@ -34,5 +34,6 @@ return [
 	'LAN_EMAIL_188' => "Espero que le guste esta noticia de",
 	'LAN_EMAIL_189' => "Espero que le guste este artículo de",
 	'LAN_EMAIL_190' => "Entre código visible",
-	'LAN_SOCIAL_LINK_CHK',  "Mira este enlace:", // llamado en plugin social
+	'PAGE_NAME' => "Correo electrónico",
+	'LAN_SOCIAL_LINK_CHK' => "Mira este enlace:", // llamado en plugin social
 ];

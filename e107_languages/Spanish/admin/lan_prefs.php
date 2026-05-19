@@ -271,4 +271,6 @@ return [
 	'PRFLAN_285' => "Mostrar ayuda contextual",
 	'PRFLAN_286' => "Filtros de contenido",
 	'PRFLAN_287' => "Mostrar el botón de depuración en el área de administración",
+	'PRFLAN_288' => "Hosts de confianza",
+	'PRFLAN_289' => "Nombres de host adicionales que el sitio aceptará en la cabecera Host, uno por línea. El host extraído de la URL del sitio siempre se considera de confianza; las entradas aquí se añaden a esa lista. Si pegas una URL completa, el valor guardado se normaliza solo al host.",
 ];

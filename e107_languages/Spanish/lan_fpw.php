@@ -47,4 +47,5 @@ return [
 	'LAN_FPW_100' => "¿Olvidaste tu contraseña?",
 	'LAN_FPW_101' => "Tranquilo/a. Introduce tu correo electrónico y te enviaremos instrucciones para recuperarla.",
 	'LAN_FPW_102' => "Restablecer Contraseña",
+	'LAN_FPW_MISCONFIGURED' => "El restablecimiento de contraseña no está disponible por un problema de configuración del sitio. Por favor, contacta con el administrador.",
 ];

@@ -71,3 +71,17 @@ define("LIST_LAN_1", "sin elementos en");
 
 define("LIST_DOWNLOAD_1", "descargas");
 define("LIST_DOWNLOAD_2", "sin descargas");
+
+define("PAGE_NAME", "Listar elementos nuevos");
+define("LIST_MENU_8", "");
+define("LIST_MENU_9", "");
+define("LIST_MENU_10", "");
+define("LIST_MENU_11", "");
+define("LIST_MENU_12", "");
+define("LIST_MENU_13", "");
+define("LIST_MENU_14", "");
+define("LIST_MENU_15", "");
+define("LIST_MENU_16", "");
+define("LIST_MENU_17", "");
+define("LIST_MENU_18", "");
+define("LIST_MENU_19", "");

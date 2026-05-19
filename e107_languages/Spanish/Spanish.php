@@ -147,4 +147,5 @@ return [
 	"LAN_CHOOSE_FILE" => "Seleccionar archivo",
 	"LAN_REQUIRED" => "Obligatorio",
 	"LAN_DEVELOPERMODE_CHECK" => "[b]¡Modo desarrollador activado![/b] [br]Desactívalo para entornos de producción. Cuando está activo, ¡se puede exponer información sensible!",
+	"LAN_IP_ADDRESS" => "Dirección IP",
 ];
