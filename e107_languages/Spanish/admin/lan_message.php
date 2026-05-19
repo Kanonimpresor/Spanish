@@ -4,7 +4,7 @@
 |       e107 content management system.
 |       Spanish language file)
 |
-|       Traducción Spanish(ES) -> KANONimpresor
+|       TraducciÃ³n Spanish(ES) -> KANONimpresor
 |       (http://www.kanonimpresor.com), 2025
 |
 |       Released under the terms and conditions of the
@@ -29,3 +29,4 @@ define("MESSLAN_10", "Submitted by");
 define("MESSLAN_11", "opens in new window");
 define("MESSLAN_12", "Message");
 define("MESSLAN_13", "Link");
+?>*/
