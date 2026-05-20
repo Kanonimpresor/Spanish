@@ -12,5 +12,7 @@
 +---------------------------------------------------------------+
 */
 
-define("LAN_PLUGIN_PAGE_BOCHAP",  "Buscar en Libro/Capítulo");
-define("LAN_PLUGIN_PAGE_NAME", "Páginas");
+return [
+	'LAN_PLUGIN_PAGE_BOCHAP' => "Buscar en Libro/Capítulo",
+	'LAN_PLUGIN_PAGE_NAME' => "Páginas",
+];

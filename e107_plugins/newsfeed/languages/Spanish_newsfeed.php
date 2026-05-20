@@ -12,10 +12,12 @@
 +---------------------------------------------------------------+
 */
 
-define("NFLAN_29", "Feeds disponibles");
-define("NFLAN_31", "Volver al listado de feeds");
-define("NFLAN_33", "Fecha de publicación: ");
-define("NFLAN_34", "desconocida");
-define("NFLAN_38", "Titulares");
-define("NFLAN_39", "Detalles");
-define("NFLAN_48", "No se pudo guardar los datos sin procesar en la base de datos.");
+return [
+	'NFLAN_29' => "Feeds disponibles",
+	'NFLAN_31' => "Volver al listado de feeds",
+	'NFLAN_33' => "Fecha de publicación: ",
+	'NFLAN_34' => "desconocida",
+	'NFLAN_38' => "Titulares",
+	'NFLAN_39' => "Detalles",
+	'NFLAN_48' => "No se pudo guardar los datos sin procesar en la base de datos.",
+];

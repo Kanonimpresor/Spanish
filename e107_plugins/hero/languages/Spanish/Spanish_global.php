@@ -12,6 +12,8 @@
 +---------------------------------------------------------------+
 */
 
-define("LAN_PLUGIN_HERO_NAME", "Hero");
-define("LAN_PLUGIN_HERO_SUMMARY", "Gestión del área 'Hero' de la página principal");
-define("LAN_PLUGIN_HERO_DESCRIPTION", "Carrusel de imágenes y texto con indicadores animados para la sección hero de tu página de inicio.");
+return [
+	'LAN_PLUGIN_HERO_NAME' => "Hero",
+	'LAN_PLUGIN_HERO_SUMMARY' => "Gestión del área 'Hero' de la página principal",
+	'LAN_PLUGIN_HERO_DESCRIPTION' => "Carrusel de imágenes y texto con indicadores animados para la sección hero de tu página de inicio.",
+];

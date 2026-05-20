@@ -15,6 +15,8 @@
 // Mantener siempre el formato LAN_PLUGIN_{CARPETA}_{TIPO} para evitar conflictos. En este caso "_BLANK" es la carpeta.
 // Debe contener los LAN utilizados en el archivo plugin.xml
 
-define("LAN_PLUGIN__BLANK_NAME", "Plugin en Blanco");
-define("LAN_PLUGIN__BLANK_DIZ",  "Un plugin básico para que te ayude a comenzar en el desarrollo de plugins. Puedes añadir más detalles aquí."); 
-define("LAN_PLUGIN__BLANK_LINK", "Enlace en Blanco");
+return [
+	'LAN_PLUGIN__BLANK_NAME' => "Plugin en Blanco",
+	'LAN_PLUGIN__BLANK_DIZ' => "Un plugin básico para que te ayude a comenzar en el desarrollo de plugins. Puedes añadir más detalles aquí.",
+	'LAN_PLUGIN__BLANK_LINK' => "Enlace en Blanco",
+];

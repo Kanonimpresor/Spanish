@@ -11,23 +11,20 @@
 |       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-define("LAN_PLUGIN_CHATBOX_MENU_NAME",		 	"Chatbox");
-define("LAN_PLUGIN_CHATBOX_MENU_DESCRIPTION", 	"Menú del chat");
-define("LAN_PLUGIN_CHATBOX_MENU_POSTS",			"Mensajes del chat");
 
-// Admin Log 
-//FIXME - Global LANS must begin with LAN_PLUGIN_{FOLDER_NAME}_ 
-define("LAN_AL_CHBLAN_01", "Configuración del chat actualizada");
-define("LAN_AL_CHBLAN_02", "Chat limpiado");
-define("LAN_AL_CHBLAN_03", "Recuento de mensajes del chat recalculado");
-define("LAN_AL_CHBLAN_04", "");
-define("LAN_AL_CHBLAN_05", "");
-
-// Notify
-define("NT_LAN_CB_1", "Eventos del chat");
-define("NT_LAN_CB_2", "Mensaje publicado");
-define("NT_LAN_CB_3", "Publicado por");
-// define("NT_LAN_CB_4", "Dirección IP");
-define("NT_LAN_CB_5", "Mensaje");
-define("NT_LAN_CB_6", "Mensaje publicado en el chat");
-
+return [
+	'LAN_PLUGIN_CHATBOX_MENU_NAME' => "Chatbox",
+	'LAN_PLUGIN_CHATBOX_MENU_DESCRIPTION' => "Menú del chat",
+	'LAN_PLUGIN_CHATBOX_MENU_POSTS' => "Mensajes del chat",
+	//FIXME - Global LANS must begin with LAN_PLUGIN_{FOLDER_NAME}_ 
+	'LAN_AL_CHBLAN_01' => "Configuración del chat actualizada",
+	'LAN_AL_CHBLAN_02' => "Chat limpiado",
+	'LAN_AL_CHBLAN_03' => "Recuento de mensajes del chat recalculado",
+	'LAN_AL_CHBLAN_04' => "",
+	'LAN_AL_CHBLAN_05' => "",
+	'NT_LAN_CB_1' => "Eventos del chat",
+	'NT_LAN_CB_2' => "Mensaje publicado",
+	'NT_LAN_CB_3' => "Publicado por",
+	'NT_LAN_CB_5' => "Mensaje",
+	'NT_LAN_CB_6' => "Mensaje publicado en el chat",
+];

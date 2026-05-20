@@ -11,5 +11,8 @@
 |       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-define("LAN_PLUGIN_IMPORT_NAME", "Importar a e107");
-define("LAN_PLUGIN_IMPORT_DESCRIPTION", "Importar datos desde Wordpress, Joomla, Drupal, Blogpost, RSS y otros formatos.");
+
+return [
+	'LAN_PLUGIN_IMPORT_NAME' => "Importar a e107",
+	'LAN_PLUGIN_IMPORT_DESCRIPTION' => "Importar datos desde Wordpress, Joomla, Drupal, Blogpost, RSS y otros formatos.",
+];

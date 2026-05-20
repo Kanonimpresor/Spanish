@@ -12,5 +12,7 @@
 +---------------------------------------------------------------+
 */
 
-define("NWSF_FP_1", "Feeds de Noticias");
-define("NWSF_FP_2", "página principal");
+return [
+	'NWSF_FP_1' => "Feeds de Noticias",
+	'NWSF_FP_2' => "página principal",
+];

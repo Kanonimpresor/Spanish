@@ -11,7 +11,8 @@
 |       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
- 
-define("LAN_PLUGIN_BANNER_NAME",		"Banners");
-define("LAN_PLUGIN_BANNER_DESCRIPTION", "Añade banners publicitarios a tu web con e107");
 
+return [
+	'LAN_PLUGIN_BANNER_NAME' => "Banners",
+	'LAN_PLUGIN_BANNER_DESCRIPTION' => "Añade banners publicitarios a tu web con e107",
+];

@@ -20,10 +20,13 @@
  *	@subpackage	pm
  *	@version 	$Id$;
  */
-define("LAN_EC_PM_01", "");
-define("LAN_EC_PM_02", "");
-define("LAN_EC_PM_03", "");
-define("LAN_EC_PM_04", "Gestor de MP");
-define("LAN_EC_PM_05", "Procesar envíos masivos de MP");
-define("LAN_EC_PM_06", "Iniciar procesamiento masivo de MP para [y] destinatarios");
-define("LAN_EC_PM_07", "");
+
+return [
+	'LAN_EC_PM_01' => "",
+	'LAN_EC_PM_02' => "",
+	'LAN_EC_PM_03' => "",
+	'LAN_EC_PM_04' => "Gestor de MP",
+	'LAN_EC_PM_05' => "Procesar envíos masivos de MP",
+	'LAN_EC_PM_06' => "Iniciar procesamiento masivo de MP para [y] destinatarios",
+	'LAN_EC_PM_07' => "",
+];

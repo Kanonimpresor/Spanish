@@ -12,13 +12,12 @@
 +---------------------------------------------------------------+
 */
 
-define("BLOGCAL_L1", "Noticias por mes");
-define("BLOGCAL_L2", "Archivo");
-define("BLOGCAL_1", "Entradas de noticias");
-	
-define("BLOGCAL_CONF1", "Meses por fila");
-define("BLOGCAL_CONF2", "Espaciado interno (cellpadding)");
-//define("BLOGCAL_CONF3", "Actualizar configuración del menú");
-define("BLOGCAL_CONF4", "Configuración del menú BlogCal");
-//define("BLOGCAL_CONF5", "Configuración del menú BlogCal guardada");
-define("BLOGCAL_ARCHIV1", "Seleccionar archivo");
+return [
+	'BLOGCAL_L1' => "Noticias por mes",
+	'BLOGCAL_L2' => "Archivo",
+	'BLOGCAL_1' => "Entradas de noticias",
+	'BLOGCAL_CONF1' => "Meses por fila",
+	'BLOGCAL_CONF2' => "Espaciado interno (cellpadding)",
+	'BLOGCAL_CONF4' => "Configuración del menú BlogCal",
+	'BLOGCAL_ARCHIV1' => "Seleccionar archivo",
+];

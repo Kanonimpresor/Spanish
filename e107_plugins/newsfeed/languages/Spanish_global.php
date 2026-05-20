@@ -12,5 +12,7 @@
 +---------------------------------------------------------------+
 */
 
-define("LAN_PLUGIN_NEWSFEEDS_NAME", "Feeds de Noticias");
-define("LAN_PLUGIN_NEWSFEEDS_DESCRIPTION", "Este plugin obtendrá feeds RSS de otros sitios web y los mostrará según tus preferencias.");
+return [
+	'LAN_PLUGIN_NEWSFEEDS_NAME' => "Feeds de Noticias",
+	'LAN_PLUGIN_NEWSFEEDS_DESCRIPTION' => "Este plugin obtendrá feeds RSS de otros sitios web y los mostrará según tus preferencias.",
+];

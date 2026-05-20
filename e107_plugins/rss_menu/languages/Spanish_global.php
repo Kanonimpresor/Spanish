@@ -11,7 +11,10 @@
 |       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-define("LAN_PLUGIN_RSS_NAME", "RSS");
-define("LAN_PLUGIN_RSS_DESCRIPTION", "Feeds RSS de tu sitio.");
-define("LAN_PLUGIN_RSS_SUBSCRIBE", "Suscribirse");
-define("LAN_PLUGIN_RSS_SUBSCRIBE_TO", "Suscribirse a [x]");
+
+return [
+	'LAN_PLUGIN_RSS_NAME' => "RSS",
+	'LAN_PLUGIN_RSS_DESCRIPTION' => "Feeds RSS de tu sitio.",
+	'LAN_PLUGIN_RSS_SUBSCRIBE' => "Suscribirse",
+	'LAN_PLUGIN_RSS_SUBSCRIBE_TO' => "Suscribirse a [x]",
+];

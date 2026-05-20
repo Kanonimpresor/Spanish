@@ -12,5 +12,7 @@
 +---------------------------------------------------------------+
 */
 
-define("LAN_PLUGIN_USER_NAME", "Usuario");
-define("LAN_PLUGIN_USER_DESC", "Menús de Tema e Idioma del Usuario");
+return [
+	'LAN_PLUGIN_USER_NAME' => "Usuario",
+	'LAN_PLUGIN_USER_DESC' => "Menús de Tema e Idioma del Usuario",
+];

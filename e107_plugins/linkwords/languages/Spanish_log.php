@@ -12,9 +12,12 @@
 +---------------------------------------------------------------+
 */
 // Admin log related
-define("LAN_AL_LINKWD_00", "Mensaje relacionado con Linkword");
-define("LAN_AL_LINKWD_01", "Linkword añadido");
-define("LAN_AL_LINKWD_02", "Linkword editado");
-define("LAN_AL_LINKWD_03", "Linkword eliminado");
-define("LAN_AL_LINKWD_04", "Opciones de Linkword actualizadas");
-define("LAN_AL_LINKWD_05", "Actualización de versión de Linkwords"); // Usado solo en el stub compatible con 0.7
+
+return [
+	'LAN_AL_LINKWD_00' => "Mensaje relacionado con Linkword",
+	'LAN_AL_LINKWD_01' => "Linkword añadido",
+	'LAN_AL_LINKWD_02' => "Linkword editado",
+	'LAN_AL_LINKWD_03' => "Linkword eliminado",
+	'LAN_AL_LINKWD_04' => "Opciones de Linkword actualizadas",
+	'LAN_AL_LINKWD_05' => "Actualización de versión de Linkwords",
+];

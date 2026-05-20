@@ -12,9 +12,10 @@
 +---------------------------------------------------------------+
 */
 
-define("TD_MENU_L1", "Otras noticias");
-define("TD_MENU_L2", "Otras noticias");
-
-define("LAN_NEWSCAT_MENU_TITLE", "Categorías de noticias");
-define("LAN_NEWSLATEST_MENU_TITLE", "Últimas noticias");
-define("LAN_NEWSARCHIVE_MENU_TITLE", "Archivo de noticias");
+return [
+	'TD_MENU_L1' => "Otras noticias",
+	'TD_MENU_L2' => "Otras noticias",
+	'LAN_NEWSCAT_MENU_TITLE' => "Categorías de noticias",
+	'LAN_NEWSLATEST_MENU_TITLE' => "Últimas noticias",
+	'LAN_NEWSARCHIVE_MENU_TITLE' => "Archivo de noticias",
+];

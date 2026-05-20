@@ -11,5 +11,8 @@
 |       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-define("LAN_PLUGIN_LINKWORDS_NAME", "Linkwords");
-define("LAN_PLUGIN_LINKWORDS_DESCRIPTION", "Este plugin enlazará palabras específicas con un enlace definido y/o un tooltip.");
+
+return [
+	'LAN_PLUGIN_LINKWORDS_NAME' => "Linkwords",
+	'LAN_PLUGIN_LINKWORDS_DESCRIPTION' => "Este plugin enlazará palabras específicas con un enlace definido y/o un tooltip.",
+];

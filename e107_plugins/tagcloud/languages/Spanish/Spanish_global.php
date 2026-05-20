@@ -12,8 +12,7 @@
 +---------------------------------------------------------------+
 */
 
-define("LAN_PLUGIN_TAGCLOUD_NAME",          "Nube de Etiquetas (Tag)");
-define("LAN_PLUGIN_TAGCLOUD_DESCRIPTION",   "Un sencillo menú de nube de etiquetas para tu sitio web e107.");
-
-
-
+return [
+	'LAN_PLUGIN_TAGCLOUD_NAME' => "Nube de Etiquetas (Tag)",
+	'LAN_PLUGIN_TAGCLOUD_DESCRIPTION' => "Un sencillo menú de nube de etiquetas para tu sitio web e107.",
+];

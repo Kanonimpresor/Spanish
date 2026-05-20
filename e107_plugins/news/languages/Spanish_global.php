@@ -12,4 +12,6 @@
 +---------------------------------------------------------------+
 */
 
-define("LAN_PLUGIN_NEWS_NAME", "Noticias");
+return [
+	'LAN_PLUGIN_NEWS_NAME' => "Noticias",
+];
